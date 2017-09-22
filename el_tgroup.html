@@ -24,7 +24,7 @@ if(window.top != window) {
     <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?el_tgroup.html">frames</a> | <a target="_top" href="el_tgroup.html">no frames</a></header>
     <div id="contenu">
       <section class="element rng" id="el_tgroup">
-        <header class="element rng">&lt;<a>tgroup</a>&gt; Groupe d'éléments de tableau</header>
+        <header class="element rng">&lt;<a>tgroup&gt;</a> Groupe d'éléments de tableau</header>
         <table class="grammar">
           <tr>
             <th>Attributs</th>
@@ -193,7 +193,7 @@ if(window.top != window) {
           </tr>
           <tr>
             <th>Enfants</th>
-            <td class="children"><div><b>C</b>. &lt;<a href="el_colspec.html" title="Spécification de colonne de tableau">colspec</a>&gt;  </div> <div><b>T</b>. &lt;<a href="el_tbody.html" title="Corps de tableau">tbody</a>&gt; &lt;<a href="el_thead.html" title="En-tête de ligne ou de colonne">thead</a>&gt;  </div> </td>
+            <td class="children"><div><b>C</b>. <a href="el_colspec.html" title="Spécification de colonne de tableau">&lt;colspec&gt;</a>  </div> <div><b>T</b>. <a href="el_tbody.html" title="Corps de tableau">&lt;tbody&gt;</a>, <a href="el_thead.html" title="En-tête de ligne ou de colonne">&lt;thead&gt;</a>  </div> </td>
           </tr>
           <tr>
             <th>Modèle</th>
@@ -203,62 +203,62 @@ if(window.top != window) {
           </tr>
           <tr>
             <th>Parents</th>
-            <td class="usage"><div><b>T</b>. &lt;<a href="el_table.html" title="Tableau">table</a>&gt;  </div> </td>
+            <td class="usage"><div><b>T</b>. <a href="el_table.html" title="Tableau">&lt;table&gt;</a>  </div> </td>
           </tr>
         </table>
         <div>
 <p>
-Sous-élément de mise en forme de l'élément Tableau &lt;<a class="el" href="el_tgroup.html#el_table" title="Tableau">table</a>&gt; qui englobe les éléments Spécification de colonne de tableau &lt;<a class="el" href="el_tgroup.html#el_colspec" title="Spécification de colonne de tableau">colspec</a>&gt;, En-tête de ligne ou de colonne &lt;<a class="el" href="el_tgroup.html#el_thead" title="En-tête de ligne ou de colonne">thead</a>&gt; ou Corps de tableau &lt;<a class="el" href="el_tgroup.html#el_tbody" title="Corps de tableau">tbody</a>&gt;. Un tableau est composé d'un ou plusieurs éléments Groupe d'éléments de tableau &lt;<a class="el" href="el_tgroup.html" title="Groupe d'éléments de tableau">tgroup</a>&gt; en fonction du nombre de fois où les spécifications de colonnes changent. L'élément &lt;<a class="el" href="el_tgroup.html" title="Groupe d'éléments de tableau">tgroup</a>&gt; permet de regrouper dans un tableau des lignes utilisant toutes les mêmes spécifications de colonnes.
+Sous-élément de mise en forme de l'élément Tableau <a class="el" href="el_tgroup.html#el_table" title="Tableau">&lt;table&gt;</a> qui englobe les éléments Spécification de colonne de tableau <a class="el" href="el_tgroup.html#el_colspec" title="Spécification de colonne de tableau">&lt;colspec&gt;</a>, En-tête de ligne ou de colonne <a class="el" href="el_tgroup.html#el_thead" title="En-tête de ligne ou de colonne">&lt;thead&gt;</a> ou Corps de tableau <a class="el" href="el_tgroup.html#el_tbody" title="Corps de tableau">&lt;tbody&gt;</a>. Un tableau est composé d'un ou plusieurs éléments Groupe d'éléments de tableau <a class="el" href="el_tgroup.html" title="Groupe d'éléments de tableau">&lt;tgroup&gt;</a> en fonction du nombre de fois où les spécifications de colonnes changent. L'élément <a class="el" href="el_tgroup.html" title="Groupe d'éléments de tableau">&lt;tgroup&gt;</a> permet de regrouper dans un tableau des lignes utilisant toutes les mêmes spécifications de colonnes.
 </p>
 <p>
 Trois attributs sont utilisés ensemble pour forcer l'alignement horizontal de caractères spécifiques, comme le point décimal. L'attribut ALIGN peut être renseigné par "char" (align="char"). L'attribut CHAR doit indiquer le caractère spécifique sur lequel le texte sera aligné (par exemple le point décimal, char="."). L'attribut CHAROFF contrôle la position de l'alignement. CHAROFF indique le pourcentage de la largeur de colonne courante qui est à gauche du caractère d'alignement (par exemple, charoff="30"). L’attribut obligatoire COLS spécifie le nombre de colonnes dans le tableau.
 </p>
 <p>
-Par défaut, tout trait spécifié dans l’attribut COLSEP est imprimé ou affiché à droite de la colonne. Les bordures extérieures sont spécifiées en utilisant l'attribut FRAME de l'élément Tableau &lt;<a class="el" href="el_tgroup.html#el_table" title="Tableau">table</a>&gt;; les traits horizontaux sont spécifiés en utilisant l’attribut ROWSEP avec les éléments Tableau &lt;<a class="el" href="el_tgroup.html#el_table" title="Tableau">table</a>&gt; ou Groupe d'éléments de tableau &lt;<a class="el" href="el_tgroup.html" title="Groupe d'éléments de tableau">tgroup</a>&gt;.
+Par défaut, tout trait spécifié dans l’attribut COLSEP est imprimé ou affiché à droite de la colonne. Les bordures extérieures sont spécifiées en utilisant l'attribut FRAME de l'élément Tableau <a class="el" href="el_tgroup.html#el_table" title="Tableau">&lt;table&gt;</a>; les traits horizontaux sont spécifiés en utilisant l’attribut ROWSEP avec les éléments Tableau <a class="el" href="el_tgroup.html#el_table" title="Tableau">&lt;table&gt;</a> ou Groupe d'éléments de tableau <a class="el" href="el_tgroup.html" title="Groupe d'éléments de tableau">&lt;tgroup&gt;</a>.
 </p>
 <p>
-Par défaut, tout trait spécifié dans l’attribut ROWSEP est imprimé ou affiché sous la ligne. Les traits verticaux sont spécifiés en utilisant l’attribut COLSEP ; les bordures extérieures sont spécifiées avec l’attribut FRAME de Tableau &lt;<a class="el" href="el_tgroup.html#el_table" title="Tableau">table</a>&gt;.
+Par défaut, tout trait spécifié dans l’attribut ROWSEP est imprimé ou affiché sous la ligne. Les traits verticaux sont spécifiés en utilisant l’attribut COLSEP ; les bordures extérieures sont spécifiées avec l’attribut FRAME de Tableau <a class="el" href="el_tgroup.html#el_table" title="Tableau">&lt;table&gt;</a>.
 </p>
 <p>
-Voir aussi les éléments apparentés Spécification de tableau &lt;<a class="el" href="el_tgroup.html#el_colspec" title="Spécification de colonne de tableau">colspec</a>&gt;, Tableau &lt;<a class="el" href="el_tgroup.html#el_table" title="Tableau">table</a>&gt;, Corps de tableau &lt;<a class="el" href="el_tgroup.html#el_tbody" title="Corps de tableau">tbody</a>&gt;, En-tête de ligne ou de colonne &lt;<a class="el" href="el_tgroup.html#el_thead" title="En-tête de ligne ou de colonne">thead</a>&gt;.
+Voir aussi les éléments apparentés Spécification de tableau <a class="el" href="el_tgroup.html#el_colspec" title="Spécification de colonne de tableau">&lt;colspec&gt;</a>, Tableau <a class="el" href="el_tgroup.html#el_table" title="Tableau">&lt;table&gt;</a>, Corps de tableau <a class="el" href="el_tgroup.html#el_tbody" title="Corps de tableau">&lt;tbody&gt;</a>, En-tête de ligne ou de colonne <a class="el" href="el_tgroup.html#el_thead" title="En-tête de ligne ou de colonne">&lt;thead&gt;</a>.
 </p>							
 						</div>
         <div xmlns:html="http://www.w3.org/1999/xhtml" class="xml example">
-              <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_frontmatter.html">frontmatter</a>&gt;</dt><dd class="code">
-                <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_div.html">div</a>&gt;</dt><dd class="code">
-                  <div class=""><span class="open">&lt;<a class="el" href="el_head.html">head</a>&gt;</span><span class="text">Concordance du catalogue de Hubert-Pascal Ameilhon avec la numérotation actuelle (numéros 1-835)</span><span class="close">&lt;/<a class="el" href="el_head.html">head</a>&gt;</span></div>
-                  <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_table.html">table</a>&gt;</dt><dd class="code">
+              <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_frontmatter.html">frontmatter&gt;</a></dt><dd class="code">
+                <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_div.html">div&gt;</a></dt><dd class="code">
+                  <div class=""><span class="open"><a class="el" href="el_head.html">&lt;head&gt;</a></span><span class="text">Concordance du catalogue de Hubert-Pascal Ameilhon avec la numérotation actuelle (numéros 1-835)</span><span class="close">&lt;/<a class="el" href="el_head.html">head&gt;</a></span></div>
+                  <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_table.html">table&gt;</a></dt><dd class="code">
                     <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_tgroup.html">tgroup</a> <b class="att">cols</b>="<code class="val">4</code>"&gt;</dt><dd class="code">
-                      <div class="open ">&lt;<a class="el" href="el_colspec.html">colspec</a> <b class="att">colnum</b>="<code class="val">1</code>" <b class="att">align</b>="<code class="val">center</code>" <b class="att">colwidth</b>="<code class="val">4cm</code>" <b class="att">colsep</b>="<code class="val">1</code>" <b class="att">colname</b>="<code class="val">anciennecote1</code>"/&gt;</div>
-                      <div class="open ">&lt;<a class="el" href="el_colspec.html">colspec</a> <b class="att">colnum</b>="<code class="val">2</code>" <b class="att">align</b>="<code class="val">center</code>" <b class="att">colwidth</b>="<code class="val">4cm</code>" <b class="att">colsep</b>="<code class="val">1</code>" <b class="att">colname</b>="<code class="val">coteactuelle1</code>"/&gt;</div>
-                      <div class="open ">&lt;<a class="el" href="el_colspec.html">colspec</a> <b class="att">colnum</b>="<code class="val">3</code>" <b class="att">align</b>="<code class="val">center</code>" <b class="att">colwidth</b>="<code class="val">4cm</code>" <b class="att">colsep</b>="<code class="val">1</code>" <b class="att">colname</b>="<code class="val">anciennecote2</code>"/&gt;</div>
-                      <div class="open ">&lt;<a class="el" href="el_colspec.html">colspec</a> <b class="att">colnum</b>="<code class="val">4</code>" <b class="att">align</b>="<code class="val">center</code>" <b class="att">colwidth</b>="<code class="val">4cm</code>" <b class="att">colname</b>="<code class="val">coteactuelle2</code>"/&gt;</div>
-                      <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_thead.html">thead</a>&gt;</dt><dd class="code">
+                      <div class="open "><a class="el" href="el_colspec.html">&lt;colspec</a> <b class="att">colnum</b>="<code class="val">1</code>" <b class="att">align</b>="<code class="val">center</code>" <b class="att">colwidth</b>="<code class="val">4cm</code>" <b class="att">colsep</b>="<code class="val">1</code>" <b class="att">colname</b>="<code class="val">anciennecote1</code>"/&gt;</div>
+                      <div class="open "><a class="el" href="el_colspec.html">&lt;colspec</a> <b class="att">colnum</b>="<code class="val">2</code>" <b class="att">align</b>="<code class="val">center</code>" <b class="att">colwidth</b>="<code class="val">4cm</code>" <b class="att">colsep</b>="<code class="val">1</code>" <b class="att">colname</b>="<code class="val">coteactuelle1</code>"/&gt;</div>
+                      <div class="open "><a class="el" href="el_colspec.html">&lt;colspec</a> <b class="att">colnum</b>="<code class="val">3</code>" <b class="att">align</b>="<code class="val">center</code>" <b class="att">colwidth</b>="<code class="val">4cm</code>" <b class="att">colsep</b>="<code class="val">1</code>" <b class="att">colname</b>="<code class="val">anciennecote2</code>"/&gt;</div>
+                      <div class="open "><a class="el" href="el_colspec.html">&lt;colspec</a> <b class="att">colnum</b>="<code class="val">4</code>" <b class="att">align</b>="<code class="val">center</code>" <b class="att">colwidth</b>="<code class="val">4cm</code>" <b class="att">colname</b>="<code class="val">coteactuelle2</code>"/&gt;</div>
+                      <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_thead.html">thead&gt;</a></dt><dd class="code">
                         <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_row.html">row</a> <b class="att">valign</b>="<code class="val">middle</code>"&gt;</dt><dd class="code">
-                          <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">anciennecote1</code>"&gt;</span><span class="text">Ancienne cote</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
-                          <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">coteactuelle1</code>"&gt;</span><span class="text">Cote actuelle</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
-                          <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">anciennecote2</code>"&gt;</span><span class="text">Ancienne cote</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
-                          <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">coteactuelle2</code>"&gt;</span><span class="text">Cote actuelle</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
-                        </dd><dt class="close">&lt;/<a class="el" href="el_row.html">row</a>&gt;</dt></dl>
-                      </dd><dt class="close">&lt;/<a class="el" href="el_thead.html">thead</a>&gt;</dt></dl>
-                      <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_tbody.html">tbody</a>&gt;</dt><dd class="code">
-                        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_row.html">row</a>&gt;</dt><dd class="code">
-                          <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">anciennecote1</code>"&gt;</span><span class="text">1</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
-                          <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">coteactuelle1</code>"&gt;</span><span class="text">Deficit</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
-                          <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">anciennecote2</code>"&gt;</span><span class="text">21B</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
-                          <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">coteactuelle2</code>"&gt;</span><span class="text">11</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
-                        </dd><dt class="close">&lt;/<a class="el" href="el_row.html">row</a>&gt;</dt></dl>
-                        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_row.html">row</a>&gt;</dt><dd class="code">
-                          <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">anciennecote1</code>"&gt;</span><span class="text">2</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
-                          <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">coteactuelle1</code>"&gt;</span><span class="text">Deficit</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
-                          <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">anciennecote2</code>"&gt;</span><span class="text">22</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
-                          <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">coteactuelle2</code>"&gt;</span><span class="text">12</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
-                        </dd><dt class="close">&lt;/<a class="el" href="el_row.html">row</a>&gt;</dt></dl>
-                      </dd><dt class="close">&lt;/<a class="el" href="el_tbody.html">tbody</a>&gt;</dt></dl>
-                    </dd><dt class="close">&lt;/<a class="el" href="el_tgroup.html">tgroup</a>&gt;</dt></dl>
-                  </dd><dt class="close">&lt;/<a class="el" href="el_table.html">table</a>&gt;</dt></dl>
-                </dd><dt class="close">&lt;/<a class="el" href="el_div.html">div</a>&gt;</dt></dl>
-              </dd><dt class="close">&lt;/<a class="el" href="el_frontmatter.html">frontmatter</a>&gt;</dt></dl>
+                          <div class=""><span class="open"><a class="el" href="el_entry.html">&lt;entry</a> <b class="att">colname</b>="<code class="val">anciennecote1</code>"&gt;</span><span class="text">Ancienne cote</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry&gt;</a></span></div>
+                          <div class=""><span class="open"><a class="el" href="el_entry.html">&lt;entry</a> <b class="att">colname</b>="<code class="val">coteactuelle1</code>"&gt;</span><span class="text">Cote actuelle</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry&gt;</a></span></div>
+                          <div class=""><span class="open"><a class="el" href="el_entry.html">&lt;entry</a> <b class="att">colname</b>="<code class="val">anciennecote2</code>"&gt;</span><span class="text">Ancienne cote</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry&gt;</a></span></div>
+                          <div class=""><span class="open"><a class="el" href="el_entry.html">&lt;entry</a> <b class="att">colname</b>="<code class="val">coteactuelle2</code>"&gt;</span><span class="text">Cote actuelle</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry&gt;</a></span></div>
+                        </dd><dt class="close">&lt;/<a class="el" href="el_row.html">row&gt;</a></dt></dl>
+                      </dd><dt class="close">&lt;/<a class="el" href="el_thead.html">thead&gt;</a></dt></dl>
+                      <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_tbody.html">tbody&gt;</a></dt><dd class="code">
+                        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_row.html">row&gt;</a></dt><dd class="code">
+                          <div class=""><span class="open"><a class="el" href="el_entry.html">&lt;entry</a> <b class="att">colname</b>="<code class="val">anciennecote1</code>"&gt;</span><span class="text">1</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry&gt;</a></span></div>
+                          <div class=""><span class="open"><a class="el" href="el_entry.html">&lt;entry</a> <b class="att">colname</b>="<code class="val">coteactuelle1</code>"&gt;</span><span class="text">Deficit</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry&gt;</a></span></div>
+                          <div class=""><span class="open"><a class="el" href="el_entry.html">&lt;entry</a> <b class="att">colname</b>="<code class="val">anciennecote2</code>"&gt;</span><span class="text">21B</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry&gt;</a></span></div>
+                          <div class=""><span class="open"><a class="el" href="el_entry.html">&lt;entry</a> <b class="att">colname</b>="<code class="val">coteactuelle2</code>"&gt;</span><span class="text">11</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry&gt;</a></span></div>
+                        </dd><dt class="close">&lt;/<a class="el" href="el_row.html">row&gt;</a></dt></dl>
+                        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_row.html">row&gt;</a></dt><dd class="code">
+                          <div class=""><span class="open"><a class="el" href="el_entry.html">&lt;entry</a> <b class="att">colname</b>="<code class="val">anciennecote1</code>"&gt;</span><span class="text">2</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry&gt;</a></span></div>
+                          <div class=""><span class="open"><a class="el" href="el_entry.html">&lt;entry</a> <b class="att">colname</b>="<code class="val">coteactuelle1</code>"&gt;</span><span class="text">Deficit</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry&gt;</a></span></div>
+                          <div class=""><span class="open"><a class="el" href="el_entry.html">&lt;entry</a> <b class="att">colname</b>="<code class="val">anciennecote2</code>"&gt;</span><span class="text">22</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry&gt;</a></span></div>
+                          <div class=""><span class="open"><a class="el" href="el_entry.html">&lt;entry</a> <b class="att">colname</b>="<code class="val">coteactuelle2</code>"&gt;</span><span class="text">12</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry&gt;</a></span></div>
+                        </dd><dt class="close">&lt;/<a class="el" href="el_row.html">row&gt;</a></dt></dl>
+                      </dd><dt class="close">&lt;/<a class="el" href="el_tbody.html">tbody&gt;</a></dt></dl>
+                    </dd><dt class="close">&lt;/<a class="el" href="el_tgroup.html">tgroup&gt;</a></dt></dl>
+                  </dd><dt class="close">&lt;/<a class="el" href="el_table.html">table&gt;</a></dt></dl>
+                </dd><dt class="close">&lt;/<a class="el" href="el_div.html">div&gt;</a></dt></dl>
+              </dd><dt class="close">&lt;/<a class="el" href="el_frontmatter.html">frontmatter&gt;</a></dt></dl>
             </div>
         <div xmlns:html="http://www.w3.org/1999/xhtml" class="ead exhtml">
               <div class="frontmatter">

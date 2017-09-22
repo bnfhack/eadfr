@@ -24,7 +24,7 @@ if(window.top != window) {
     <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?el_ead.html">frames</a> | <a target="_top" href="el_ead.html">no frames</a></header>
     <div id="contenu">
       <section class="element rng" id="el_ead">
-        <header class="element rng">&lt;<a>ead</a>&gt; Description archivistique encodée</header>
+        <header class="element rng">&lt;<a>ead&gt;</a> Description archivistique encodée</header>
         <table class="grammar">
           <tr>
             <th>Attributs</th>
@@ -170,7 +170,7 @@ if(window.top != window) {
           </tr>
           <tr>
             <th>Enfants</th>
-            <td class="children"><div><b>A</b>. &lt;<a href="el_archdesc.html" title="Description archivistique">archdesc</a>&gt;  </div> <div><b>E</b>. &lt;<a href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt;  </div> <div><b>F</b>. &lt;<a href="el_frontmatter.html" title="Préliminaires">frontmatter</a>&gt;  </div> </td>
+            <td class="children"><div><b>A</b>. <a href="el_archdesc.html" title="Description archivistique">&lt;archdesc&gt;</a>  </div> <div><b>E</b>. <a href="el_eadheader.html" title="En-tête EAD">&lt;eadheader&gt;</a>  </div> <div><b>F</b>. <a href="el_frontmatter.html" title="Préliminaires">&lt;frontmatter&gt;</a>  </div> </td>
           </tr>
           <tr>
             <th>Modèle</th>
@@ -185,31 +185,31 @@ if(window.top != window) {
         </table>
         <div>
 <p>
-Élément englobant de plus haut niveau (élément racine) pour le type d'outil d’accès à l’information qu'est un instrument de recherche. Un instrument de recherche décrit l'aspect physique et le contenu intellectuel de nombreux types de documents d’archives, et aide les chercheurs à les comprendre et à y accéder. L’élément Description archivistique encodée &lt;<a class="el" href="el_ead.html" title="Description archivistique encodée">ead</a>&gt; définit une instance d’un instrument de recherche encodé avec la DTD EAD. Il contient, dans l’ordre, un élément obligatoire En-tête EAD &lt;<a class="el" href="el_ead.html#el_eadheader" title="En-tête EAD">eadheader</a>&gt;, un élément facultatif Préliminaires &lt;<a class="el" href="el_ead.html#el_frontmatter" title="Préliminaires">frontmatter</a>&gt;, puis un élément obligatoire Description archivistique &lt;<a class="el" href="el_ead.html#el_archdesc" title="Description archivistique">archdesc</a>&gt;.
+Élément englobant de plus haut niveau (élément racine) pour le type d'outil d’accès à l’information qu'est un instrument de recherche. Un instrument de recherche décrit l'aspect physique et le contenu intellectuel de nombreux types de documents d’archives, et aide les chercheurs à les comprendre et à y accéder. L’élément Description archivistique encodée <a class="el" href="el_ead.html" title="Description archivistique encodée">&lt;ead&gt;</a> définit une instance d’un instrument de recherche encodé avec la DTD EAD. Il contient, dans l’ordre, un élément obligatoire En-tête EAD <a class="el" href="el_ead.html#el_eadheader" title="En-tête EAD">&lt;eadheader&gt;</a>, un élément facultatif Préliminaires <a class="el" href="el_ead.html#el_frontmatter" title="Préliminaires">&lt;frontmatter&gt;</a>, puis un élément obligatoire Description archivistique <a class="el" href="el_ead.html#el_archdesc" title="Description archivistique">&lt;archdesc&gt;</a>.
 </p>
 <p>
 On peut donner à l’attribut AUDIENCE la valeur "external" (public), afin d’afficher le contenu de tous les sous-éléments, sachant que cette valeur peut être changée pour un élément particulier.
 </p>
 <p>
 Pour faciliter l’emploi de l’EAD en tant que schéma XML, il faut activer un attribut XMLNS dans la DTD par défaut en faisant le changement suivant : &lt;!ENTITY% namespace ‘IGNORE’&gt; doit être remplacé par &lt;!ENTITY% namespace ‘INCLUDE’&gt;
-On peut utiliser une DTD séparée, EAD Group (Groupe d'instances EAD), pour rassembler des instruments de recherche encodés en EAD décrivant les différentes parties d’un fonds ou collection dispersées entre plusieurs organismes. Voir la description de l’élément Groupe d’instances EAD &lt;<a class="el" href="el_ead.html#el_eadgrp">eadgrp</a>&gt;.
+On peut utiliser une DTD séparée, EAD Group (Groupe d'instances EAD), pour rassembler des instruments de recherche encodés en EAD décrivant les différentes parties d’un fonds ou collection dispersées entre plusieurs organismes. Voir la description de l’élément Groupe d’instances EAD <a class="el" href="el_ead.html#el_eadgrp">&lt;eadgrp&gt;</a>.
 </p>				
 			</div>
         <div xmlns:html="http://www.w3.org/1999/xhtml" class="xml example">
-        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_ead.html">ead</a>&gt;</dt><dd class="code">
-          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_eadheader.html">eadheader</a>&gt;</dt><dd class="code">
-            <div class=""><span class="open">&lt;<a class="el" href="el_eadid.html">eadid</a>&gt;</span><span class="text">[...]</span><span class="close">&lt;/<a class="el" href="el_eadid.html">eadid</a>&gt;</span></div>
-            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_filedesc.html">filedesc</a>&gt;</dt><dd class="code">
-              <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_titlestmt.html">titlestmt</a>&gt;</dt><dd class="code">
-                <div class=""><span class="open">&lt;<a class="el" href="el_titleproper.html">titleproper</a>&gt;</span><span class="text">[...]</span><span class="close">&lt;/<a class="el" href="el_titleproper.html">titleproper</a>&gt;</span></div>
-              </dd><dt class="close">&lt;/<a class="el" href="el_titlestmt.html">titlestmt</a>&gt;</dt></dl>
-            </dd><dt class="close">&lt;/<a class="el" href="el_filedesc.html">filedesc</a>&gt;</dt></dl>
-          </dd><dt class="close">&lt;/<a class="el" href="el_eadheader.html">eadheader</a>&gt;</dt></dl>
+        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_ead.html">ead&gt;</a></dt><dd class="code">
+          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_eadheader.html">eadheader&gt;</a></dt><dd class="code">
+            <div class=""><span class="open"><a class="el" href="el_eadid.html">&lt;eadid&gt;</a></span><span class="text">[...]</span><span class="close">&lt;/<a class="el" href="el_eadid.html">eadid&gt;</a></span></div>
+            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_filedesc.html">filedesc&gt;</a></dt><dd class="code">
+              <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_titlestmt.html">titlestmt&gt;</a></dt><dd class="code">
+                <div class=""><span class="open"><a class="el" href="el_titleproper.html">&lt;titleproper&gt;</a></span><span class="text">[...]</span><span class="close">&lt;/<a class="el" href="el_titleproper.html">titleproper&gt;</a></span></div>
+              </dd><dt class="close">&lt;/<a class="el" href="el_titlestmt.html">titlestmt&gt;</a></dt></dl>
+            </dd><dt class="close">&lt;/<a class="el" href="el_filedesc.html">filedesc&gt;</a></dt></dl>
+          </dd><dt class="close">&lt;/<a class="el" href="el_eadheader.html">eadheader&gt;</a></dt></dl>
           <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_archdesc.html">archdesc</a> <b class="att">level</b>="<code class="val">fonds</code>"&gt;</dt><dd class="code">
-            <div class=""><span class="open">&lt;<a class="el" href="el_did.html">did</a>&gt;</span><span class="text">[...]</span><span class="close">&lt;/<a class="el" href="el_did.html">did</a>&gt;</span></div>
-            <div class=""><span class="open">&lt;<a class="el" href="el_dsc.html">dsc</a> <b class="att">type</b>="<code class="val">combined</code>"&gt;</span><span class="text">[....]</span><span class="close">&lt;/<a class="el" href="el_dsc.html">dsc</a>&gt;</span></div>
-          </dd><dt class="close">&lt;/<a class="el" href="el_archdesc.html">archdesc</a>&gt;</dt></dl>
-        </dd><dt class="close">&lt;/<a class="el" href="el_ead.html">ead</a>&gt;</dt></dl>
+            <div class=""><span class="open"><a class="el" href="el_did.html">&lt;did&gt;</a></span><span class="text">[...]</span><span class="close">&lt;/<a class="el" href="el_did.html">did&gt;</a></span></div>
+            <div class=""><span class="open"><a class="el" href="el_dsc.html">&lt;dsc</a> <b class="att">type</b>="<code class="val">combined</code>"&gt;</span><span class="text">[....]</span><span class="close">&lt;/<a class="el" href="el_dsc.html">dsc&gt;</a></span></div>
+          </dd><dt class="close">&lt;/<a class="el" href="el_archdesc.html">archdesc&gt;</a></dt></dl>
+        </dd><dt class="close">&lt;/<a class="el" href="el_ead.html">ead&gt;</a></dt></dl>
       </div>
         <div xmlns:html="http://www.w3.org/1999/xhtml" class="ead exhtml">
         <article class="ead">

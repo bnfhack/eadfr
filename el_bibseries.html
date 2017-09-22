@@ -24,7 +24,7 @@ if(window.top != window) {
     <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?el_bibseries.html">frames</a> | <a target="_top" href="el_bibseries.html">no frames</a></header>
     <div id="contenu">
       <section class="element rng" id="el_bibseries">
-        <header class="element rng">&lt;<a>bibseries</a>&gt; Collection bibliographique</header>
+        <header class="element rng">&lt;<a>bibseries&gt;</a> Collection bibliographique</header>
         <table class="grammar">
           <tr>
             <th>Attributs</th>
@@ -170,7 +170,7 @@ if(window.top != window) {
           </tr>
           <tr>
             <th>Enfants</th>
-            <td class="children"><div><b>E</b>. &lt;<a href="el_emph.html" title="Mise en valeur">emph</a>&gt; &lt;<a href="el_extptr.html" title="Pointeur externe">extptr</a>&gt;  </div> <div><b>L</b>. &lt;<a href="el_lb.html" title="Retour à la ligne">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="el_num.html" title="Numéro">num</a>&gt;  </div> <div><b>P</b>. &lt;<a href="el_ptr.html" title="Pointeur">ptr</a>&gt;  </div> <div><b>T</b>. &lt;<a href="el_title.html" title="Titre">title</a>&gt;  </div> </td>
+            <td class="children"><div><b>E</b>. <a href="el_emph.html" title="Mise en valeur">&lt;emph&gt;</a>, <a href="el_extptr.html" title="Pointeur externe">&lt;extptr&gt;</a>  </div> <div><b>L</b>. <a href="el_lb.html" title="Retour à la ligne">&lt;lb&gt;</a>  </div> <div><b>N</b>. <a href="el_num.html" title="Numéro">&lt;num&gt;</a>  </div> <div><b>P</b>. <a href="el_ptr.html" title="Pointeur">&lt;ptr&gt;</a>  </div> <div><b>T</b>. <a href="el_title.html" title="Titre">&lt;title&gt;</a>  </div> </td>
           </tr>
           <tr>
             <th>Modèle</th>
@@ -182,7 +182,7 @@ if(window.top != window) {
           </tr>
           <tr>
             <th>Parents</th>
-            <td class="usage"><div><b>B</b>. &lt;<a href="el_bibref.html" title="Référence bibliographique">bibref</a>&gt;  </div> <div><b>T</b>. &lt;<a href="el_titlepage.html" title="Page de titre">titlepage</a>&gt;  </div> <div><b>U</b>. &lt;<a href="el_unittitle.html" title="Intitulé de l’unité documentaire">unittitle</a>&gt;  </div> </td>
+            <td class="usage"><div><b>B</b>. <a href="el_bibref.html" title="Référence bibliographique">&lt;bibref&gt;</a>  </div> <div><b>T</b>. <a href="el_titlepage.html" title="Page de titre">&lt;titlepage&gt;</a>  </div> <div><b>U</b>. <a href="el_unittitle.html" title="Intitulé de l’unité documentaire">&lt;unittitle&gt;</a>  </div> </td>
           </tr>
         </table>
         <div>
@@ -190,21 +190,21 @@ if(window.top != window) {
 Élément donnant des informations sur la collection éditoriale dans laquelle a été publié un livre, un instrument de recherche encodé ou une autre œuvre. Cet élément fait référence uniquement à des collections de monographies. Il ne doit pas être utilisé pour des fonds ou collections de documents d'archives.
 </p>
 <p>
-L’élément &lt;<a class="el" href="el_bibseries.html" title="Collection bibliographique">bibseries</a>&gt; est comparable aux zones 225 et 410 d’UNIMARC.
+L’élément <a class="el" href="el_bibseries.html" title="Collection bibliographique">&lt;bibseries&gt;</a> est comparable aux zones 225 et 410 d’UNIMARC.
 </p>	
 			</div>
         <div xmlns:html="http://www.w3.org/1999/xhtml" class="xml example">
-        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_bibref.html">bibref</a>&gt;</dt><dd class="code">
-          <div class=""><span class="open">&lt;<a class="el" href="el_persname.html">persname</a>&gt;</span><span class="text">GANDILHON, René</span><span class="close">&lt;/<a class="el" href="el_persname.html">persname</a>&gt;</span></div>
-          <div class=""><span class="open">&lt;<a class="el" href="el_title.html">title</a>&gt;</span><span class="text"> La série M (administration générale) des Archives départementales </span><span class="close">&lt;/<a class="el" href="el_title.html">title</a>&gt;</span></div>
-          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_bibseries.html">bibseries</a>&gt;</dt><dd class="code">
-            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_title.html">title</a>&gt;</dt><dd class="code">
-              <div class=""><span class="open">&lt;<a class="el" href="el_emph.html">emph</a> <b class="att">render</b>="<code class="val">italic</code>"&gt;</span><span class="text">Revue historique</span><span class="close">&lt;/<a class="el" href="el_emph.html">emph</a>&gt;</span></div>
-              <div class=""><span class="open">&lt;<a class="el" href="el_date.html">date</a>&gt;</span><span class="text">1969</span><span class="close">&lt;/<a class="el" href="el_date.html">date</a>&gt;</span></div>
-            </dd><dt class="close">&lt;/<a class="el" href="el_title.html">title</a>&gt;</dt></dl>
-            <div class=""><span class="open">&lt;<a class="el" href="el_num.html">num</a>&gt;</span><span class="text">t. CCXLI, p. 147-162</span><span class="close">&lt;/<a class="el" href="el_num.html">num</a>&gt;</span></div>
-          </dd><dt class="close">&lt;/<a class="el" href="el_bibseries.html">bibseries</a>&gt;</dt></dl>
-        </dd><dt class="close">&lt;/<a class="el" href="el_bibref.html">bibref</a>&gt;</dt></dl>
+        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_bibref.html">bibref&gt;</a></dt><dd class="code">
+          <div class=""><span class="open"><a class="el" href="el_persname.html">&lt;persname&gt;</a></span><span class="text">GANDILHON, René</span><span class="close">&lt;/<a class="el" href="el_persname.html">persname&gt;</a></span></div>
+          <div class=""><span class="open"><a class="el" href="el_title.html">&lt;title&gt;</a></span><span class="text"> La série M (administration générale) des Archives départementales </span><span class="close">&lt;/<a class="el" href="el_title.html">title&gt;</a></span></div>
+          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_bibseries.html">bibseries&gt;</a></dt><dd class="code">
+            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_title.html">title&gt;</a></dt><dd class="code">
+              <div class=""><span class="open"><a class="el" href="el_emph.html">&lt;emph</a> <b class="att">render</b>="<code class="val">italic</code>"&gt;</span><span class="text">Revue historique</span><span class="close">&lt;/<a class="el" href="el_emph.html">emph&gt;</a></span></div>
+              <div class=""><span class="open"><a class="el" href="el_date.html">&lt;date&gt;</a></span><span class="text">1969</span><span class="close">&lt;/<a class="el" href="el_date.html">date&gt;</a></span></div>
+            </dd><dt class="close">&lt;/<a class="el" href="el_title.html">title&gt;</a></dt></dl>
+            <div class=""><span class="open"><a class="el" href="el_num.html">&lt;num&gt;</a></span><span class="text">t. CCXLI, p. 147-162</span><span class="close">&lt;/<a class="el" href="el_num.html">num&gt;</a></span></div>
+          </dd><dt class="close">&lt;/<a class="el" href="el_bibseries.html">bibseries&gt;</a></dt></dl>
+        </dd><dt class="close">&lt;/<a class="el" href="el_bibref.html">bibref&gt;</a></dt></dl>
       </div>
         <div xmlns:html="http://www.w3.org/1999/xhtml" class="ead exhtml">
         <span class="bibref"><span class="persname">GANDILHON, René</span>. <em class="title">La série M (administration générale) des Archives départementales</em>. <span class="bibseries">

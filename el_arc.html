@@ -24,7 +24,7 @@ if(window.top != window) {
     <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?el_arc.html">frames</a> | <a target="_top" href="el_arc.html">no frames</a></header>
     <div id="contenu">
       <section class="element rng" id="el_arc">
-        <header class="element rng">&lt;<a>arc</a>&gt; Arc</header>
+        <header class="element rng">&lt;<a>arc&gt;</a> Arc</header>
         <table class="grammar">
           <tr>
             <th>Attributs</th>
@@ -219,12 +219,12 @@ if(window.top != window) {
           </tr>
           <tr>
             <th>Parents</th>
-            <td class="usage"><div><b>D</b>. &lt;<a href="el_daogrp.html" title="Groupe d’objets archivistiques numériques">daogrp</a>&gt;  </div> <div><b>L</b>. &lt;<a href="el_linkgrp.html" title="Groupe de liens">linkgrp</a>&gt;  </div> </td>
+            <td class="usage"><div><b>D</b>. <a href="el_daogrp.html" title="Groupe d’objets archivistiques numériques">&lt;daogrp&gt;</a>  </div> <div><b>L</b>. <a href="el_linkgrp.html" title="Groupe de liens">&lt;linkgrp&gt;</a>  </div> </td>
           </tr>
         </table>
         <div>
 <p>
-Élément qui donne les règles pour mettre en relation des ressources dans un lien étendu. L’élément &lt;<a class="el" href="el_arc.html" title="Arc">arc</a>&gt; utilise les attributs TO et FROM pour définir le chemin entre des couples désignés de ressources.
+Élément qui donne les règles pour mettre en relation des ressources dans un lien étendu. L’élément <a class="el" href="el_arc.html" title="Arc">&lt;arc&gt;</a> utilise les attributs TO et FROM pour définir le chemin entre des couples désignés de ressources.
 </p>
 <p>
 Même si la version 1.0 de XML Linking Language (XLink) sur laquelle reposent les éléments de liens en EAD est stable, les exemples de son utilisation en EAD restent des hypothèses non testées sur de réelles applications supportant XLink. Il est fortement conseillé à ceux qui souhaitent utiliser XLink de consulter les spécifications disponibles en ligne à l’adresse <a href="http://www.w3.org/TR/xlink">http://www.w3.org/TR/xlink</a>.
@@ -232,21 +232,21 @@ Même si la version 1.0 de XML Linking Language (XLink) sur laquelle reposent le
       </div>
         <div xmlns:html="http://www.w3.org/1999/xhtml" class="xml example">
         <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_c02.html">c02</a> <b class="att">level</b>="<code class="val">file</code>"&gt;</dt><dd class="code">
-          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_did.html">did</a>&gt;</dt><dd class="code">
-            <div class=""><span class="open">&lt;<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span><span class="text">Portraits et photographies de Ferdinand Brunot</span><span class="close">&lt;/<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span></div>
-            <div class=""><span class="open">&lt;<a class="el" href="el_unitdate.html">unitdate</a> <b class="att">normal</b>="<code class="val">1895/1938</code>"&gt;</span><span class="text">1895-1938</span><span class="close">&lt;/<a class="el" href="el_unitdate.html">unitdate</a>&gt;</span></div>
+          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_did.html">did&gt;</a></dt><dd class="code">
+            <div class=""><span class="open"><a class="el" href="el_unittitle.html">&lt;unittitle&gt;</a></span><span class="text">Portraits et photographies de Ferdinand Brunot</span><span class="close">&lt;/<a class="el" href="el_unittitle.html">unittitle&gt;</a></span></div>
+            <div class=""><span class="open"><a class="el" href="el_unitdate.html">&lt;unitdate</a> <b class="att">normal</b>="<code class="val">1895/1938</code>"&gt;</span><span class="text">1895-1938</span><span class="close">&lt;/<a class="el" href="el_unitdate.html">unitdate&gt;</a></span></div>
             <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_daogrp.html">daogrp</a> <b class="att">linktype</b>="<code class="val">extended</code>"&gt;</dt><dd class="code">
-              <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_daodesc.html">daodesc</a>&gt;</dt><dd class="code">
-                <div class=""><span class="open">&lt;<a class="el" href="el_p.html">p</a>&gt;</span><span class="text">Numérisation d'une photographie extraite de ce dossier : remise du diplôme de docteur honoris causa à l'Université de Cambridge, 1927</span><span class="close">&lt;/<a class="el" href="el_p.html">p</a>&gt;</span></div>
-              </dd><dt class="close">&lt;/<a class="el" href="el_daodesc.html">daodesc</a>&gt;</dt></dl>
-              <div class="open ">&lt;<a class="el" href="el_resource.html">resource</a> <b class="att">linktype</b>="<code class="val">resource</code>" <b class="att">label</b>="<code class="val">Début</code>"/&gt;</div>
-              <div class="open ">&lt;<a class="el" href="el_daoloc.html">daoloc</a> <b class="att">entityref</b>="<code class="val">f0042_1tmb</code>" <b class="att">linktype</b>="<code class="val">locator</code>" <b class="att">label</b>="<code class="val">Vignette</code>"/&gt;</div>
-              <div class="open ">&lt;<a class="el" href="el_daoloc.html">daoloc</a> <b class="att">entityref</b>="<code class="val">f0042_1ref</code>" <b class="att">linktype</b>="<code class="val">locator</code>" <b class="att">label</b>="<code class="val">Légende</code>"/&gt;</div>
-              <div class="open ">&lt;<a class="el" href="el_arc.html">arc</a> <b class="att">linktype</b>="<code class="val">arc</code>" <b class="att">show</b>="<code class="val">embed</code>" <b class="att">actuate</b>="<code class="val">onload</code>" <b class="att">from</b>="<code class="val">Début</code>" <b class="att">to</b>="<code class="val">Vignette</code>"/&gt;</div>
-              <div class="open ">&lt;<a class="el" href="el_arc.html">arc</a> <b class="att">linktype</b>="<code class="val">arc</code>" <b class="att">show</b>="<code class="val">new</code>" <b class="att">actuate</b>="<code class="val">onrequest</code>" <b class="att">from</b>="<code class="val">Vignette</code>" <b class="att">to</b>="<code class="val">Légende</code>"/&gt;</div>
-            </dd><dt class="close">&lt;/<a class="el" href="el_daogrp.html">daogrp</a>&gt;</dt></dl>
-          </dd><dt class="close">&lt;/<a class="el" href="el_did.html">did</a>&gt;</dt></dl>
-        </dd><dt class="close">&lt;/<a class="el" href="el_c02.html">c02</a>&gt;</dt></dl>
+              <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_daodesc.html">daodesc&gt;</a></dt><dd class="code">
+                <div class=""><span class="open"><a class="el" href="el_p.html">&lt;p&gt;</a></span><span class="text">Numérisation d'une photographie extraite de ce dossier : remise du diplôme de docteur honoris causa à l'Université de Cambridge, 1927</span><span class="close">&lt;/<a class="el" href="el_p.html">p&gt;</a></span></div>
+              </dd><dt class="close">&lt;/<a class="el" href="el_daodesc.html">daodesc&gt;</a></dt></dl>
+              <div class="open "><a class="el" href="el_resource.html">&lt;resource</a> <b class="att">linktype</b>="<code class="val">resource</code>" <b class="att">label</b>="<code class="val">Début</code>"/&gt;</div>
+              <div class="open "><a class="el" href="el_daoloc.html">&lt;daoloc</a> <b class="att">entityref</b>="<code class="val">f0042_1tmb</code>" <b class="att">linktype</b>="<code class="val">locator</code>" <b class="att">label</b>="<code class="val">Vignette</code>"/&gt;</div>
+              <div class="open "><a class="el" href="el_daoloc.html">&lt;daoloc</a> <b class="att">entityref</b>="<code class="val">f0042_1ref</code>" <b class="att">linktype</b>="<code class="val">locator</code>" <b class="att">label</b>="<code class="val">Légende</code>"/&gt;</div>
+              <div class="open "><a class="el" href="el_arc.html">&lt;arc</a> <b class="att">linktype</b>="<code class="val">arc</code>" <b class="att">show</b>="<code class="val">embed</code>" <b class="att">actuate</b>="<code class="val">onload</code>" <b class="att">from</b>="<code class="val">Début</code>" <b class="att">to</b>="<code class="val">Vignette</code>"/&gt;</div>
+              <div class="open "><a class="el" href="el_arc.html">&lt;arc</a> <b class="att">linktype</b>="<code class="val">arc</code>" <b class="att">show</b>="<code class="val">new</code>" <b class="att">actuate</b>="<code class="val">onrequest</code>" <b class="att">from</b>="<code class="val">Vignette</code>" <b class="att">to</b>="<code class="val">Légende</code>"/&gt;</div>
+            </dd><dt class="close">&lt;/<a class="el" href="el_daogrp.html">daogrp&gt;</a></dt></dl>
+          </dd><dt class="close">&lt;/<a class="el" href="el_did.html">did&gt;</a></dt></dl>
+        </dd><dt class="close">&lt;/<a class="el" href="el_c02.html">c02&gt;</a></dt></dl>
       </div>
         <div xmlns:html="http://www.w3.org/1999/xhtml" class="ead exhtml">
         <section class="c c00" id="el_c02">

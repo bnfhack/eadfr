@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Intitulés d'une application EAD selon la traduction de la norme EAD2002 traduite par le groupe AFNOR CG46/CN357/GE3
+http://www.archivesdefrance.culture.gouv.fr/gerer/classement/normes-outils/ead/
+
+-->
+<rdf:RDF
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Property xml:id="abstract">
+    <rdfs:label xml:lang="fr">Résumé</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="address">
+    <rdfs:label xml:lang="fr">Adresse</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="accessrestrict">
+    <rdfs:label xml:lang="fr">Conditions d'accès</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="accruals">
+     <rdfs:label xml:lang="fr">Accroissements</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="acqinfo">
+     <rdfs:label xml:lang="fr">Entrée</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="altformavail">
+     <rdfs:label xml:lang="fr">Documents de substitution</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="appraisal">
+     <rdfs:label xml:lang="fr">Informations sur l’évaluation</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="arrangement">
+     <rdfs:label xml:lang="fr">Mode de classement</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="author">
+    <rdfs:label xml:lang="fr">Auteur</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="bibliography">
+     <rdfs:label xml:lang="fr">Bibliographie</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="bibseries">
+     <rdfs:label xml:lang="fr">Collection bibliographique</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="bioghist">
+     <rdfs:label xml:lang="fr">Histoire administrative</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="container">
+     <rdfs:label xml:lang="fr">Unité de conditionnement</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="controlaccess">
+     <rdfs:label xml:lang="fr">Indexation</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="countrycode">
+    <rdfs:label xml:lang="fr">Code de pays</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="creation">
+    <rdfs:label xml:lang="fr">Création</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="custodhist">
+     <rdfs:label xml:lang="fr">Conservation</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="date">
+     <rdfs:label xml:lang="fr">Date</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="dao">
+     <rdfs:label xml:lang="fr">Documents numériques</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="daogrp">
+     <rdfs:label xml:lang="fr">Documents numériques</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="descgrp">
+     <rdfs:label xml:lang="fr">Groupe d’éléments de description</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="descrules">
+    <rdfs:label xml:lang="fr">Règles de description</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="eadid">
+    <rdfs:label xml:lang="fr">Identifiant principal</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="edition">
+    <rdfs:label xml:lang="fr">Édition</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="editionstmt">
+    <rdfs:label xml:lang="fr">Mention d’édition</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="filedesc">
+    <rdfs:label xml:lang="fr">Informations de publication</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="fileplan">
+     <rdfs:label xml:lang="fr">Plan de classement</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="identifier">
+    <rdfs:label xml:lang="fr">Identifiant</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="index">
+     <rdfs:label xml:lang="fr">Index</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="langmaterial">
+     <rdfs:label xml:lang="fr">Langue des unités documentaires</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="langusage">
+    <rdfs:label xml:lang="fr">Langue utilisée</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="mainagencycode">
+    <rdfs:label xml:lang="fr">Agence responsable</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="materialspec">
+     <rdfs:label xml:lang="fr">Particularités de certains types de documents</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="note">
+     <rdfs:label xml:lang="fr">Note</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="notestmt">
+    <rdfs:label xml:lang="fr">Notes</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="odd">
+     <rdfs:label xml:lang="fr">Autres données descriptives</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="originalsloc">
+     <rdfs:label xml:lang="fr">Existence et lieu de conservation des documents originaux</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="origination">
+     <rdfs:label xml:lang="fr">Origine</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="otherfindaid">
+     <rdfs:label xml:lang="fr">Instruments de recherche</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="physdesc">
+     <rdfs:label xml:lang="fr">Description</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="physloc">
+     <rdfs:label xml:lang="fr">Localisation physique</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="phystech">
+     <rdfs:label xml:lang="fr">Caractéristiques matérielles et contraintes techniques</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="prefercite">
+     <rdfs:label xml:lang="fr">Mention conseillée</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="processinfo">
+     <rdfs:label xml:lang="fr">Informations sur le traitement</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="profiledesc">
+    <rdfs:label xml:lang="fr">Profil</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="publicationstmt">
+    <rdfs:label xml:lang="fr">Mention de publication</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="publicationstmt-address">
+    <rdfs:label xml:lang="fr">Lieu de publication</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="publicationstmt-date">
+    <rdfs:label xml:lang="fr">Date de publication</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="publicid">
+    <rdfs:label xml:lang="fr">Identifiant public</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="publisher">
+    <rdfs:label xml:lang="fr">Éditeur</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="relatedmaterial">
+     <rdfs:label xml:lang="fr">Documents en relation</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="repository">
+     <rdfs:label xml:lang="fr">Organisme responsable de l’accès intellectuel</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="revisiondesc">
+    <rdfs:label xml:lang="fr">Description des révisions</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="scopecontent">
+    <rdfs:label xml:lang="fr">Présentation</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="separatedmaterial">
+     <rdfs:label xml:lang="fr">Documents séparés</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="seriesstmt">
+    <rdfs:label xml:lang="fr">Collection</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="seriesstmt-num">
+    <rdfs:label xml:lang="fr">Numéro</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="seriesstmt-titleproper">
+    <rdfs:label xml:lang="fr">Titre de la série</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="sponsor">
+    <rdfs:label xml:lang="fr">Commanditaire</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="subtitle">
+    <rdfs:label xml:lang="fr">Sous-titre</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="titleproper">
+    <rdfs:label xml:lang="fr">Titre propre</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="titlestmt">
+     <rdfs:label xml:lang="fr">Mention de titre</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="unitdate">
+     <rdfs:label xml:lang="fr">Dates</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="unitid">
+     <rdfs:label xml:lang="fr">Cote</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="unitid.cote_d_archives">
+     <rdfs:label xml:lang="fr">Cote de référence</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="unitid.cote_de_communication">
+     <rdfs:label xml:lang="fr">Code de communication</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="unittitle">
+     <rdfs:label xml:lang="fr">Intitulé</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="url">
+    <rdfs:label xml:lang="fr">URL</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="urn">
+    <rdfs:label xml:lang="fr">URN</rdfs:label>
+  </rdf:Property>
+  <rdf:Property xml:id="userestrict">
+     <rdfs:label xml:lang="fr">Conditions de reproduction</rdfs:label>
+  </rdf:Property>
+</rdf:RDF>

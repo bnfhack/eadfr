@@ -24,7 +24,7 @@ if(window.top != window) {
     <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?el_change.html">frames</a> | <a target="_top" href="el_change.html">no frames</a></header>
     <div id="contenu">
       <section class="element rng" id="el_change">
-        <header class="element rng">&lt;<a>change</a>&gt; Modification</header>
+        <header class="element rng">&lt;<a>change&gt;</a> Modification</header>
         <table class="grammar">
           <tr>
             <th>Attributs</th>
@@ -170,7 +170,7 @@ if(window.top != window) {
           </tr>
           <tr>
             <th>Enfants</th>
-            <td class="children"><div><b>D</b>. &lt;<a href="el_date.html" title="Date">date</a>&gt;  </div> <div><b>I</b>. &lt;<a href="el_item.html" title="Item">item</a>&gt;  </div> </td>
+            <td class="children"><div><b>D</b>. <a href="el_date.html" title="Date">&lt;date&gt;</a>  </div> <div><b>I</b>. <a href="el_item.html" title="Item">&lt;item&gt;</a>  </div> </td>
           </tr>
           <tr>
             <th>Modèle</th>
@@ -180,28 +180,28 @@ if(window.top != window) {
           </tr>
           <tr>
             <th>Parents</th>
-            <td class="usage"><div><b>R</b>. &lt;<a href="el_revisiondesc.html" title="Description des révisions">revisiondesc</a>&gt;  </div> </td>
+            <td class="usage"><div><b>R</b>. <a href="el_revisiondesc.html" title="Description des révisions">&lt;revisiondesc&gt;</a>  </div> </td>
           </tr>
         </table>
         <div>
 <p>
-Élément facultatif de l'élément Description des révisions &lt;<a class="el" href="el_change.html#el_revisiondesc" title="Description des révisions">revisiondesc</a>&gt; lui-même contenu dans l’élément En-tête EAD &lt;<a class="el" href="el_change.html#el_eadheader" title="En-tête EAD">eadheader</a>&gt;. On l’utilise pour une brève description d’une mise à jour apportée à une instance EAD. On doit y faire mention d’ajouts à un instrument de recherche ou de modifications importantes de l’encodage (ne pas l'utiliser pour quelques corrections d'erreurs typographiques). L’élément Modification &lt;<a class="el" href="el_change.html" title="Modification">change</a>&gt; prend modèle sur un élément de l'En-tête de la DTD TEI (Text Encoding Initiative). La TEI recommande de consigner et numéroter les révisions en ordre chronologique inverse, en mettant en premier l'élément &lt;<a class="el" href="el_change.html" title="Modification">change</a>&gt; le plus récent.
+Élément facultatif de l'élément Description des révisions <a class="el" href="el_change.html#el_revisiondesc" title="Description des révisions">&lt;revisiondesc&gt;</a> lui-même contenu dans l’élément En-tête EAD <a class="el" href="el_change.html#el_eadheader" title="En-tête EAD">&lt;eadheader&gt;</a>. On l’utilise pour une brève description d’une mise à jour apportée à une instance EAD. On doit y faire mention d’ajouts à un instrument de recherche ou de modifications importantes de l’encodage (ne pas l'utiliser pour quelques corrections d'erreurs typographiques). L’élément Modification <a class="el" href="el_change.html" title="Modification">&lt;change&gt;</a> prend modèle sur un élément de l'En-tête de la DTD TEI (Text Encoding Initiative). La TEI recommande de consigner et numéroter les révisions en ordre chronologique inverse, en mettant en premier l'élément <a class="el" href="el_change.html" title="Modification">&lt;change&gt;</a> le plus récent.
 </p>
 <p>
-Lorsque les modifications apportées à un instrument de recherche sont assez importantes pour constituer une nouvelle version qui remplace les versions précédentes, on utilise l'élément Edition &lt;<a class="el" href="el_change.html#el_edition" title="Édition">edition</a>&gt;.
+Lorsque les modifications apportées à un instrument de recherche sont assez importantes pour constituer une nouvelle version qui remplace les versions précédentes, on utilise l'élément Edition <a class="el" href="el_change.html#el_edition" title="Édition">&lt;edition&gt;</a>.
 </p>
           </div>
         <div xmlns:html="http://www.w3.org/1999/xhtml" class="xml example">
-                    <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_revisiondesc.html">revisiondesc</a>&gt;</dt><dd class="code">
-                      <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_change.html">change</a>&gt;</dt><dd class="code">
-                        <div class=""><span class="open">&lt;<a class="el" href="el_date.html">date</a>&gt;</span><span class="text">août 2002</span><span class="close">&lt;/<a class="el" href="el_date.html">date</a>&gt;</span></div>
-                        <div class=""><span class="open">&lt;<a class="el" href="el_item.html">item</a>&gt;</span><span class="text">L'inventaire du supplément (400AP/222) réalisé par Nadine Gastaldi, conservateur, en 1991, a été encodé à la suite de l'état sommaire. Des modifications ont été apportées : normalisation des libellés des cotes ; intégration dans le texte de certains éléments de note. </span><span class="close">&lt;/<a class="el" href="el_item.html">item</a>&gt;</span></div>
-                      </dd><dt class="close">&lt;/<a class="el" href="el_change.html">change</a>&gt;</dt></dl>
-                      <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_change.html">change</a>&gt;</dt><dd class="code">
-                        <div class=""><span class="open">&lt;<a class="el" href="el_date.html">date</a> <b class="att">normal</b>="<code class="val">20011219</code>"&gt;</span><span class="text">19 décembre 2001</span><span class="close">&lt;/<a class="el" href="el_date.html">date</a>&gt;</span></div>
-                        <div class=""><span class="open">&lt;<a class="el" href="el_item.html">item</a>&gt;</span><span class="text">La première version a été livrée au CHAN ainsi qu'au groupe RLG par la société AJLSM (info@ajlsm.com).</span><span class="close">&lt;/<a class="el" href="el_item.html">item</a>&gt;</span></div>
-                      </dd><dt class="close">&lt;/<a class="el" href="el_change.html">change</a>&gt;</dt></dl>
-                    </dd><dt class="close">&lt;/<a class="el" href="el_revisiondesc.html">revisiondesc</a>&gt;</dt></dl>
+                    <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_revisiondesc.html">revisiondesc&gt;</a></dt><dd class="code">
+                      <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_change.html">change&gt;</a></dt><dd class="code">
+                        <div class=""><span class="open"><a class="el" href="el_date.html">&lt;date&gt;</a></span><span class="text">août 2002</span><span class="close">&lt;/<a class="el" href="el_date.html">date&gt;</a></span></div>
+                        <div class=""><span class="open"><a class="el" href="el_item.html">&lt;item&gt;</a></span><span class="text">L'inventaire du supplément (400AP/222) réalisé par Nadine Gastaldi, conservateur, en 1991, a été encodé à la suite de l'état sommaire. Des modifications ont été apportées : normalisation des libellés des cotes ; intégration dans le texte de certains éléments de note. </span><span class="close">&lt;/<a class="el" href="el_item.html">item&gt;</a></span></div>
+                      </dd><dt class="close">&lt;/<a class="el" href="el_change.html">change&gt;</a></dt></dl>
+                      <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_change.html">change&gt;</a></dt><dd class="code">
+                        <div class=""><span class="open"><a class="el" href="el_date.html">&lt;date</a> <b class="att">normal</b>="<code class="val">20011219</code>"&gt;</span><span class="text">19 décembre 2001</span><span class="close">&lt;/<a class="el" href="el_date.html">date&gt;</a></span></div>
+                        <div class=""><span class="open"><a class="el" href="el_item.html">&lt;item&gt;</a></span><span class="text">La première version a été livrée au CHAN ainsi qu'au groupe RLG par la société AJLSM (info@ajlsm.com).</span><span class="close">&lt;/<a class="el" href="el_item.html">item&gt;</a></span></div>
+                      </dd><dt class="close">&lt;/<a class="el" href="el_change.html">change&gt;</a></dt></dl>
+                    </dd><dt class="close">&lt;/<a class="el" href="el_revisiondesc.html">revisiondesc&gt;</a></dt></dl>
                   </div>
         <div xmlns:html="http://www.w3.org/1999/xhtml" class="ead exhtml">
                     <blockquote class="revisiondesc"><span class="label">Description des révisions</span><div class="date">août 2002</div><ul class="change"><li class="item">L'inventaire du supplément (400AP/222) réalisé par Nadine Gastaldi, conservateur, en 1991, a été encodé à la suite de l'état sommaire. Des modifications ont été apportées : normalisation des libellés des cotes ; intégration dans le texte de certains éléments de note. </li></ul><div class="date" title="20011219">19 décembre 2001</div><ul class="change"><li class="item">La première version a été livrée au CHAN ainsi qu'au groupe RLG par la société AJLSM (info@ajlsm.com).</li></ul></blockquote>

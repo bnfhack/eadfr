@@ -24,7 +24,7 @@ if(window.top != window) {
     <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?el_language.html">frames</a> | <a target="_top" href="el_language.html">no frames</a></header>
     <div id="contenu">
       <section class="element rng" id="el_language">
-        <header class="element rng">&lt;<a>language</a>&gt; Langue</header>
+        <header class="element rng">&lt;<a>language&gt;</a> Langue</header>
         <table class="grammar">
           <tr>
             <th>Attributs</th>
@@ -180,7 +180,7 @@ if(window.top != window) {
           </tr>
           <tr>
             <th>Enfants</th>
-            <td class="children"><div><b>E</b>. &lt;<a href="el_emph.html" title="Mise en valeur">emph</a>&gt; &lt;<a href="el_extptr.html" title="Pointeur externe">extptr</a>&gt;  </div> <div><b>L</b>. &lt;<a href="el_lb.html" title="Retour à la ligne">lb</a>&gt;  </div> <div><b>P</b>. &lt;<a href="el_ptr.html" title="Pointeur">ptr</a>&gt;  </div> </td>
+            <td class="children"><div><b>E</b>. <a href="el_emph.html" title="Mise en valeur">&lt;emph&gt;</a>, <a href="el_extptr.html" title="Pointeur externe">&lt;extptr&gt;</a>  </div> <div><b>L</b>. <a href="el_lb.html" title="Retour à la ligne">&lt;lb&gt;</a>  </div> <div><b>P</b>. <a href="el_ptr.html" title="Pointeur">&lt;ptr&gt;</a>  </div> </td>
           </tr>
           <tr>
             <th>Modèle</th>
@@ -192,37 +192,37 @@ if(window.top != window) {
           </tr>
           <tr>
             <th>Parents</th>
-            <td class="usage"><div><b>L</b>. &lt;<a href="el_langmaterial.html" title="Langue des unités documentaires&#10;">langmaterial</a>&gt; &lt;<a href="el_langusage.html" title="Langue utilisée">langusage</a>&gt;  </div> </td>
+            <td class="usage"><div><b>L</b>. <a href="el_langmaterial.html" title="Langue des unités documentaires&#10;">&lt;langmaterial&gt;</a>, <a href="el_langusage.html" title="Langue utilisée">&lt;langusage&gt;</a>  </div> </td>
           </tr>
         </table>
         <div>
 <p>
-Sous-élément de l’élément Langue utilisée &lt;<a class="el" href="el_language.html#el_langusage" title="Langue utilisée">langusage</a>&gt; contenu dans l'élément Description du profil &lt;<a class="el" href="el_language.html#el_profiledesc" title="Description du profil">profiledesc</a>&gt; lui-même contenu dans l’élément En-tête EAD &lt;<a class="el" href="el_language.html#el_eadheader" title="En-tête EAD">eadheader</a>&gt;. L’élément Langue &lt;<a class="el" href="el_language.html" title="Langue">language</a>&gt; précise la langue ou le système de communication dans lequel l’instrument de recherche est rédigé. Pour les instruments de recherche rédigés en deux ou plusieurs langues, on peut soit identifier chaque langue dans un élément séparé &lt;<a class="el" href="el_language.html" title="Langue">language</a>&gt;, soit ne mentionner que la langue prédominante. On peut utiliser l’attribut LANGCODE pour fournir le code de langues à trois lettres ISO 639-2b.
+Sous-élément de l’élément Langue utilisée <a class="el" href="el_language.html#el_langusage" title="Langue utilisée">&lt;langusage&gt;</a> contenu dans l'élément Description du profil <a class="el" href="el_language.html#el_profiledesc" title="Description du profil">&lt;profiledesc&gt;</a> lui-même contenu dans l’élément En-tête EAD <a class="el" href="el_language.html#el_eadheader" title="En-tête EAD">&lt;eadheader&gt;</a>. L’élément Langue <a class="el" href="el_language.html" title="Langue">&lt;language&gt;</a> précise la langue ou le système de communication dans lequel l’instrument de recherche est rédigé. Pour les instruments de recherche rédigés en deux ou plusieurs langues, on peut soit identifier chaque langue dans un élément séparé <a class="el" href="el_language.html" title="Langue">&lt;language&gt;</a>, soit ne mentionner que la langue prédominante. On peut utiliser l’attribut LANGCODE pour fournir le code de langues à trois lettres ISO 639-2b.
 </p>
 <p>
-L’élément &lt;<a class="el" href="el_language.html" title="Langue">language</a>&gt; est également un sous-élément de l’élément Langue des unités documentaires &lt;<a class="el" href="el_language.html#el_langmaterial" title="Langue des unités documentaires&#10;">langmaterial</a>&gt; contenu dans l’élément Identification et description &lt;<a class="el" href="el_language.html#el_did" title="Identification et description">did</a>&gt;, où il précise la langue des documents en cours de description. On peut utiliser l’attribut LANGCODE pour fournir le code de langues à trois lettres ISO 639-2b qui, dans ce cas, équivaut à la zone 041 de MARC21 et à la sous- zone 101$a d’UNIMARC.
+L’élément <a class="el" href="el_language.html" title="Langue">&lt;language&gt;</a> est également un sous-élément de l’élément Langue des unités documentaires <a class="el" href="el_language.html#el_langmaterial" title="Langue des unités documentaires&#10;">&lt;langmaterial&gt;</a> contenu dans l’élément Identification et description <a class="el" href="el_language.html#el_did" title="Identification et description">&lt;did&gt;</a>, où il précise la langue des documents en cours de description. On peut utiliser l’attribut LANGCODE pour fournir le code de langues à trois lettres ISO 639-2b qui, dans ce cas, équivaut à la zone 041 de MARC21 et à la sous- zone 101$a d’UNIMARC.
 </p>
 <p>
 On peut utiliser l’attribut SCRIPTCODE pour identifier le code ISO 15924 d’écriture de la langue.
 </p>
   	  </div>
         <div xmlns:html="http://www.w3.org/1999/xhtml" class="xml example">
-        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_profiledesc.html">profiledesc</a>&gt;</dt><dd class="code">
-          <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_langusage.html">langusage</a>&gt;</span><span class="xml_mix"><span class="text">Cet instrument de recherche est rédigé en </span><span class=""><span class="open">&lt;<a class="el" href="el_language.html">language</a> <b class="att">encodinganalog</b>="<code class="val">language</code>" <b class="att">langcode</b>="<code class="val">fre</code>"&gt;</span><span class="text">français</span><span class="close">&lt;/<a class="el" href="el_language.html">language</a>&gt;</span></span><span class="text">.</span></span><span class="close">&lt;/<a class="el" href="el_langusage.html">langusage</a>&gt;</span></div>
-        </dd><dt class="close">&lt;/<a class="el" href="el_profiledesc.html">profiledesc</a>&gt;</dt></dl>
+        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_profiledesc.html">profiledesc&gt;</a></dt><dd class="code">
+          <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_langusage.html">langusage&gt;</a></span><span class="xml_mix"><span class="text">Cet instrument de recherche est rédigé en </span><span class=""><span class="open"><a class="el" href="el_language.html">&lt;language</a> <b class="att">encodinganalog</b>="<code class="val">language</code>" <b class="att">langcode</b>="<code class="val">fre</code>"&gt;</span><span class="text">français</span><span class="close">&lt;/<a class="el" href="el_language.html">language&gt;</a></span></span><span class="text">.</span></span><span class="close">&lt;/<a class="el" href="el_langusage.html">langusage&gt;</a></span></div>
+        </dd><dt class="close">&lt;/<a class="el" href="el_profiledesc.html">profiledesc&gt;</a></dt></dl>
         <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_c.html">c</a> <b class="att">level</b>="<code class="val">otherlevel</code>" <b class="att">otherlevel</b>="<code class="val">sous-dossier</code>"&gt;</dt><dd class="code">
-          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_did.html">did</a>&gt;</dt><dd class="code">
-            <div class=""><span class="open">&lt;<a class="el" href="el_unitid.html">unitid</a>&gt;</span><span class="text">dossier 6</span><span class="close">&lt;/<a class="el" href="el_unitid.html">unitid</a>&gt;</span></div>
-            <div class=""><span class="open">&lt;<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span><span class="text">Documents concernant le décès (survenu le 17 mars 1831, à Forli) et l’enterrement du prince Napoléon-Louis.</span><span class="close">&lt;/<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span></div>
-            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_physdesc.html">physdesc</a>&gt;</dt><dd class="code">
-              <div class=""><span class="open">&lt;<a class="el" href="el_extent.html">extent</a>&gt;</span><span class="text">56 pages</span><span class="close">&lt;/<a class="el" href="el_extent.html">extent</a>&gt;</span></div>
-            </dd><dt class="close">&lt;/<a class="el" href="el_physdesc.html">physdesc</a>&gt;</dt></dl>
-            <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_langmaterial.html">langmaterial</a>&gt;</span><span class="xml_mix"><span class=""><span class="open">&lt;<a class="el" href="el_language.html">language</a> <b class="att">langcode</b>="<code class="val">ita</code>"&gt;</span><span class="text">italien</span><span class="close">&lt;/<a class="el" href="el_language.html">language</a>&gt;</span></span><span class="text"> et </span><span class=""><span class="open">&lt;<a class="el" href="el_language.html">language</a> <b class="att">langcode</b>="<code class="val">fre</code>"&gt;</span><span class="text">français</span><span class="close">&lt;/<a class="el" href="el_language.html">language</a>&gt;</span></span><span class="text">.</span></span><span class="close">&lt;/<a class="el" href="el_langmaterial.html">langmaterial</a>&gt;</span></div>
-            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_altformavail.html">altformavail</a>&gt;</dt><dd class="code">
-              <div class=""><span class="open">&lt;<a class="el" href="el_p.html">p</a>&gt;</span><span class="text">56 images numériques</span><span class="close">&lt;/<a class="el" href="el_p.html">p</a>&gt;</span></div>
-            </dd><dt class="close">&lt;/<a class="el" href="el_altformavail.html">altformavail</a>&gt;</dt></dl>
-          </dd><dt class="close">&lt;/<a class="el" href="el_did.html">did</a>&gt;</dt></dl>
-        </dd><dt class="close">&lt;/<a class="el" href="el_c.html">c</a>&gt;</dt></dl>
+          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_did.html">did&gt;</a></dt><dd class="code">
+            <div class=""><span class="open"><a class="el" href="el_unitid.html">&lt;unitid&gt;</a></span><span class="text">dossier 6</span><span class="close">&lt;/<a class="el" href="el_unitid.html">unitid&gt;</a></span></div>
+            <div class=""><span class="open"><a class="el" href="el_unittitle.html">&lt;unittitle&gt;</a></span><span class="text">Documents concernant le décès (survenu le 17 mars 1831, à Forli) et l’enterrement du prince Napoléon-Louis.</span><span class="close">&lt;/<a class="el" href="el_unittitle.html">unittitle&gt;</a></span></div>
+            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_physdesc.html">physdesc&gt;</a></dt><dd class="code">
+              <div class=""><span class="open"><a class="el" href="el_extent.html">&lt;extent&gt;</a></span><span class="text">56 pages</span><span class="close">&lt;/<a class="el" href="el_extent.html">extent&gt;</a></span></div>
+            </dd><dt class="close">&lt;/<a class="el" href="el_physdesc.html">physdesc&gt;</a></dt></dl>
+            <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_langmaterial.html">langmaterial&gt;</a></span><span class="xml_mix"><span class=""><span class="open"><a class="el" href="el_language.html">&lt;language</a> <b class="att">langcode</b>="<code class="val">ita</code>"&gt;</span><span class="text">italien</span><span class="close">&lt;/<a class="el" href="el_language.html">language&gt;</a></span></span><span class="text"> et </span><span class=""><span class="open"><a class="el" href="el_language.html">&lt;language</a> <b class="att">langcode</b>="<code class="val">fre</code>"&gt;</span><span class="text">français</span><span class="close">&lt;/<a class="el" href="el_language.html">language&gt;</a></span></span><span class="text">.</span></span><span class="close">&lt;/<a class="el" href="el_langmaterial.html">langmaterial&gt;</a></span></div>
+            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_altformavail.html">altformavail&gt;</a></dt><dd class="code">
+              <div class=""><span class="open"><a class="el" href="el_p.html">&lt;p&gt;</a></span><span class="text">56 images numériques</span><span class="close">&lt;/<a class="el" href="el_p.html">p&gt;</a></span></div>
+            </dd><dt class="close">&lt;/<a class="el" href="el_altformavail.html">altformavail&gt;</a></dt></dl>
+          </dd><dt class="close">&lt;/<a class="el" href="el_did.html">did&gt;</a></dt></dl>
+        </dd><dt class="close">&lt;/<a class="el" href="el_c.html">c&gt;</a></dt></dl>
       </div>
         <div xmlns:html="http://www.w3.org/1999/xhtml" class="ead exhtml">
         <div class="profiledesc">

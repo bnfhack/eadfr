@@ -24,7 +24,7 @@ if(window.top != window) {
     <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?el_physloc.html">frames</a> | <a target="_top" href="el_physloc.html">no frames</a></header>
     <div id="contenu">
       <section class="element rng" id="el_physloc">
-        <header class="element rng">&lt;<a>physloc</a>&gt; Localisation physique
+        <header class="element rng">&lt;<a>physloc&gt;</a> Localisation physique
 </header>
         <table class="grammar">
           <tr>
@@ -186,7 +186,7 @@ if(window.top != window) {
           </tr>
           <tr>
             <th>Enfants</th>
-            <td class="children"><div><b>A</b>. &lt;<a href="el_abbr.html" title="Abréviation">abbr</a>&gt; &lt;<a href="el_archref.html" title="Référence à d'autres documents d'archives">archref</a>&gt;  </div> <div><b>B</b>. &lt;<a href="el_bibref.html" title="Référence bibliographique">bibref</a>&gt;  </div> <div><b>E</b>. &lt;<a href="el_emph.html" title="Mise en valeur">emph</a>&gt; &lt;<a href="el_expan.html" title="Forme développée">expan</a>&gt; &lt;<a href="el_extptr.html" title="Pointeur externe">extptr</a>&gt; &lt;<a href="el_extref.html" title="Référence externe">extref</a>&gt;  </div> <div><b>L</b>. &lt;<a href="el_lb.html" title="Retour à la ligne">lb</a>&gt; &lt;<a href="el_linkgrp.html" title="Groupe de liens">linkgrp</a>&gt;  </div> <div><b>P</b>. &lt;<a href="el_ptr.html" title="Pointeur">ptr</a>&gt;  </div> <div><b>R</b>. &lt;<a href="el_ref.html" title="Référence">ref</a>&gt;  </div> <div><b>T</b>. &lt;<a href="el_title.html" title="Titre">title</a>&gt;  </div> </td>
+            <td class="children"><div><b>A</b>. <a href="el_abbr.html" title="Abréviation">&lt;abbr&gt;</a>, <a href="el_archref.html" title="Référence à d'autres documents d'archives">&lt;archref&gt;</a>  </div> <div><b>B</b>. <a href="el_bibref.html" title="Référence bibliographique">&lt;bibref&gt;</a>  </div> <div><b>E</b>. <a href="el_emph.html" title="Mise en valeur">&lt;emph&gt;</a>, <a href="el_expan.html" title="Forme développée">&lt;expan&gt;</a>, <a href="el_extptr.html" title="Pointeur externe">&lt;extptr&gt;</a>, <a href="el_extref.html" title="Référence externe">&lt;extref&gt;</a>  </div> <div><b>L</b>. <a href="el_lb.html" title="Retour à la ligne">&lt;lb&gt;</a>, <a href="el_linkgrp.html" title="Groupe de liens">&lt;linkgrp&gt;</a>  </div> <div><b>P</b>. <a href="el_ptr.html" title="Pointeur">&lt;ptr&gt;</a>  </div> <div><b>R</b>. <a href="el_ref.html" title="Référence">&lt;ref&gt;</a>  </div> <div><b>T</b>. <a href="el_title.html" title="Titre">&lt;title&gt;</a>  </div> </td>
           </tr>
           <tr>
             <th>Modèle</th>
@@ -198,34 +198,34 @@ if(window.top != window) {
           </tr>
           <tr>
             <th>Parents</th>
-            <td class="usage"><div><b>A</b>. &lt;<a href="el_archref.html" title="Référence à d'autres documents d'archives">archref</a>&gt;  </div> <div><b>D</b>. &lt;<a href="el_did.html" title="Identification et description">did</a>&gt;  </div> </td>
+            <td class="usage"><div><b>A</b>. <a href="el_archref.html" title="Référence à d'autres documents d'archives">&lt;archref&gt;</a>  </div> <div><b>D</b>. <a href="el_did.html" title="Identification et description">&lt;did&gt;</a>  </div> </td>
           </tr>
         </table>
         <div><p>
 Élément qui contient des informations permettant d’identifier le lieu où les unités documentaires décrites sont stockées (nom ou numéro du bâtiment, du magasin, du rayonnage, de la tablette ou toute autre indication de lieu physique).
 </p>
 <p>
-Ne pas confondre avec l'élément Unité de conditionnement &lt;<a class="el" href="el_physloc.html#el_container" title="Unité de conditionnement">container</a>&gt;, utilisé pour identifier les cartons, boîtes, bobines, chemises et autres moyens de stockage des unités documentaires décrites. Ne pas confondre non plus avec Organisme responsable de l'accès intellectuel &lt;<a class="el" href="el_physloc.html#el_repository" title="Organisme responsable de l’accès intellectuel">repository</a>&gt;, utilisé pour identifier l’institution ou l’organisme responsable de l’accès intellectuel aux unités documentaires décrites.
+Ne pas confondre avec l'élément Unité de conditionnement <a class="el" href="el_physloc.html#el_container" title="Unité de conditionnement">&lt;container&gt;</a>, utilisé pour identifier les cartons, boîtes, bobines, chemises et autres moyens de stockage des unités documentaires décrites. Ne pas confondre non plus avec Organisme responsable de l'accès intellectuel <a class="el" href="el_physloc.html#el_repository" title="Organisme responsable de l’accès intellectuel">&lt;repository&gt;</a>, utilisé pour identifier l’institution ou l’organisme responsable de l’accès intellectuel aux unités documentaires décrites.
 </p>
 <p>
-Comme tous les sous-éléments de l'élément Identification et description &lt;<a class="el" href="el_physloc.html#el_did" title="Identification et description">did</a>&gt;, l’élément &lt;<a class="el" href="el_physloc.html" title="Localisation physique&#10;">physloc</a>&gt; a un attribut @label utilisable pour fournir un intitulé clair sur le contenu de l’élément. On peut aussi utiliser l’attribut @type pour identifier la nature du lieu de stockage. Pour des raisons de sécurité, on peut sélectionner la valeur "internal" (réservé) pour l’attribut @audience masquant ainsi au public des informations sur le lieu de stockage.
+Comme tous les sous-éléments de l'élément Identification et description <a class="el" href="el_physloc.html#el_did" title="Identification et description">&lt;did&gt;</a>, l’élément <a class="el" href="el_physloc.html" title="Localisation physique&#10;">&lt;physloc&gt;</a> a un attribut @label utilisable pour fournir un intitulé clair sur le contenu de l’élément. On peut aussi utiliser l’attribut @type pour identifier la nature du lieu de stockage. Pour des raisons de sécurité, on peut sélectionner la valeur "internal" (réservé) pour l’attribut @audience masquant ainsi au public des informations sur le lieu de stockage.
 </p>
 <p>
-L’élément &lt;<a class="el" href="el_physloc.html" title="Localisation physique&#10;">physloc</a>&gt; est comparable à la zone 852 de MARC21 et à la zone du bloc 9XX d'UNIMARC localement retenue.
+L’élément <a class="el" href="el_physloc.html" title="Localisation physique&#10;">&lt;physloc&gt;</a> est comparable à la zone 852 de MARC21 et à la zone du bloc 9XX d'UNIMARC localement retenue.
 </p>	
 				</div>
         <div xmlns:html="http://www.w3.org/1999/xhtml" class="xml example">
           <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_c.html">c</a> <b class="att">level</b>="<code class="val">fonds</code>"&gt;</dt><dd class="code">
-            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_did.html">did</a>&gt;</dt><dd class="code">
-              <div class=""><span class="open">&lt;<a class="el" href="el_unitid.html">unitid</a> <b class="att">type</b>="<code class="val">normalise</code>"&gt;</span><span class="text">515AP</span><span class="close">&lt;/<a class="el" href="el_unitid.html">unitid</a>&gt;</span></div>
-              <div class=""><span class="open">&lt;<a class="el" href="el_unitid.html">unitid</a> <b class="att">type</b>="<code class="val">originale</code>"&gt;</span><span class="text">515 AP</span><span class="close">&lt;/<a class="el" href="el_unitid.html">unitid</a>&gt;</span></div>
-              <div class=""><span class="open">&lt;<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span><span class="text">Fonds Picasso</span><span class="close">&lt;/<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span></div>
-              <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_unitdate.html">unitdate</a> <b class="att">normal</b>="<code class="val">1901/2000</code>"&gt;</span><span class="xml_mix"><span class="text"> XX</span><span class=""><span class="open">&lt;<a class="el" href="el_emph.html">emph</a> <b class="att">render</b>="<code class="val">super</code>"&gt;</span><span class="text">e</span><span class="close">&lt;/<a class="el" href="el_emph.html">emph</a>&gt;</span></span><span class="text"> siècle</span></span><span class="close">&lt;/<a class="el" href="el_unitdate.html">unitdate</a>&gt;</span></div>
-              <div class=""><span class="open">&lt;<a class="el" href="el_origination.html">origination</a>&gt;</span><span class="text">Picasso, Pablo</span><span class="close">&lt;/<a class="el" href="el_origination.html">origination</a>&gt;</span></div>
-              <div class=""><span class="open">&lt;<a class="el" href="el_physdesc.html">physdesc</a>&gt;</span><span class="text">25 mètres linéaires</span><span class="close">&lt;/<a class="el" href="el_physdesc.html">physdesc</a>&gt;</span></div>
-              <div class=""><span class="open">&lt;<a class="el" href="el_physloc.html">physloc</a>&gt;</span><span class="text">Fonds conservé au Musée Picasso</span><span class="close">&lt;/<a class="el" href="el_physloc.html">physloc</a>&gt;</span></div>
-            </dd><dt class="close">&lt;/<a class="el" href="el_did.html">did</a>&gt;</dt></dl>
-          </dd><dt class="close">&lt;/<a class="el" href="el_c.html">c</a>&gt;</dt></dl>
+            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_did.html">did&gt;</a></dt><dd class="code">
+              <div class=""><span class="open"><a class="el" href="el_unitid.html">&lt;unitid</a> <b class="att">type</b>="<code class="val">normalise</code>"&gt;</span><span class="text">515AP</span><span class="close">&lt;/<a class="el" href="el_unitid.html">unitid&gt;</a></span></div>
+              <div class=""><span class="open"><a class="el" href="el_unitid.html">&lt;unitid</a> <b class="att">type</b>="<code class="val">originale</code>"&gt;</span><span class="text">515 AP</span><span class="close">&lt;/<a class="el" href="el_unitid.html">unitid&gt;</a></span></div>
+              <div class=""><span class="open"><a class="el" href="el_unittitle.html">&lt;unittitle&gt;</a></span><span class="text">Fonds Picasso</span><span class="close">&lt;/<a class="el" href="el_unittitle.html">unittitle&gt;</a></span></div>
+              <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_unitdate.html">unitdate</a> <b class="att">normal</b>="<code class="val">1901/2000</code>"&gt;</span><span class="xml_mix"><span class="text"> XX</span><span class=""><span class="open"><a class="el" href="el_emph.html">&lt;emph</a> <b class="att">render</b>="<code class="val">super</code>"&gt;</span><span class="text">e</span><span class="close">&lt;/<a class="el" href="el_emph.html">emph&gt;</a></span></span><span class="text"> siècle</span></span><span class="close">&lt;/<a class="el" href="el_unitdate.html">unitdate&gt;</a></span></div>
+              <div class=""><span class="open"><a class="el" href="el_origination.html">&lt;origination&gt;</a></span><span class="text">Picasso, Pablo</span><span class="close">&lt;/<a class="el" href="el_origination.html">origination&gt;</a></span></div>
+              <div class=""><span class="open"><a class="el" href="el_physdesc.html">&lt;physdesc&gt;</a></span><span class="text">25 mètres linéaires</span><span class="close">&lt;/<a class="el" href="el_physdesc.html">physdesc&gt;</a></span></div>
+              <div class=""><span class="open"><a class="el" href="el_physloc.html">&lt;physloc&gt;</a></span><span class="text">Fonds conservé au Musée Picasso</span><span class="close">&lt;/<a class="el" href="el_physloc.html">physloc&gt;</a></span></div>
+            </dd><dt class="close">&lt;/<a class="el" href="el_did.html">did&gt;</a></dt></dl>
+          </dd><dt class="close">&lt;/<a class="el" href="el_c.html">c&gt;</a></dt></dl>
         </div>
         <div xmlns:html="http://www.w3.org/1999/xhtml" class="ead exhtml">
           <section class="c c00" id="el_c">
