@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'att_xlink-from.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?att_xlink-from.html');
+}
+          </script>
+    <title>@xlink:from  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?att_xlink-from.html">frames</a> | <a target="_top" href="att_xlink-from.html">no frames</a></header>
+    <div id="contenu">
+      <section class="attribute rng" id="att_xlink-from">
+        <header class="attribute rng">@<b>xlink:from</b> </header>
+        <table class="grammar">
+          <tr>
+            <th>Valeur</th>
+            <td>
+              <em class="data">{NMTOKEN}</em>
+            </td>
+          </tr>
+          <tr>
+            <th>Parents</th>
+            <td class="usage"><div><b>A</b>. &lt;<a href="el_arc.html" title="Arc">arc</a>&gt;  </div> </td>
+          </tr>
+        </table>
+      </section>
+    </div>
+    <footer id="footer">@xlink:from  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>

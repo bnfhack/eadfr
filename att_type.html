@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'att_type.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?att_type.html');
+}
+          </script>
+    <title>@type  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?att_type.html">frames</a> | <a target="_top" href="att_type.html">no frames</a></header>
+    <div id="contenu">
+      <section class="attribute rng" id="att_type">
+        <header class="attribute rng">@<b>type</b> Précision sur le type de l’élément</header>
+        <table class="grammar">
+          <tr>
+            <th>Valeur</th>
+            <td>
+              <i>{text}</i>
+            </td>
+          </tr>
+          <tr>
+            <th>Parents</th>
+            <td class="usage"><div><b>A</b>. &lt;<a href="el_abstract.html" title="Résumé">abstract</a>&gt; &lt;<a href="el_accessrestrict.html" title="Conditions d’accès">accessrestrict</a>&gt; &lt;<a href="el_altformavail.html" title="Documents de substitution">altformavail</a>&gt; &lt;<a href="el_archdesc.html" title="Description archivistique">archdesc</a>&gt;  </div> <div><b>C</b>. &lt;<a href="el_container.html" title="Unité de conditionnement">container</a>&gt;  </div> <div><b>D</b>. &lt;<a href="el_date.html" title="Date">date</a>&gt; &lt;<a href="el_descgrp.html" title="Groupe d’éléments de description&#10;">descgrp</a>&gt; &lt;<a href="el_dimensions.html" title="Dimensions">dimensions</a>&gt;  </div> <div><b>E</b>. &lt;<a href="el_extent.html" title="Importance matérielle&#10;">extent</a>&gt;  </div> <div><b>G</b>. &lt;<a href="el_genreform.html" title="Genre et caractéristiques physiques">genreform</a>&gt;  </div> <div><b>L</b>. &lt;<a href="el_legalstatus.html" title="Statut juridique">legalstatus</a>&gt;  </div> <div><b>M</b>. &lt;<a href="el_materialspec.html" title="Particularités de certains types de documents">materialspec</a>&gt;  </div> <div><b>N</b>. &lt;<a href="el_note.html" title="Note">note</a>&gt; &lt;<a href="el_num.html" title="Numéro">num</a>&gt;  </div> <div><b>O</b>. &lt;<a href="el_odd.html" title="Autres données descriptives">odd</a>&gt; &lt;<a href="el_originalsloc.html" title="Existence et lieu de conservation des documents originaux">originalsloc</a>&gt;  </div> <div><b>P</b>. &lt;<a href="el_physfacet.html" title="Particularité physique&#10;">physfacet</a>&gt; &lt;<a href="el_physloc.html" title="Localisation physique&#10;">physloc</a>&gt; &lt;<a href="el_phystech.html" title="Caractéristiques matérielles et contraintes techniques">phystech</a>&gt; &lt;<a href="el_processinfo.html" title="Informations sur le traitement">processinfo</a>&gt;  </div> <div><b>R</b>. &lt;<a href="el_relatedmaterial.html" title="Documents en relation">relatedmaterial</a>&gt;  </div> <div><b>S</b>. &lt;<a href="el_separatedmaterial.html" title="Documents séparés">separatedmaterial</a>&gt;  </div> <div><b>T</b>. &lt;<a href="el_title.html" title="Titre">title</a>&gt; &lt;<a href="el_titleproper.html" title="Titre propre de l'instrument de recherche">titleproper</a>&gt;  </div> <div><b>U</b>. &lt;<a href="el_unitid.html" title="Identifiant de l’unité documentaire&#10;">unitid</a>&gt; &lt;<a href="el_unittitle.html" title="Intitulé de l’unité documentaire">unittitle</a>&gt; &lt;<a href="el_userestrict.html" title="Conditions d’utilisation">userestrict</a>&gt;  </div> </td>
+          </tr>
+        </table>
+        <div>L'attribut @<a class="att">type</a> est disponible dans de nombreux éléments et ses
+caractéristiques sont variables selon l'élément auquel il s'applique. Certaines occurrences de @<a class="att">type</a> proposent des listes fermées (par exemple, Date de l'unité documentaire &lt;<a class="el" href="att_type.html#el_unitdate" title="Date de l’unité documentaire">unitdate</a>&gt;), d'autres des listes semi-fermées (par exemple, Description des sous-composants &lt;<a class="el" href="att_type.html#el_dsc" title="Description des sous-composants">dsc</a>&gt;) et d'autres autorisent des données textuelles (CDATA) (par exemple, Conditions d'accès &lt;<a class="el" href="att_type.html#el_accessrestrict" title="Conditions d’accès">accessrestrict</a>&gt; et Localisation physique &lt;<a class="el" href="att_type.html#el_physloc" title="Localisation physique&#10;">physloc</a>&gt;). La liste semi-fermée de cet attribut dans l'élément Description des sous-composants &lt;<a class="el" href="att_type.html#el_dsc" title="Description des sous-composants">dsc</a>&gt; contient la valeur "othertype", ce qui permet de spécifier une valeur appropriée dans l'attribut @<a class="att">othertype</a>. Voir la description de chaque élément pour la liste des valeurs spécifiques de cet attribut.</div>
+      </section>
+    </div>
+    <footer id="footer">@type  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>

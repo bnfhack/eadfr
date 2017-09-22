@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'el_bibref.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?el_bibref.html');
+}
+          </script>
+    <title>&lt;bibref&gt;  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?el_bibref.html">frames</a> | <a target="_top" href="el_bibref.html">no frames</a></header>
+    <div id="contenu">
+      <section class="element rng" id="el_bibref">
+        <header class="element rng">&lt;<a>bibref</a>&gt; Référence bibliographique</header>
+        <table class="grammar">
+          <tr>
+            <th>Attributs</th>
+            <td>
+              <table class="attributes">
+                
+                <!--abbr-->
+                <!--actuate-->
+                <!--align-->
+                <!--align-->
+                <!--align-->
+                <!--althead-->
+                <!--altrender-->
+                <tr>
+                  <td class="name">@<a href="def_a.common.html#att_altrender" title="Autre proposition de rendu. Voir aussi @render">altrender</a></td>
+                  <td>?</td>
+                  <td>Autre proposition de rendu. Voir aussi @render</td>
+                </tr>
+                <!--audience-->
+                <tr>
+                  <td class="name">@<a href="att_audience.html" title="Audience (diffusion publique, restreinte…)">audience</a></td>
+                  <td>?</td>
+                  <td><span class="compact choice">( <span class="value">external</span> | <span class="value">internal</span> )</span><br/>Audience (diffusion publique, restreinte…)</td>
+                </tr>
+                <!--authfilenumber-->
+                <!--calendar-->
+                <!--certainty-->
+                <!--certainty-->
+                <!--char-->
+                <!--char-->
+                <!--charoff-->
+                <!--charoff-->
+                <!--colname-->
+                <!--colname-->
+                <!--colnum-->
+                <!--cols-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colwidth-->
+                <!--continuation-->
+                <!--countrycode-->
+                <!--countryencoding-->
+                <!--datechar-->
+                <!--dateencoding-->
+                <!--encodinganalog-->
+                <tr>
+                  <td class="name">@<a href="att_encodinganalog.html" title="Concordance d’encodage avec une autre norme (ex : MARC)">encodinganalog</a></td>
+                  <td>?</td>
+                  <td>Concordance d’encodage avec une autre norme (ex : MARC)</td>
+                </tr>
+                <!--entityref-->
+                <tr>
+                  <td class="name">@<a href="def_a.external.ptr.html#att_entityref" title="Attribut contenant le nom d'une entité non parsée, déclarée dans la déclaration de type de document XML, qui pointe vers une version électronique de la référence citée.">entityref</a></td>
+                  <td>?</td>
+                  <td><em class="data" title="">{ENTITY}</em><br/>Attribut contenant le nom d'une entité non parsée, déclarée dans la déclaration de type de document XML, qui pointe vers une version électronique de la référence citée.</td>
+                </tr>
+                <!--era-->
+                <!--expan-->
+                <!--findaidstatus-->
+                <!--frame-->
+                <!--href-->
+                <tr>
+                  <td class="name">@<a href="def_simpleLink.html#att_href" title="Attribut ajouté dans le schéma pour compatibilité DTD.">href</a></td>
+                  <td>?</td>
+                  <td><em class="data" title="">{anyURI}</em><br/>Attribut ajouté dans le schéma pour compatibilité DTD.</td>
+                </tr>
+                <!--id-->
+                <tr>
+                  <td class="name">@<a href="def_a.common.html#att_id" title="Identifiant d’un élément, unique pour un document. La valeur choisie permet d'identifier le contenu pour debenir la cible d’un lien">id</a></td>
+                  <td>?</td>
+                  <td><em class="data" title="">{ID}</em><br/>Identifiant d’un élément, unique pour un document. La valeur choisie permet d'identifier le contenu pour debenir la cible d’un lien</td>
+                </tr>
+                <!--identifier-->
+                <!--identifier-->
+                <!--label-->
+                <!--langcode-->
+                <!--langencoding-->
+                <!--level-->
+                <!--mainagencycode-->
+                <!--mark-->
+                <!--morerows-->
+                <!--nameend-->
+                <!--namest-->
+                <!--normal-->
+                <!--normal-->
+                <!--numeration-->
+                <!--otherlevel-->
+                <!--othertype-->
+                <!--parent-->
+                <!--parent-->
+                <!--pgwide-->
+                <!--placement-->
+                <!--publicid-->
+                <!--relatedencoding-->
+                <!--render-->
+                <!--repositorycode-->
+                <!--repositoryencoding-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rules-->
+                <!--rules-->
+                <!--rules-->
+                <!--scriptcode-->
+                <!--scriptencoding-->
+                <!--show-->
+                <!--source-->
+                <!--source-->
+                <!--source-->
+                <!--target-->
+                <!--tpattern-->
+                <!--type-->
+                <!--type-->
+                <!--type-->
+                <!--type-->
+                <!--unit-->
+                <!--unit-->
+                <!--unit-->
+                <!--url-->
+                <!--urn-->
+                <!--valign-->
+                <!--valign-->
+                <!--valign-->
+                <!--valign-->
+                <!--xlink:actuate-->
+                <tr>
+                  <td class="name">@<a href="att_xlink-actuate.html">xlink:actuate</a></td>
+                  <td>?</td>
+                  <td>
+                    <span class="compact choice">( <span class="value">onLoad</span> | <span class="value">onRequest</span> | <span class="value">other</span> | <span class="value">none</span> )</span>
+                    <br/>
+                  </td>
+                </tr>
+                <!--xlink:arcrole-->
+                <tr>
+                  <td class="name">@<a href="att_xlink-arcrole.html">xlink:arcrole</a></td>
+                  <td>?</td>
+                  <td>
+                    <em class="data" title="">{anyURI}</em>
+                    <br/>
+                  </td>
+                </tr>
+                <!--xlink:from-->
+                <!--xlink:href-->
+                <tr>
+                  <td class="name">@<a href="att_xlink-href.html">xlink:href</a></td>
+                  <td>?</td>
+                  <td>
+                    <em class="data" title="">{anyURI}</em>
+                    <br/>
+                  </td>
+                </tr>
+                <!--xlink:label-->
+                <!--xlink:role-->
+                <tr>
+                  <td class="name">@<a href="att_xlink-role.html">xlink:role</a></td>
+                  <td>?</td>
+                  <td>
+                    <em class="data" title="">{anyURI}</em>
+                    <br/>
+                  </td>
+                </tr>
+                <!--xlink:show-->
+                <tr>
+                  <td class="name">@<a href="att_xlink-show.html">xlink:show</a></td>
+                  <td>?</td>
+                  <td>
+                    <span class="compact choice">( <span class="value">new</span> | <span class="value">replace</span> | <span class="value">embed</span> | <span class="value">other</span> | <span class="value">none</span> )</span>
+                    <br/>
+                  </td>
+                </tr>
+                <!--xlink:title-->
+                <tr>
+                  <td class="name">@<a href="att_xlink-title.html">xlink:title</a></td>
+                  <td>?</td>
+                  <td/>
+                </tr>
+                <!--xlink:to-->
+                <!--xlink:type-->
+                <tr>
+                  <td class="name">@<a href="def_simpleLink.html#att_xlink-type" title="Attribut rendu optionnel dans le schéma pour compatibilité DTD.">xlink:type</a></td>
+                  <td>?</td>
+                  <td>simple | <span class="value">simple</span><br/>Attribut rendu optionnel dans le schéma pour compatibilité DTD.</td>
+                </tr>
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xpointer-->
+                <!--xpointer-->
+                <tr>
+                  <td class="name">@<a href="att_xpointer.html" title="URI xpointer">xpointer</a></td>
+                  <td>?</td>
+                  <td>URI xpointer</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <th>Enfants</th>
+            <td class="children"><div><b>A</b>. &lt;<a href="el_abbr.html" title="Abréviation">abbr</a>&gt; &lt;<a href="el_archref.html" title="Référence à d'autres documents d'archives">archref</a>&gt;  </div> <div><b>B</b>. &lt;<a href="el_bibseries.html" title="Collection bibliographique">bibseries</a>&gt;  </div> <div><b>C</b>. &lt;<a href="el_corpname.html" title="Collectivite">corpname</a>&gt;  </div> <div><b>E</b>. &lt;<a href="el_edition.html" title="Édition">edition</a>&gt; &lt;<a href="el_emph.html" title="Mise en valeur">emph</a>&gt; &lt;<a href="el_expan.html" title="Forme développée">expan</a>&gt; &lt;<a href="el_extptr.html" title="Pointeur externe">extptr</a>&gt; &lt;<a href="el_extref.html" title="Référence externe">extref</a>&gt;  </div> <div><b>F</b>. &lt;<a href="el_famname.html" title="Nom de famille">famname</a>&gt;  </div> <div><b>I</b>. &lt;<a href="el_imprint.html" title="Adresse bibliographique">imprint</a>&gt;  </div> <div><b>L</b>. &lt;<a href="el_lb.html" title="Retour à la ligne">lb</a>&gt;  </div> <div><b>N</b>. &lt;<a href="el_name.html" title="Nom">name</a>&gt; &lt;<a href="el_num.html" title="Numéro">num</a>&gt;  </div> <div><b>P</b>. &lt;<a href="el_persname.html" title="Nom de personne">persname</a>&gt; &lt;<a href="el_ptr.html" title="Pointeur">ptr</a>&gt;  </div> <div><b>R</b>. &lt;<a href="el_ref.html" title="Référence">ref</a>&gt;  </div> <div><b>T</b>. &lt;<a href="el_title.html" title="Titre">title</a>&gt;  </div> </td>
+          </tr>
+          <tr>
+            <th>Modèle</th>
+            <td class="model">
+              <span class="compact element">
+                <span class="compact choice"> ( <i>{text}</i><span class="more"> | <a class="ref" href="def_m.phrase.basic.norefs.html">m.phrase.basic.norefs</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <span class="more"><a class="ref" href="def_m.phrase.bare.html">m.phrase.bare</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <span class="compact choice">( <a href="el_ptr.html" title="Pointeur">ptr</a> | <a href="el_extptr.html" title="Pointeur externe">extptr</a> )</span><span class="more"> | <a class="ref" href="def_m.render.html">m.render</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <a href="el_emph.html" title="Mise en valeur">emph</a> | <a href="el_lb.html" title="Retour à la ligne">lb</a> )</span></span>)</span> )</span></span>)</span> | <a href="el_abbr.html" title="Abréviation">abbr</a> | <a href="el_expan.html" title="Forme développée">expan</a> )</span></span>)</span> | <a href="el_edition.html" title="Édition">edition</a> | <a href="el_imprint.html" title="Adresse bibliographique">imprint</a> | <a href="el_name.html" title="Nom">name</a> | <a href="el_num.html" title="Numéro">num</a> | <a href="el_bibseries.html" title="Collection bibliographique">bibseries</a> | <a href="el_ref.html" title="Référence">ref</a> | <a href="el_title.html" title="Titre">title</a> | <a href="el_famname.html" title="Nom de famille">famname</a> | <a href="el_persname.html" title="Nom de personne">persname</a> | <a href="el_corpname.html" title="Collectivite">corpname</a> | <a href="el_extref.html" title="Référence externe">extref</a> | <a href="el_archref.html" title="Référence à d'autres documents d'archives">archref</a> ) * </span>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <th>Parents</th>
+            <td class="usage"><div><b>A</b>. &lt;<a href="el_abstract.html" title="Résumé">abstract</a>&gt; &lt;<a href="el_archref.html" title="Référence à d'autres documents d'archives">archref</a>&gt;  </div> <div><b>B</b>. &lt;<a href="el_bibliography.html" title="Bibliographie">bibliography</a>&gt;  </div> <div><b>C</b>. &lt;<a href="el_container.html" title="Unité de conditionnement">container</a>&gt; &lt;<a href="el_creation.html" title="Création">creation</a>&gt;  </div> <div><b>D</b>. &lt;<a href="el_descrules.html" title="Règles de description">descrules</a>&gt; &lt;<a href="el_dimensions.html" title="Dimensions">dimensions</a>&gt;  </div> <div><b>E</b>. &lt;<a href="el_emph.html" title="Mise en valeur">emph</a>&gt; &lt;<a href="el_entry.html" title="Entrée de tableau">entry</a>&gt; &lt;<a href="el_event.html" title="Événement">event</a>&gt; &lt;<a href="el_extent.html" title="Importance matérielle&#10;">extent</a>&gt; &lt;<a href="el_extref.html" title="Référence externe">extref</a>&gt;  </div> <div><b>I</b>. &lt;<a href="el_item.html" title="Item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="el_label.html" title="Étiquette">label</a>&gt; &lt;<a href="el_langmaterial.html" title="Langue des unités documentaires&#10;">langmaterial</a>&gt; &lt;<a href="el_langusage.html" title="Langue utilisée">langusage</a>&gt;  </div> <div><b>M</b>. &lt;<a href="el_materialspec.html" title="Particularités de certains types de documents">materialspec</a>&gt;  </div> <div><b>O</b>. &lt;<a href="el_origination.html" title="Origine">origination</a>&gt; &lt;<a href="el_otherfindaid.html" title="Autre instrument de recherche">otherfindaid</a>&gt;  </div> <div><b>P</b>. &lt;<a href="el_p.html" title="Paragraphe">p</a>&gt; &lt;<a href="el_physdesc.html" title="Description physique&#10;">physdesc</a>&gt; &lt;<a href="el_physfacet.html" title="Particularité physique&#10;">physfacet</a>&gt; &lt;<a href="el_physloc.html" title="Localisation physique&#10;">physloc</a>&gt;  </div> <div><b>R</b>. &lt;<a href="el_ref.html" title="Référence">ref</a>&gt; &lt;<a href="el_relatedmaterial.html" title="Documents en relation">relatedmaterial</a>&gt; &lt;<a href="el_repository.html" title="Organisme responsable de l’accès intellectuel">repository</a>&gt;  </div> <div><b>S</b>. &lt;<a href="el_separatedmaterial.html" title="Documents séparés">separatedmaterial</a>&gt;  </div> <div><b>U</b>. &lt;<a href="el_unitdate.html" title="Date de l’unité documentaire">unitdate</a>&gt; &lt;<a href="el_unitid.html" title="Identifiant de l’unité documentaire&#10;">unitid</a>&gt; &lt;<a href="el_unittitle.html" title="Intitulé de l’unité documentaire">unittitle</a>&gt;  </div> </td>
+          </tr>
+        </table>
+        <div>
+<p>
+Élément fournissant une référence bibliographique et/ou un lien hypertexte vers une œuvre (livre, article, thèse, image animée ou enregistrement sonore). L’élément &lt;<a class="el" href="el_bibref.html" title="Référence bibliographique">bibref</a>&gt; peut ne contenir que du texte ou quelques-uns des éléments à contenu spécifique tels que les éléments Titre &lt;<a class="el" href="el_bibref.html#el_title" title="Titre">title</a>&gt;, Adresse bibliographique &lt;<a class="el" href="el_bibref.html#el_imprint" title="Adresse bibliographique">imprint</a>&gt; ou Mention d’édition &lt;<a class="el" href="el_bibref.html#el_edition" title="Édition">edition</a>&gt;, ces deux derniers éléments étant rarement utilisés pour des œuvres non publiées.
+</p>
+<p>
+On peut rassembler une liste d’éléments &lt;<a class="el" href="el_bibref.html" title="Référence bibliographique">bibref</a>&gt; dans un élément Bibliographie &lt;<a class="el" href="el_bibref.html#el_bibliography" title="Bibliographie">bibliography</a>&gt;. Un élément &lt;<a class="el" href="el_bibref.html" title="Référence bibliographique">bibref</a>&gt; isolé peut faire partie d’un élément Paragraphe &lt;<a class="el" href="el_bibref.html#el_p" title="Paragraphe">p</a>&gt;. On utilise les attributs HREF et ENTITYREF pour pointer vers une ressource bibliographique électronique.
+</p>
+<p>
+On utilise l’élément plus spécifique Référence à d’autres documents d’archives &lt;<a class="el" href="el_bibref.html#el_archref" title="Référence à d'autres documents d'archives">archref</a>&gt; pour citer des documents d’archives décrits séparément ou pour établir un lien vers ceux-ci.
+</p>
+<p>
+Ne pas confondre avec l’élément Référence &lt;<a class="el" href="el_bibref.html#el_ref" title="Référence">ref</a>&gt; qui établit un lien interne dans un instrument de recherche.
+</p>
+<p>
+Même si la version 1.0 de XML Linking Language (XLink) sur laquelle reposent les éléments de liens en EAD est stable, les exemples de son utilisation en EAD restent des hypothèses non testées sur de réelles applications supportant XLink. Il est fortement conseillé à ceux qui souhaitent utiliser XLink de consulter les spécifications disponibles en ligne à l’adresse <a hrtef="http://www.w3.org/TR/xlink">http://www.w3.org/TR/xlink</a>.
+</p> 
+      </div>
+        <div xmlns:html="http://www.w3.org/1999/xhtml" class="xml example">
+        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_otherfindaid.html">otherfindaid</a>&gt;</dt><dd class="code">
+          <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_bibref.html">bibref</a>&gt;</span><span class="xml_mix"><span class=""><span class="open">&lt;<a class="el" href="el_persname.html">persname</a>&gt;</span><span class="text">BROSSARD, Joseph</span><span class="close">&lt;/<a class="el" href="el_persname.html">persname</a>&gt;</span></span><span class="text"> et </span><span class=""><span class="open">&lt;<a class="el" href="el_persname.html">persname</a>&gt;</span><span class="text">MOREL, Octave</span><span class="close">&lt;/<a class="el" href="el_persname.html">persname</a>&gt;</span></span> <span class=""><span class="open">&lt;<a class="el" href="el_title.html">title</a>&gt;</span><span class="text">Inventaire sommaire des Archives départementales antérieures à 1790. Ain, Série A (Art. 14) ; Série B (Art. 1-347)</span><span class="close">&lt;/<a class="el" href="el_title.html">title</a>&gt;</span></span> <span class=""><span class="open">&lt;<a class="el" href="el_imprint.html">imprint</a>&gt;</span><span class=""><span class="open">&lt;<a class="el" href="el_geogname.html">geogname</a>&gt;</span><span class="text">Bourg</span><span class="close">&lt;/<a class="el" href="el_geogname.html">geogname</a>&gt;</span></span><span class=""><span class="open">&lt;<a class="el" href="el_publisher.html">publisher</a>&gt;</span><span class="text">Imprimerie du Courrier de l’Ain</span><span class="close">&lt;/<a class="el" href="el_publisher.html">publisher</a>&gt;</span></span><span class=""><span class="open">&lt;<a class="el" href="el_date.html">date</a>&gt;</span><span class="text">1916</span><span class="close">&lt;/<a class="el" href="el_date.html">date</a>&gt;</span></span><span class="close">&lt;/<a class="el" href="el_imprint.html">imprint</a>&gt;</span></span><span class="text">496 p., in 4°</span></span><span class="close">&lt;/<a class="el" href="el_bibref.html">bibref</a>&gt;</span></div>
+        </dd><dt class="close">&lt;/<a class="el" href="el_otherfindaid.html">otherfindaid</a>&gt;</dt></dl>
+        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_bibliography.html">bibliography</a>&gt;</dt><dd class="code">
+          <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_bibref.html">bibref</a>&gt;</span><span class="xml_mix"><span class="text">MAZON, Albin. </span><span class=""><span class="open">&lt;<a class="el" href="el_emph.html">emph</a> <b class="att">render</b>="<code class="val">italic</code>"&gt;</span><span class="text">Notes historiques sur Tournon et ses seigneurs</span><span class="close">&lt;/<a class="el" href="el_emph.html">emph</a>&gt;</span></span><span class="text">. Paris : Privas, 1908.</span></span><span class="close">&lt;/<a class="el" href="el_bibref.html">bibref</a>&gt;</span></div>
+        </dd><dt class="close">&lt;/<a class="el" href="el_bibliography.html">bibliography</a>&gt;</dt></dl>
+      </div>
+        <div xmlns:html="http://www.w3.org/1999/xhtml" class="ead exhtml">
+        <blockquote class="otherfindaid"><span class="label">Instruments de recherche</span><div class="bibref"><span class="persname">BROSSARD, Joseph</span> et <span class="persname">MOREL, Octave</span> <em class="title">Inventaire sommaire des Archives départementales antérieures à 1790. Ain, Série A (Art. 14) ; Série B (Art. 1-347)</em> <span class="imprint">Bourg : Imprimerie du Courrier de l’Ain, 1916</span>496 p., in 4°</div></blockquote>
+        <blockquote class="bibliography"><span class="label">Bibliographie</span><ul class="bibliography"><div class="bibref">MAZON, Albin. <i>Notes historiques sur Tournon et ses seigneurs</i>. Paris : Privas, 1908.</div></ul></blockquote>
+      </div>
+      </section>
+    </div>
+    <footer id="footer">&lt;bibref&gt;  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>

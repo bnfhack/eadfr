@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'def_relatedencoding.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?def_relatedencoding.html');
+}
+          </script>
+    <title>relatedencoding()  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?def_relatedencoding.html">frames</a> | <a target="_top" href="def_relatedencoding.html">no frames</a></header>
+    <div id="contenu">
+      <section class="define rng" id="def_relatedencoding">
+        <header class="define rng">
+          <b>relatedencoding() </b>
+        </header>
+        <table class="grammar">
+          <tr>
+            <th>Contenu</th>
+            <td>@<a href="att_relatedencoding.html" title="Norme de description pour les éléments portant l’attribut @encodinganalog">relatedencoding</a> ? </td>
+          </tr>
+          <tr>
+            <th>Usage</th>
+            <td><div><b>A</b>. &lt;<a href="el_archdesc.html" title="Description archivistique">archdesc</a>&gt;  </div> <div><b>E</b>. &lt;<a href="el_ead.html" title="Description archivistique encodée">ead</a>&gt; &lt;<a href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt;  </div> </td>
+          </tr>
+        </table>
+      </section>
+    </div>
+    <footer id="footer">relatedencoding()  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'el_language.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?el_language.html');
+}
+          </script>
+    <title>&lt;language&gt;  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?el_language.html">frames</a> | <a target="_top" href="el_language.html">no frames</a></header>
+    <div id="contenu">
+      <section class="element rng" id="el_language">
+        <header class="element rng">&lt;<a>language</a>&gt; Langue</header>
+        <table class="grammar">
+          <tr>
+            <th>Attributs</th>
+            <td>
+              <table class="attributes">
+                
+                <!--abbr-->
+                <!--actuate-->
+                <!--align-->
+                <!--align-->
+                <!--align-->
+                <!--althead-->
+                <!--altrender-->
+                <tr>
+                  <td class="name">@<a href="def_a.common.html#att_altrender" title="Autre proposition de rendu. Voir aussi @render">altrender</a></td>
+                  <td>?</td>
+                  <td>Autre proposition de rendu. Voir aussi @render</td>
+                </tr>
+                <!--audience-->
+                <tr>
+                  <td class="name">@<a href="att_audience.html" title="Audience (diffusion publique, restreinte…)">audience</a></td>
+                  <td>?</td>
+                  <td><span class="compact choice">( <span class="value">external</span> | <span class="value">internal</span> )</span><br/>Audience (diffusion publique, restreinte…)</td>
+                </tr>
+                <!--authfilenumber-->
+                <!--calendar-->
+                <!--certainty-->
+                <!--certainty-->
+                <!--char-->
+                <!--char-->
+                <!--charoff-->
+                <!--charoff-->
+                <!--colname-->
+                <!--colname-->
+                <!--colnum-->
+                <!--cols-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colwidth-->
+                <!--continuation-->
+                <!--countrycode-->
+                <!--countryencoding-->
+                <!--datechar-->
+                <!--dateencoding-->
+                <!--encodinganalog-->
+                <tr>
+                  <td class="name">@<a href="att_encodinganalog.html" title="Concordance d’encodage avec une autre norme (ex : MARC)">encodinganalog</a></td>
+                  <td>?</td>
+                  <td>Concordance d’encodage avec une autre norme (ex : MARC)</td>
+                </tr>
+                <!--entityref-->
+                <!--era-->
+                <!--expan-->
+                <!--findaidstatus-->
+                <!--frame-->
+                <!--href-->
+                <!--id-->
+                <tr>
+                  <td class="name">@<a href="def_a.common.html#att_id" title="Identifiant d’un élément, unique pour un document. La valeur choisie permet d'identifier le contenu pour debenir la cible d’un lien">id</a></td>
+                  <td>?</td>
+                  <td><em class="data" title="">{ID}</em><br/>Identifiant d’un élément, unique pour un document. La valeur choisie permet d'identifier le contenu pour debenir la cible d’un lien</td>
+                </tr>
+                <!--identifier-->
+                <!--identifier-->
+                <!--label-->
+                <!--langcode-->
+                <tr>
+                  <td class="name">@<a href="att_langcode.html" title="Code de langue">langcode</a></td>
+                  <td>?</td>
+                  <td><span class="compact choice">( <span class="value">aar</span> | <span class="value">abk</span> | <span class="value">ace</span> | <span class="value">ach</span> | <span class="value">ada</span> | <span class="value">ady</span> | <span class="value">afa</span> | <span class="value">afh</span> | <span class="value">afr</span> | <span class="value">aka</span> | <span class="value">akk</span> | <span class="value">alb</span> | <span class="value">ale</span> | <span class="value">alg</span> | <span class="value">amh</span> | <span class="value">ang</span> | <span class="value">apa</span> | <span class="value">ara</span> | <span class="value">arc</span> | <span class="value">arg</span> | <span class="value">arm</span> | <span class="value">arn</span> | <span class="value">arp</span> | <span class="value">art</span> | <span class="value">arw</span> | <span class="value">asm</span> | <span class="value">ast</span> | <span class="value">ath</span> | <span class="value">aus</span> | <span class="value">ava</span> | <span class="value">ave</span> | <span class="value">awa</span> | <span class="value">aym</span> | <span class="value">aze</span> | <span class="value">bad</span> | <span class="value">bai</span> | <span class="value">bak</span> | <span class="value">bal</span> | <span class="value">bam</span> | <span class="value">ban</span> | <span class="value">baq</span> | <span class="value">bas</span> | <span class="value">bat</span> | <span class="value">bej</span> | <span class="value">bel</span> | <span class="value">bem</span> | <span class="value">ben</span> | <span class="value">ber</span> | <span class="value">bho</span> | <span class="value">bih</span> | <span class="value">bik</span> | <span class="value">bin</span> | <span class="value">bis</span> | <span class="value">bla</span> | <span class="value">bnt</span> | <span class="value">bod</span> | <span class="value">bos</span> | <span class="value">bra</span> | <span class="value">bre</span> | <span class="value">btk</span> | <span class="value">bua</span> | <span class="value">bug</span> | <span class="value">bul</span> | <span class="value">bur</span> | <span class="value">bur</span> | <span class="value">byn</span> | <span class="value">cad</span> | <span class="value">cai</span> | <span class="value">car</span> | <span class="value">cat</span> | <span class="value">cau</span> | <span class="value">ceb</span> | <span class="value">cel</span> | <span class="value">ces</span> | <span class="value">cha</span> | <span class="value">chb</span> | <span class="value">che</span> | <span class="value">chg</span> | <span class="value">chi</span> | <span class="value">chk</span> | <span class="value">chm</span> | <span class="value">chn</span> | <span class="value">cho</span> | <span class="value">chp</span> | <span class="value">chr</span> | <span class="value">chu</span> | <span class="value">chv</span> | <span class="value">chy</span> | <span class="value">cmc</span> | <span class="value">cop</span> | <span class="value">cor</span> | <span class="value">cos</span> | <span class="value">cpe</span> | <span class="value">cpf</span> | <span class="value">cpp</span> | <span class="value">cre</span> | <span class="value">crh</span> | <span class="value">crp</span> | <span class="value">csb</span> | <span class="value">cus</span> | <span class="value">cym</span> | <span class="value">cze</span> | <span class="value">cze</span> | <span class="value">dak</span> | <span class="value">dan</span> | <span class="value">dar</span> | <span class="value">day</span> | <span class="value">del</span> | <span class="value">den</span> | <span class="value">deu</span> | <span class="value">dgr</span> | <span class="value">din</span> | <span class="value">div</span> | <span class="value">doi</span> | <span class="value">dra</span> | <span class="value">dsb</span> | <span class="value">dua</span> | <span class="value">dum</span> | <span class="value">dut</span> | <span class="value">dut</span> | <span class="value">dyu</span> | <span class="value">dzo</span> | <span class="value">efi</span> | <span class="value">egy</span> | <span class="value">eka</span> | <span class="value">ell</span> | <span class="value">elx</span> | <span class="value">eng</span> | <span class="value">enm</span> | <span class="value">epo</span> | <span class="value">est</span> | <span class="value">eus</span> | <span class="value">eus</span> | <span class="value">ewe</span> | <span class="value">ewo</span> | <span class="value">fan</span> | <span class="value">fao</span> | <span class="value">fas</span> | <span class="value">fat</span> | <span class="value">fij</span> | <span class="value">fil</span> | <span class="value">fin</span> | <span class="value">fiu</span> | <span class="value">fon</span> | <span class="value">fra</span> | <span class="value">fre</span> | <span class="value">frm</span> | <span class="value">fro</span> | <span class="value">fry</span> | <span class="value">ful</span> | <span class="value">fur</span> | <span class="value">gaa</span> | <span class="value">gay</span> | <span class="value">gba</span> | <span class="value">gem</span> | <span class="value">geo</span> | <span class="value">ger</span> | <span class="value">gez</span> | <span class="value">gil</span> | <span class="value">gla</span> | <span class="value">gle</span> | <span class="value">glg</span> | <span class="value">glv</span> | <span class="value">gmh</span> | <span class="value">goh</span> | <span class="value">gon</span> | <span class="value">gor</span> | <span class="value">got</span> | <span class="value">grb</span> | <span class="value">grc</span> | <span class="value">gre</span> | <span class="value">gre</span> | <span class="value">grn</span> | <span class="value">guj</span> | <span class="value">gwi</span> | <span class="value">hai</span> | <span class="value">hat</span> | <span class="value">hau</span> | <span class="value">haw</span> | <span class="value">heb</span> | <span class="value">her</span> | <span class="value">hil</span> | <span class="value">him</span> | <span class="value">hin</span> | <span class="value">hit</span> | <span class="value">hmn</span> | <span class="value">hmo</span> | <span class="value">hrv</span> | <span class="value">hsb</span> | <span class="value">hun</span> | <span class="value">hup</span> | <span class="value">hye</span> | <span class="value">iba</span> | <span class="value">ibo</span> | <span class="value">ice</span> | <span class="value">ice</span> | <span class="value">ido</span> | <span class="value">iii</span> | <span class="value">ijo</span> | <span class="value">iku</span> | <span class="value">ile</span> | <span class="value">ilo</span> | <span class="value">ina</span> | <span class="value">inc</span> | <span class="value">ind</span> | <span class="value">ine</span> | <span class="value">inh</span> | <span class="value">ipk</span> | <span class="value">ira</span> | <span class="value">iro</span> | <span class="value">isl</span> | <span class="value">ita</span> | <span class="value">jav</span> | <span class="value">jbo</span> | <span class="value">jpn</span> | <span class="value">jpr</span> | <span class="value">jrb</span> | <span class="value">kaa</span> | <span class="value">kab</span> | <span class="value">kac</span> | <span class="value">kal</span> | <span class="value">kam</span> | <span class="value">kan</span> | <span class="value">kar</span> | <span class="value">kas</span> | <span class="value">kat</span> | <span class="value">kau</span> | <span class="value">kaw</span> | <span class="value">kaz</span> | <span class="value">kbd</span> | <span class="value">kha</span> | <span class="value">khi</span> | <span class="value">khm</span> | <span class="value">kho</span> | <span class="value">kik</span> | <span class="value">kin</span> | <span class="value">kir</span> | <span class="value">kmb</span> | <span class="value">kok</span> | <span class="value">kom</span> | <span class="value">kon</span> | <span class="value">kor</span> | <span class="value">kos</span> | <span class="value">kpe</span> | <span class="value">krc</span> | <span class="value">kro</span> | <span class="value">kru</span> | <span class="value">kua</span> | <span class="value">kum</span> | <span class="value">kur</span> | <span class="value">kut</span> | <span class="value">lad</span> | <span class="value">lah</span> | <span class="value">lam</span> | <span class="value">lao</span> | <span class="value">lat</span> | <span class="value">lav</span> | <span class="value">lez</span> | <span class="value">lim</span> | <span class="value">lin</span> | <span class="value">lit</span> | <span class="value">lol</span> | <span class="value">loz</span> | <span class="value">ltz</span> | <span class="value">lua</span> | <span class="value">lub</span> | <span class="value">lug</span> | <span class="value">lui</span> | <span class="value">lun</span> | <span class="value">luo</span> | <span class="value">lus</span> | <span class="value">mac</span> | <span class="value">mad</span> | <span class="value">mag</span> | <span class="value">mah</span> | <span class="value">mai</span> | <span class="value">mak</span> | <span class="value">mal</span> | <span class="value">man</span> | <span class="value">mao</span> | <span class="value">mao</span> | <span class="value">map</span> | <span class="value">mar</span> | <span class="value">mas</span> | <span class="value">may</span> | <span class="value">mdf</span> | <span class="value">mdr</span> | <span class="value">men</span> | <span class="value">mga</span> | <span class="value">mic</span> | <span class="value">min</span> | <span class="value">mis</span> | <span class="value">mkd</span> | <span class="value">mkh</span> | <span class="value">mlg</span> | <span class="value">mlt</span> | <span class="value">mnc</span> | <span class="value">mni</span> | <span class="value">mno</span> | <span class="value">moh</span> | <span class="value">mol</span> | <span class="value">mon</span> | <span class="value">mos</span> | <span class="value">mri</span> | <span class="value">msa</span> | <span class="value">mul</span> | <span class="value">mun</span> | <span class="value">mus</span> | <span class="value">mwl</span> | <span class="value">mwr</span> | <span class="value">mya</span> | <span class="value">myn</span> | <span class="value">myv</span> | <span class="value">nah</span> | <span class="value">nai</span> | <span class="value">nap</span> | <span class="value">nau</span> | <span class="value">nav</span> | <span class="value">nbl</span> | <span class="value">nde</span> | <span class="value">ndo</span> | <span class="value">nds</span> | <span class="value">nep</span> | <span class="value">new</span> | <span class="value">nia</span> | <span class="value">nic</span> | <span class="value">niu</span> | <span class="value">nld</span> | <span class="value">nno</span> | <span class="value">nob</span> | <span class="value">nog</span> | <span class="value">non</span> | <span class="value">nor</span> | <span class="value">nso</span> | <span class="value">nub</span> | <span class="value">nwc</span> | <span class="value">nya</span> | <span class="value">nym</span> | <span class="value">nyn</span> | <span class="value">nyo</span> | <span class="value">nzi</span> | <span class="value">oci</span> | <span class="value">oji</span> | <span class="value">ori</span> | <span class="value">orm</span> | <span class="value">osa</span> | <span class="value">oss</span> | <span class="value">ota</span> | <span class="value">oto</span> | <span class="value">paa</span> | <span class="value">pag</span> | <span class="value">pal</span> | <span class="value">pam</span> | <span class="value">pan</span> | <span class="value">pap</span> | <span class="value">pau</span> | <span class="value">peo</span> | <span class="value">per</span> | <span class="value">phi</span> | <span class="value">phn</span> | <span class="value">pli</span> | <span class="value">pol</span> | <span class="value">pon</span> | <span class="value">por</span> | <span class="value">pra</span> | <span class="value">pro</span> | <span class="value">pus</span> | <span class="value">que</span> | <span class="value">raj</span> | <span class="value">rap</span> | <span class="value">rar</span> | <span class="value">roa</span> | <span class="value">roh</span> | <span class="value">rom</span> | <span class="value">ron</span> | <span class="value">rum</span> | <span class="value">run</span> | <span class="value">rus</span> | <span class="value">sad</span> | <span class="value">sag</span> | <span class="value">sah</span> | <span class="value">sai</span> | <span class="value">sal</span> | <span class="value">sam</span> | <span class="value">san</span> | <span class="value">sas</span> | <span class="value">sat</span> | <span class="value">scc</span> | <span class="value">scn</span> | <span class="value">sco</span> | <span class="value">scr</span> | <span class="value">sel</span> | <span class="value">sem</span> | <span class="value">sga</span> | <span class="value">sgn</span> | <span class="value">shn</span> | <span class="value">sid</span> | <span class="value">sin</span> | <span class="value">sio</span> | <span class="value">sit</span> | <span class="value">sla</span> | <span class="value">slk</span> | <span class="value">slo</span> | <span class="value">slv</span> | <span class="value">sma</span> | <span class="value">sme</span> | <span class="value">smi</span> | <span class="value">smj</span> | <span class="value">smn</span> | <span class="value">smo</span> | <span class="value">sms</span> | <span class="value">sna</span> | <span class="value">snd</span> | <span class="value">snk</span> | <span class="value">sog</span> | <span class="value">som</span> | <span class="value">son</span> | <span class="value">sot</span> | <span class="value">spa</span> | <span class="value">sqi</span> | <span class="value">srd</span> | <span class="value">srp</span> | <span class="value">srr</span> | <span class="value">ssa</span> | <span class="value">ssw</span> | <span class="value">suk</span> | <span class="value">sun</span> | <span class="value">sus</span> | <span class="value">sux</span> | <span class="value">swa</span> | <span class="value">swe</span> | <span class="value">syr</span> | <span class="value">tah</span> | <span class="value">tai</span> | <span class="value">tam</span> | <span class="value">tat</span> | <span class="value">tel</span> | <span class="value">tem</span> | <span class="value">ter</span> | <span class="value">tet</span> | <span class="value">tgk</span> | <span class="value">tgl</span> | <span class="value">tha</span> | <span class="value">tib</span> | <span class="value">tib</span> | <span class="value">tig</span> | <span class="value">tir</span> | <span class="value">tiv</span> | <span class="value">tkl</span> | <span class="value">tlh</span> | <span class="value">tli</span> | <span class="value">tmh</span> | <span class="value">tog</span> | <span class="value">ton</span> | <span class="value">tpi</span> | <span class="value">tsi</span> | <span class="value">tsn</span> | <span class="value">tso</span> | <span class="value">tuk</span> | <span class="value">tum</span> | <span class="value">tup</span> | <span class="value">tur</span> | <span class="value">tut</span> | <span class="value">tvl</span> | <span class="value">twi</span> | <span class="value">tyv</span> | <span class="value">udm</span> | <span class="value">uga</span> | <span class="value">uig</span> | <span class="value">ukr</span> | <span class="value">umb</span> | <span class="value">und</span> | <span class="value">urd</span> | <span class="value">uzb</span> | <span class="value">vai</span> | <span class="value">ven</span> | <span class="value">vie</span> | <span class="value">vol</span> | <span class="value">vot</span> | <span class="value">wak</span> | <span class="value">wal</span> | <span class="value">war</span> | <span class="value">was</span> | <span class="value">wel</span> | <span class="value">wen</span> | <span class="value">wln</span> | <span class="value">wol</span> | <span class="value">xal</span> | <span class="value">xho</span> | <span class="value">yao</span> | <span class="value">yap</span> | <span class="value">yid</span> | <span class="value">yor</span> | <span class="value">ypk</span> | <span class="value">zap</span> | <span class="value">zen</span> | <span class="value">zha</span> | <span class="value">zho</span> | <span class="value">znd</span> | <span class="value">zul</span> | <span class="value">zun</span> )</span><br/>Code de langue</td>
+                </tr>
+                <!--langencoding-->
+                <!--level-->
+                <!--mainagencycode-->
+                <!--mark-->
+                <!--morerows-->
+                <!--nameend-->
+                <!--namest-->
+                <!--normal-->
+                <!--normal-->
+                <!--numeration-->
+                <!--otherlevel-->
+                <!--othertype-->
+                <!--parent-->
+                <!--parent-->
+                <!--pgwide-->
+                <!--placement-->
+                <!--publicid-->
+                <!--relatedencoding-->
+                <!--render-->
+                <!--repositorycode-->
+                <!--repositoryencoding-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rules-->
+                <!--rules-->
+                <!--rules-->
+                <!--scriptcode-->
+                <tr>
+                  <td class="name">@<a href="el_language.html#att_scriptcode" title="Code de graphie">scriptcode</a></td>
+                  <td>?</td>
+                  <td><span class="compact choice">( <span class="value">Arab</span> | <span class="value">Armn</span> | <span class="value">Bali</span> | <span class="value">Batk</span> | <span class="value">Beng</span> | <span class="value">Blis</span> | <span class="value">Bopo</span> | <span class="value">Brah</span> | <span class="value">Brai</span> | <span class="value">Bugi</span> | <span class="value">Buhd</span> | <span class="value">Cans</span> | <span class="value">Cham</span> | <span class="value">Cher</span> | <span class="value">Cirt</span> | <span class="value">Copt</span> | <span class="value">Cprt</span> | <span class="value">Cyrl</span> | <span class="value">Cyrs</span> | <span class="value">Deva</span> | <span class="value">Dsrt</span> | <span class="value">Egyd</span> | <span class="value">Egyh</span> | <span class="value">Egyp</span> | <span class="value">Ethi</span> | <span class="value">Geok</span> | <span class="value">Geor</span> | <span class="value">Glag</span> | <span class="value">Goth</span> | <span class="value">Grek</span> | <span class="value">Gujr</span> | <span class="value">Guru</span> | <span class="value">Hang</span> | <span class="value">Hani</span> | <span class="value">Hano</span> | <span class="value">Hans</span> | <span class="value">Hant</span> | <span class="value">Hebr</span> | <span class="value">Hira</span> | <span class="value">Hmng</span> | <span class="value">Hrkt</span> | <span class="value">Hung</span> | <span class="value">Inds</span> | <span class="value">Ital</span> | <span class="value">Java</span> | <span class="value">Kali</span> | <span class="value">Kana</span> | <span class="value">Khar</span> | <span class="value">Khmr</span> | <span class="value">Knda</span> | <span class="value">Laoo</span> | <span class="value">Latf</span> | <span class="value">Latg</span> | <span class="value">Latn</span> | <span class="value">Lepc</span> | <span class="value">Limb</span> | <span class="value">Lina</span> | <span class="value">Linb</span> | <span class="value">Mand</span> | <span class="value">Maya</span> | <span class="value">Mero</span> | <span class="value">Mlym</span> | <span class="value">Mong</span> | <span class="value">Mymr</span> | <span class="value">Nkoo</span> | <span class="value">Ogam</span> | <span class="value">Orkh</span> | <span class="value">Orya</span> | <span class="value">Osma</span> | <span class="value">Perm</span> | <span class="value">Phag</span> | <span class="value">Phnx</span> | <span class="value">Plrd</span> | <span class="value">Qaaa</span> | <span class="value">Qabx</span> | <span class="value">Roro</span> | <span class="value">Runr</span> | <span class="value">Sara</span> | <span class="value">Shaw</span> | <span class="value">Sinh</span> | <span class="value">Sylo</span> | <span class="value">Syrc</span> | <span class="value">Syre</span> | <span class="value">Syrj</span> | <span class="value">Syrn</span> | <span class="value">Tagb</span> | <span class="value">Tale</span> | <span class="value">Talu</span> | <span class="value">Taml</span> | <span class="value">Telu</span> | <span class="value">Teng</span> | <span class="value">Tfng</span> | <span class="value">Tglg</span> | <span class="value">Thaa</span> | <span class="value">Thai</span> | <span class="value">Tibt</span> | <span class="value">Ugar</span> | <span class="value">Vaii</span> | <span class="value">Visp</span> | <span class="value">Xpeo</span> | <span class="value">Xsux</span> | <span class="value">Yiii</span> | <span class="value">Zxxx</span> | <span class="value">Zyyy</span> | <span class="value">Zzzz</span> )</span><br/>Code de graphie</td>
+                </tr>
+                <!--scriptencoding-->
+                <!--show-->
+                <!--source-->
+                <!--source-->
+                <!--source-->
+                <!--target-->
+                <!--tpattern-->
+                <!--type-->
+                <!--type-->
+                <!--type-->
+                <!--type-->
+                <!--unit-->
+                <!--unit-->
+                <!--unit-->
+                <!--url-->
+                <!--urn-->
+                <!--valign-->
+                <!--valign-->
+                <!--valign-->
+                <!--valign-->
+                <!--xlink:actuate-->
+                <!--xlink:arcrole-->
+                <!--xlink:from-->
+                <!--xlink:href-->
+                <!--xlink:label-->
+                <!--xlink:role-->
+                <!--xlink:show-->
+                <!--xlink:title-->
+                <!--xlink:to-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xpointer-->
+                <!--xpointer-->
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <th>Enfants</th>
+            <td class="children"><div><b>E</b>. &lt;<a href="el_emph.html" title="Mise en valeur">emph</a>&gt; &lt;<a href="el_extptr.html" title="Pointeur externe">extptr</a>&gt;  </div> <div><b>L</b>. &lt;<a href="el_lb.html" title="Retour à la ligne">lb</a>&gt;  </div> <div><b>P</b>. &lt;<a href="el_ptr.html" title="Pointeur">ptr</a>&gt;  </div> </td>
+          </tr>
+          <tr>
+            <th>Modèle</th>
+            <td class="model">
+              <span class="compact element">
+                <span class="compact choice"> ( <i>{text}</i><span class="more"> | <a class="ref" href="def_m.phrase.bare.html">m.phrase.bare</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <span class="compact choice">( <a href="el_ptr.html" title="Pointeur">ptr</a> | <a href="el_extptr.html" title="Pointeur externe">extptr</a> )</span><span class="more"> | <a class="ref" href="def_m.render.html">m.render</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <a href="el_emph.html" title="Mise en valeur">emph</a> | <a href="el_lb.html" title="Retour à la ligne">lb</a> )</span></span>)</span> )</span></span>)</span> ) * </span>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <th>Parents</th>
+            <td class="usage"><div><b>L</b>. &lt;<a href="el_langmaterial.html" title="Langue des unités documentaires&#10;">langmaterial</a>&gt; &lt;<a href="el_langusage.html" title="Langue utilisée">langusage</a>&gt;  </div> </td>
+          </tr>
+        </table>
+        <div>
+<p>
+Sous-élément de l’élément Langue utilisée &lt;<a class="el" href="el_language.html#el_langusage" title="Langue utilisée">langusage</a>&gt; contenu dans l'élément Description du profil &lt;<a class="el" href="el_language.html#el_profiledesc" title="Description du profil">profiledesc</a>&gt; lui-même contenu dans l’élément En-tête EAD &lt;<a class="el" href="el_language.html#el_eadheader" title="En-tête EAD">eadheader</a>&gt;. L’élément Langue &lt;<a class="el" href="el_language.html" title="Langue">language</a>&gt; précise la langue ou le système de communication dans lequel l’instrument de recherche est rédigé. Pour les instruments de recherche rédigés en deux ou plusieurs langues, on peut soit identifier chaque langue dans un élément séparé &lt;<a class="el" href="el_language.html" title="Langue">language</a>&gt;, soit ne mentionner que la langue prédominante. On peut utiliser l’attribut LANGCODE pour fournir le code de langues à trois lettres ISO 639-2b.
+</p>
+<p>
+L’élément &lt;<a class="el" href="el_language.html" title="Langue">language</a>&gt; est également un sous-élément de l’élément Langue des unités documentaires &lt;<a class="el" href="el_language.html#el_langmaterial" title="Langue des unités documentaires&#10;">langmaterial</a>&gt; contenu dans l’élément Identification et description &lt;<a class="el" href="el_language.html#el_did" title="Identification et description">did</a>&gt;, où il précise la langue des documents en cours de description. On peut utiliser l’attribut LANGCODE pour fournir le code de langues à trois lettres ISO 639-2b qui, dans ce cas, équivaut à la zone 041 de MARC21 et à la sous- zone 101$a d’UNIMARC.
+</p>
+<p>
+On peut utiliser l’attribut SCRIPTCODE pour identifier le code ISO 15924 d’écriture de la langue.
+</p>
+  	  </div>
+        <div xmlns:html="http://www.w3.org/1999/xhtml" class="xml example">
+        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_profiledesc.html">profiledesc</a>&gt;</dt><dd class="code">
+          <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_langusage.html">langusage</a>&gt;</span><span class="xml_mix"><span class="text">Cet instrument de recherche est rédigé en </span><span class=""><span class="open">&lt;<a class="el" href="el_language.html">language</a> <b class="att">encodinganalog</b>="<code class="val">language</code>" <b class="att">langcode</b>="<code class="val">fre</code>"&gt;</span><span class="text">français</span><span class="close">&lt;/<a class="el" href="el_language.html">language</a>&gt;</span></span><span class="text">.</span></span><span class="close">&lt;/<a class="el" href="el_langusage.html">langusage</a>&gt;</span></div>
+        </dd><dt class="close">&lt;/<a class="el" href="el_profiledesc.html">profiledesc</a>&gt;</dt></dl>
+        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_c.html">c</a> <b class="att">level</b>="<code class="val">otherlevel</code>" <b class="att">otherlevel</b>="<code class="val">sous-dossier</code>"&gt;</dt><dd class="code">
+          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_did.html">did</a>&gt;</dt><dd class="code">
+            <div class=""><span class="open">&lt;<a class="el" href="el_unitid.html">unitid</a>&gt;</span><span class="text">dossier 6</span><span class="close">&lt;/<a class="el" href="el_unitid.html">unitid</a>&gt;</span></div>
+            <div class=""><span class="open">&lt;<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span><span class="text">Documents concernant le décès (survenu le 17 mars 1831, à Forli) et l’enterrement du prince Napoléon-Louis.</span><span class="close">&lt;/<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span></div>
+            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_physdesc.html">physdesc</a>&gt;</dt><dd class="code">
+              <div class=""><span class="open">&lt;<a class="el" href="el_extent.html">extent</a>&gt;</span><span class="text">56 pages</span><span class="close">&lt;/<a class="el" href="el_extent.html">extent</a>&gt;</span></div>
+            </dd><dt class="close">&lt;/<a class="el" href="el_physdesc.html">physdesc</a>&gt;</dt></dl>
+            <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_langmaterial.html">langmaterial</a>&gt;</span><span class="xml_mix"><span class=""><span class="open">&lt;<a class="el" href="el_language.html">language</a> <b class="att">langcode</b>="<code class="val">ita</code>"&gt;</span><span class="text">italien</span><span class="close">&lt;/<a class="el" href="el_language.html">language</a>&gt;</span></span><span class="text"> et </span><span class=""><span class="open">&lt;<a class="el" href="el_language.html">language</a> <b class="att">langcode</b>="<code class="val">fre</code>"&gt;</span><span class="text">français</span><span class="close">&lt;/<a class="el" href="el_language.html">language</a>&gt;</span></span><span class="text">.</span></span><span class="close">&lt;/<a class="el" href="el_langmaterial.html">langmaterial</a>&gt;</span></div>
+            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_altformavail.html">altformavail</a>&gt;</dt><dd class="code">
+              <div class=""><span class="open">&lt;<a class="el" href="el_p.html">p</a>&gt;</span><span class="text">56 images numériques</span><span class="close">&lt;/<a class="el" href="el_p.html">p</a>&gt;</span></div>
+            </dd><dt class="close">&lt;/<a class="el" href="el_altformavail.html">altformavail</a>&gt;</dt></dl>
+          </dd><dt class="close">&lt;/<a class="el" href="el_did.html">did</a>&gt;</dt></dl>
+        </dd><dt class="close">&lt;/<a class="el" href="el_c.html">c</a>&gt;</dt></dl>
+      </div>
+        <div xmlns:html="http://www.w3.org/1999/xhtml" class="ead exhtml">
+        <div class="profiledesc">
+          <blockquote class="langusage"><span class="label">Langue utilisée</span><p>Cet instrument de recherche est rédigé en <span class="language" lang="fre">français</span>.</p></blockquote>
+        </div>
+        <section class="c c00" id="el_c">
+          <table class="did" width="100%"><colgroup span="1"><col span="1" class="label" width="20%"/><col span="1" class="content"/></colgroup><tr><td class="unittitle" colspan="2">Documents concernant le décès (survenu le 17 mars 1831, à Forli) et l’enterrement du prince Napoléon-Louis.</td></tr><tr><th>Cote</th><td class="unitid">dossier 6</td></tr><tr><th>Description</th><td class="physdesc">
+              <span class="extent">56 pages</span>
+            </td></tr><tr><th>Langue des unités documentaires</th><td class="langmaterial"><span class="language" lang="ita">italien</span> et <span class="language" lang="fre">français</span>.</td></tr></table>
+        </section>
+      </div>
+      </section>
+    </div>
+    <footer id="footer">&lt;language&gt;  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'att_otherlevel.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?att_otherlevel.html');
+}
+          </script>
+    <title>@otherlevel  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?att_otherlevel.html">frames</a> | <a target="_top" href="att_otherlevel.html">no frames</a></header>
+    <div id="contenu">
+      <section class="attribute rng" id="att_otherlevel">
+        <header class="attribute rng">@<b>otherlevel</b> Niveau de description archivistique (valeur libre)</header>
+        <table class="grammar">
+          <tr>
+            <th>Valeur</th>
+            <td>
+              <i>{text}</i>
+            </td>
+          </tr>
+          <tr>
+            <th>Parents</th>
+            <td class="usage"><div><b>A</b>. &lt;<a href="el_archdesc.html" title="Description archivistique">archdesc</a>&gt;  </div> <div><b>C</b>. &lt;<a href="el_c.html" title="Composant (Non numéroté)">c</a>&gt; &lt;<a href="el_c01.html" title="Composant (niveau 1)">c01</a>&gt; &lt;<a href="el_c02.html" title="Composant (niveau 2)">c02</a>&gt; &lt;<a href="el_c03.html" title="Composant (niveau 3)">c03</a>&gt; &lt;<a href="el_c04.html" title="Composant (niveau 4)">c04</a>&gt; &lt;<a href="el_c05.html" title="Composant (niveau 5)">c05</a>&gt; &lt;<a href="el_c06.html" title="Composant (niveau 6)">c06</a>&gt; &lt;<a href="el_c07.html" title="Composant (niveau 7)">c07</a>&gt; &lt;<a href="el_c08.html" title="Composant (niveau 8)">c08</a>&gt; &lt;<a href="el_c09.html" title="Composant (niveau 9)">c09</a>&gt; &lt;<a href="el_c10.html" title="Composant (niveau 10)">c10</a>&gt; &lt;<a href="el_c11.html" title="Composant (niveau 11)">c11</a>&gt; &lt;<a href="el_c12.html" title="Composant (niveau 12)">c12</a>&gt;  </div> </td>
+          </tr>
+        </table>
+        <div>Cet attribut permet de spécifier le niveau de description archivistique des unités documentaires décrites dans les éléments Description archivistique &lt;<a class="el" href="att_otherlevel.html#el_archdesc" title="Description archivistique">archdesc</a>&gt;, Composant (non numéroté) &lt;<a class="el" href="att_otherlevel.html#el_c" title="Composant (Non numéroté)">c</a>&gt; et Composant (numéroté) &lt;<a class="el" href="att_otherlevel.html#el_c01" title="Composant (niveau 1)">c01</a>&gt; à &lt;<a class="el" href="att_otherlevel.html#el_c12" title="Composant (niveau 12)">c12</a>&gt;, lorsqu'on ne trouve pas de terme approprié dans la liste de valeurs semi-fermée de l'attribut LEVEL (ex : "collection", "fonds", "series", etc.). Il faut alors donner à l'attribut @<a class="att" href="att_level.html">level</a> la valeur "otherlevel" (autre niveau) puis saisir le terme approprié dans l'attribut @<a class="att">otherlevel</a>.</div>
+      </section>
+    </div>
+    <footer id="footer">@otherlevel  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>

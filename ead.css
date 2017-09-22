@@ -1,0 +1,47 @@
+/** Generic html for EAD */
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing: border-box; box-sizing: border-box; }
+body { font-family: sans-serif; }
+address { font-style: normal; }
+/** EAD specific classes, in EAD namles order */
+section.c { padding-bottom: 1ex; border-left: 1px dashed #999999; }
+section.c section.c { margin-left: 1em; }
+.daogrp img { height: 300px; }
+table.did { border-top:1px dashed #999999; padding: 1px 0 1px 0;  border-collapse: collapse; }
+.ead p { margin:0 }
+.ead blockquote { margin-left: 2em; margin-left: 2rem; padding: 2px; margin-top: 0; }
+.ead span.label { color: #888; margin-left: -2em; margin-left: -2rem; margin-top: 2px; margin-bottom: 2px; padding: 1px 1ex; border-right: 1px #CCCCCC solid; border-bottom: 1px #FFFFFF solid; }
+table.did th { color: #888; text-align: right; vertical-align:top; border-right: none; border-bottom: 1px #FFFFFF solid; padding:0 1ex 0 1ex; font-weight: normal; min-width: 10em; background-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); }
+table.did tr:hover { background: #FFFFFF; }
+table.did  td { padding-left: 0.7em; padding-left: 0.7rem; padding-top: 0; padding-bottom: 0; line-height: 115%; }
+.persname { font-style: normal; }
+td.unittitle { font-weight: bold; padding-top: 4px; font-size: larger; padding-bottom: 4px; }
+table.did td.abstract, table.did td.scopecontent { font: 16px/22px georgia, serif; color: #161616; padding-top: 1ex; padding-bottom: 1ex; background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); background-image: -o-linear-gradient(right, #FFFFFF, #E2DED0); background-image: -ms-linear-gradient(right, #FFFFFF, #E2DED0); background-image: -moz-linear-gradient(right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); }
+/** layout */
+#aside { position: fixed; top: 0; width: 25%; height: 100%; overflow: auto; padding: 1em 0 3em 0; }
+#main { margin-left: 25%; }
+
+/* toc */
+ol.tree, ul.tree, menu.tree { padding: 0; margin: 1em 0 1em 0; list-style: none; line-height: 105%; }
+.tree a { color: black; text-decoration: none; border-bottom: none; padding: 0 1ex 0 0; }
+.tree a:hover { color: gray; }
+.tree ol, .tree ul, .tree menu { list-style-type: none; padding: 0 0 0 0 ; margin: 2px 0 2px -9px; border-left: dotted 1px transparent; }
+.tree li { margin: 0; background-repeat: no-repeat; background-position: -1px 4px; list-style-image: none; list-style: none; padding: 1px 0 1px 18px ; border: 1px solid transparent; }
+.tree ol:hover, .tree ul:hover { border-left: dotted 1px #333; }
+.tree li.more, .tree li.less { cursor: default }
+.tree li:before { font-family: Arial,"Liberation Sans","DejaVu Sans","FreeSans","Lucida Sans Unicode",sans-serif;  color: #666; margin-left: -2ex; float: left; }
+.tree li.more:before { content: '▶'; } /* ► */
+.tree li.less:before { content: '◿'; } /*  */
+.tree li:before { content: '○'; font-weight: 900; color: #999; } /* '○' */
+/* treejs is a class set by Tree.js to ensure that hidden blocks could be seen with no js, this order is important */
+@media screen {
+  .treejs li.less ol , .treejs li.less ul { display: block; }
+  .treejs li.less > ol, .treejs li.less > ul { border-left: 1px dotted #FFF; }
+  .treejs li.more ol, .treejs li.more ul { display: none; }
+}
+@media print {
+  .tree li { margin-top: none; margin-bottom: none; border: none;}
+}
+.tree mark, .tree .mark, .tree .hi { background: transparent; padding-left: 2px; border-left: 4px #888888 solid; }
+li a.here { font-weight: bold; color: #000; }
+li.here { color: #000; background-color: #FFFFFF; border-top: 1px #E2DED0 solid; border-bottom: 1px #E2DED0 solid; }
+li.here mark { background: inherit; }

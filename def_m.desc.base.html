@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'def_m.desc.base.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?def_m.desc.base.html');
+}
+          </script>
+    <title>m.desc.base()  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?def_m.desc.base.html">frames</a> | <a target="_top" href="def_m.desc.base.html">no frames</a></header>
+    <div id="contenu">
+      <section class="define rng" id="def_m.desc.base">
+        <header class="define rng">
+          <b>m.desc.base() </b>
+        </header>
+        <table class="grammar">
+          <tr>
+            <th>Contenu</th>
+            <td>
+              <span class="compact choice">( <a href="el_accessrestrict.html" title="Conditions d’accès">accessrestrict</a> | <a href="el_accruals.html" title="Accroissements">accruals</a> | <a href="el_acqinfo.html" title="Informations sur les modalités d’entrée">acqinfo</a> | <a href="el_altformavail.html" title="Documents de substitution">altformavail</a> | <a href="el_appraisal.html" title="Informations sur l’évaluation">appraisal</a> | <a href="el_arrangement.html" title="Classement">arrangement</a> | <a href="el_bibliography.html" title="Bibliographie">bibliography</a> | <a href="el_bioghist.html" title="Biographie ou histoire">bioghist</a> | <a href="el_controlaccess.html" title="Vedettes et accès contrôlés">controlaccess</a> | <a href="el_custodhist.html" title="Historique de la conservation">custodhist</a> | <a href="el_descgrp.html" title="Groupe d’éléments de description&#10;">descgrp</a> | <a href="el_fileplan.html" title="Plan de classement">fileplan</a> | <a href="el_index.html" title="Index">index</a> | <a href="el_odd.html" title="Autres données descriptives">odd</a> | <a href="el_originalsloc.html" title="Existence et lieu de conservation des documents originaux">originalsloc</a> | <a href="el_otherfindaid.html" title="Autre instrument de recherche">otherfindaid</a> | <a href="el_phystech.html" title="Caractéristiques matérielles et contraintes techniques">phystech</a> | <a href="el_prefercite.html" title="Mention conseillée">prefercite</a> | <a href="el_processinfo.html" title="Informations sur le traitement">processinfo</a> | <a href="el_relatedmaterial.html" title="Documents en relation">relatedmaterial</a> | <a href="el_scopecontent.html" title="Présentation du contenu">scopecontent</a> | <a href="el_separatedmaterial.html" title="Documents séparés">separatedmaterial</a> | <a href="el_userestrict.html" title="Conditions d’utilisation">userestrict</a> )</span>
+            </td>
+          </tr>
+          <tr>
+            <th>Usage</th>
+            <td><div><b>A</b>. &lt;<a href="el_archdesc.html" title="Description archivistique">archdesc</a>&gt;  </div> <div><b>C</b>. &lt;<a href="el_c.html" title="Composant (Non numéroté)">c</a>&gt; &lt;<a href="el_c01.html" title="Composant (niveau 1)">c01</a>&gt; &lt;<a href="el_c02.html" title="Composant (niveau 2)">c02</a>&gt; &lt;<a href="el_c03.html" title="Composant (niveau 3)">c03</a>&gt; &lt;<a href="el_c04.html" title="Composant (niveau 4)">c04</a>&gt; &lt;<a href="el_c05.html" title="Composant (niveau 5)">c05</a>&gt; &lt;<a href="el_c06.html" title="Composant (niveau 6)">c06</a>&gt; &lt;<a href="el_c07.html" title="Composant (niveau 7)">c07</a>&gt; &lt;<a href="el_c08.html" title="Composant (niveau 8)">c08</a>&gt; &lt;<a href="el_c09.html" title="Composant (niveau 9)">c09</a>&gt; &lt;<a href="el_c10.html" title="Composant (niveau 10)">c10</a>&gt; &lt;<a href="el_c11.html" title="Composant (niveau 11)">c11</a>&gt; &lt;<a href="el_c12.html" title="Composant (niveau 12)">c12</a>&gt;  </div> <div><b>D</b>. &lt;<a href="el_descgrp.html" title="Groupe d’éléments de description&#10;">descgrp</a>&gt;  </div> </td>
+          </tr>
+        </table>
+      </section>
+    </div>
+    <footer id="footer">m.desc.base()  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>

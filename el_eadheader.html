@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'el_eadheader.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?el_eadheader.html');
+}
+          </script>
+    <title>&lt;eadheader&gt;  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?el_eadheader.html">frames</a> | <a target="_top" href="el_eadheader.html">no frames</a></header>
+    <div id="contenu">
+      <section class="element rng" id="el_eadheader">
+        <header class="element rng">&lt;<a>eadheader</a>&gt; En-tête EAD</header>
+        <table class="grammar">
+          <tr>
+            <th>Attributs</th>
+            <td>
+              <table class="attributes">
+                
+                <!--abbr-->
+                <!--actuate-->
+                <!--align-->
+                <!--align-->
+                <!--align-->
+                <!--althead-->
+                <!--altrender-->
+                <tr>
+                  <td class="name">@<a href="def_a.common.html#att_altrender" title="Autre proposition de rendu. Voir aussi @render">altrender</a></td>
+                  <td>?</td>
+                  <td>Autre proposition de rendu. Voir aussi @render</td>
+                </tr>
+                <!--audience-->
+                <tr>
+                  <td class="name">@<a href="att_audience.html" title="Audience (diffusion publique, restreinte…)">audience</a></td>
+                  <td>?</td>
+                  <td><span class="compact choice">( <span class="value">external</span> | <span class="value">internal</span> )</span><br/>Audience (diffusion publique, restreinte…)</td>
+                </tr>
+                <!--authfilenumber-->
+                <!--calendar-->
+                <!--certainty-->
+                <!--certainty-->
+                <!--char-->
+                <!--char-->
+                <!--charoff-->
+                <!--charoff-->
+                <!--colname-->
+                <!--colname-->
+                <!--colnum-->
+                <!--cols-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colwidth-->
+                <!--continuation-->
+                <!--countrycode-->
+                <!--countryencoding-->
+                <tr>
+                  <td class="name">@<a href="el_eadheader.html#att_countryencoding" title="Norme d’encodage des pays (dans @countrycode)">countryencoding</a></td>
+                  <td>?</td>
+                  <td>iso3166-1 | <em class="data" title="">{NMTOKEN}</em></td>
+                </tr>
+                <!--datechar-->
+                <!--dateencoding-->
+                <tr>
+                  <td class="name">@<a href="el_eadheader.html#att_dateencoding" title="Norme d’encodage des dates">dateencoding</a></td>
+                  <td>?</td>
+                  <td>iso8601 | <em class="data" title="">{NMTOKEN}</em></td>
+                </tr>
+                <!--encodinganalog-->
+                <tr>
+                  <td class="name">@<a href="att_encodinganalog.html" title="Concordance d’encodage avec une autre norme (ex : MARC)">encodinganalog</a></td>
+                  <td>?</td>
+                  <td>Concordance d’encodage avec une autre norme (ex : MARC)</td>
+                </tr>
+                <!--entityref-->
+                <!--era-->
+                <!--expan-->
+                <!--findaidstatus-->
+                <tr>
+                  <td class="name">@<a href="el_eadheader.html#att_findaidstatus" title="État d'achèvement">findaidstatus</a></td>
+                  <td>?</td>
+                  <td>
+                    <em class="data" title="">{NMTOKEN}</em>
+                  </td>
+                </tr>
+                <!--frame-->
+                <!--href-->
+                <!--id-->
+                <tr>
+                  <td class="name">@<a href="def_a.common.html#att_id" title="Identifiant d’un élément, unique pour un document. La valeur choisie permet d'identifier le contenu pour debenir la cible d’un lien">id</a></td>
+                  <td>?</td>
+                  <td><em class="data" title="">{ID}</em><br/>Identifiant d’un élément, unique pour un document. La valeur choisie permet d'identifier le contenu pour debenir la cible d’un lien</td>
+                </tr>
+                <!--identifier-->
+                <!--identifier-->
+                <!--label-->
+                <!--langcode-->
+                <!--langencoding-->
+                <tr>
+                  <td class="name">@<a href="el_eadheader.html#att_langencoding" title="Norme d’encodage des langues">langencoding</a></td>
+                  <td>?</td>
+                  <td>iso639-2b | <em class="data" title="">{NMTOKEN}</em></td>
+                </tr>
+                <!--level-->
+                <!--mainagencycode-->
+                <!--mark-->
+                <!--morerows-->
+                <!--nameend-->
+                <!--namest-->
+                <!--normal-->
+                <!--normal-->
+                <!--numeration-->
+                <!--otherlevel-->
+                <!--othertype-->
+                <!--parent-->
+                <!--parent-->
+                <!--pgwide-->
+                <!--placement-->
+                <!--publicid-->
+                <!--relatedencoding-->
+                <tr>
+                  <td class="name">@<a href="att_relatedencoding.html" title="Norme de description pour les éléments portant l’attribut @encodinganalog">relatedencoding</a></td>
+                  <td>?</td>
+                  <td>Norme de description pour les éléments portant l’attribut @encodinganalog</td>
+                </tr>
+                <!--render-->
+                <!--repositorycode-->
+                <!--repositoryencoding-->
+                <tr>
+                  <td class="name">@<a href="el_eadheader.html#att_repositoryencoding" title="Norme d’encodage des entrepôts (dans @mainagencycode et @repositorycode)">repositoryencoding</a></td>
+                  <td>?</td>
+                  <td>iso15511 | <em class="data" title="">{NMTOKEN}</em></td>
+                </tr>
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rules-->
+                <!--rules-->
+                <!--rules-->
+                <!--scriptcode-->
+                <!--scriptencoding-->
+                <tr>
+                  <td class="name">@<a href="el_eadheader.html#att_scriptencoding" title="Norme de description des graphies (dans @scriptcode)">scriptencoding</a></td>
+                  <td>?</td>
+                  <td>iso15924 | <em class="data" title="">{NMTOKEN}</em></td>
+                </tr>
+                <!--show-->
+                <!--source-->
+                <!--source-->
+                <!--source-->
+                <!--target-->
+                <!--tpattern-->
+                <!--type-->
+                <!--type-->
+                <!--type-->
+                <!--type-->
+                <!--unit-->
+                <!--unit-->
+                <!--unit-->
+                <!--url-->
+                <!--urn-->
+                <!--valign-->
+                <!--valign-->
+                <!--valign-->
+                <!--valign-->
+                <!--xlink:actuate-->
+                <!--xlink:arcrole-->
+                <!--xlink:from-->
+                <!--xlink:href-->
+                <!--xlink:label-->
+                <!--xlink:role-->
+                <!--xlink:show-->
+                <!--xlink:title-->
+                <!--xlink:to-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xpointer-->
+                <!--xpointer-->
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <th>Enfants</th>
+            <td class="children"><div><b>E</b>. &lt;<a href="el_eadid.html" title="Identifiant EAD">eadid</a>&gt;  </div> <div><b>F</b>. &lt;<a href="el_filedesc.html" title="Description du fichier">filedesc</a>&gt;  </div> <div><b>P</b>. &lt;<a href="el_profiledesc.html" title="Description du profil">profiledesc</a>&gt;  </div> <div><b>R</b>. &lt;<a href="el_revisiondesc.html" title="Description des révisions">revisiondesc</a>&gt;  </div> </td>
+          </tr>
+          <tr>
+            <th>Modèle</th>
+            <td class="model">
+              <span class="compact element"> <a href="el_eadid.html" title="Identifiant EAD">eadid</a> <a href="el_filedesc.html" title="Description du fichier">filedesc</a> <a href="el_profiledesc.html" title="Description du profil">profiledesc</a> ?  <a href="el_revisiondesc.html" title="Description des révisions">revisiondesc</a> ? </span>
+            </td>
+          </tr>
+          <tr>
+            <th>Parents</th>
+            <td class="usage"><div><b>E</b>. &lt;<a href="el_ead.html" title="Description archivistique encodée">ead</a>&gt;  </div> </td>
+          </tr>
+        </table>
+        <div><p>
+Élément englobant qui fournit des informations bibliographiques et descriptives sur l'instrument de recherche, et non sur les documents d’archives que celui-ci décrit. L’élément En-tête EAD &lt;<a class="el" href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt; prend modèle sur l’élément En-tête de la TEI (Text Encoding Initiative), afin d'encourager l'uniformité des métadonnées entre des documents de types différents.
+</p>
+<p>
+L’élément En-tête EAD &lt;<a class="el" href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt; est obligatoire : des informations souvent absentes d'un instrument de recherche imprimé à usage local sont primordiales dans un environnement informatique. Quatre sous-éléments sont disponibles et doivent être agencés dans l’ordre suivant : Identifiant EAD &lt;<a class="el" href="el_eadheader.html#el_eadid" title="Identifiant EAD">eadid</a>&gt; (obligatoire), Description du fichier &lt;<a class="el" href="el_eadheader.html#el_filedesc" title="Description du fichier">filedesc</a>&gt; (obligatoire), Description du profil &lt;<a class="el" href="el_eadheader.html#el_profiledesc" title="Description du profil">profiledesc</a>&gt; (facultatif) et Description des révisions &lt;<a class="el" href="el_eadheader.html#el_revisiondesc" title="Description des révisions">revisiondesc</a>&gt; (facultatif). Ces éléments et leurs sous-éléments fournissent un code d’identification unique pour l’instrument de recherche, des informations bibliographiques comme son auteur et son titre, des informations sur son encodage et des renseignements sur les principales mises à jour effectuées.
+</p>
+<p>
+On peut utiliser l’attribut @findaidstatus pour préciser le degré d’exhaustivité et de finesse de l’information contenue dans l’instrument de recherche: On peut aussi utiliser les attributs @countryencoding, @dateencoding, @langencoding, @repositoryencoding et @scriptencoding pour préciser les standards ISO choisis pour d’autres attributs comme @countrycode dans les éléments Identifiant EAD &lt;<a class="el" href="el_eadheader.html#el_eadid" title="Identifiant EAD">eadid</a>&gt; et Identifiant de l’unité documentaire &lt;<a class="el" href="el_eadheader.html#el_unitid" title="Identifiant de l’unité documentaire&#10;">unitid</a>&gt;. On peut utiliser des sous éléments de l’élément En-tête EAD &lt;<a class="el" href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt; dans le but d’afficher une page de titre électronique. Une autre option est de ne pas afficher l’En-tête EAD &lt;<a class="el" href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt; : pour cela il suffit de donner à l’attribut @audience la valeur "internal" (réservé) et d’utiliser l'élément Page de titre &lt;<a class="el" href="el_eadheader.html#el_titlepage" title="Page de titre">titlepage</a>&gt; de l'élément Préliminaires &lt;<a class="el" href="el_eadheader.html#el_frontmatter" title="Préliminaires">frontmatter</a>&gt; pour créer une page de titre.
+</p>	
+				</div>
+        <div xmlns:html="http://www.w3.org/1999/xhtml" class="xml example">
+          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_eadheader.html">eadheader</a> <b class="att">countryencoding</b>="<code class="val">3166-1</code>" <b class="att">dateencoding</b>="<code class="val">iso8601</code>" <b class="att">langencoding</b>="<code class="val">iso639-2b</code>"&gt;</dt><dd class="code">
+            <div class=""><span class="open">&lt;<a class="el" href="el_eadid.html">eadid</a>&gt;</span><span class="text">FRAD064003_IR0011</span><span class="close">&lt;/<a class="el" href="el_eadid.html">eadid</a>&gt;</span></div>
+            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_filedesc.html">filedesc</a>&gt;</dt><dd class="code">
+              <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_titlestmt.html">titlestmt</a>&gt;</dt><dd class="code">
+                <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_titleproper.html">titleproper</a>&gt;</dt><dd class="code">
+                  <div class=""><span class="open">&lt;<a class="el" href="el_emph.html">emph</a>&gt;</span><span class="text">Fonds Schloesing</span><span class="close">&lt;/<a class="el" href="el_emph.html">emph</a>&gt;</span></div>
+                </dd><dt class="close">&lt;/<a class="el" href="el_titleproper.html">titleproper</a>&gt;</dt></dl>
+                <div class=""><span class="open">&lt;<a class="el" href="el_subtitle.html">subtitle</a>&gt;</span><span class="text">Sous-série 3J</span><span class="close">&lt;/<a class="el" href="el_subtitle.html">subtitle</a>&gt;</span></div>
+                <div class=""><span class="open">&lt;<a class="el" href="el_author.html">author</a>&gt;</span><span class="text">Pierre Bayaud</span><span class="close">&lt;/<a class="el" href="el_author.html">author</a>&gt;</span></div>
+              </dd><dt class="close">&lt;/<a class="el" href="el_titlestmt.html">titlestmt</a>&gt;</dt></dl>
+              <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_publicationstmt.html">publicationstmt</a>&gt;</dt><dd class="code">
+                <div class=""><span class="open">&lt;<a class="el" href="el_publisher.html">publisher</a>&gt;</span><span class="text">Conseil général des Pyrénées-Atlantiques - Service départemental des archives</span><span class="close">&lt;/<a class="el" href="el_publisher.html">publisher</a>&gt;</span></div>
+                <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_address.html">address</a>&gt;</dt><dd class="code">
+                  <div class=""><span class="open">&lt;<a class="el" href="el_addressline.html">addressline</a>&gt;</span><span class="text">Boulevard Tourasse 64000 PAU</span><span class="close">&lt;/<a class="el" href="el_addressline.html">addressline</a>&gt;</span></div>
+                </dd><dt class="close">&lt;/<a class="el" href="el_address.html">address</a>&gt;</dt></dl>
+                <div class=""><span class="open">&lt;<a class="el" href="el_date.html">date</a> <b class="att">era</b>="<code class="val">ce</code>" <b class="att">calendar</b>="<code class="val">gregorian</code>"&gt;</span><span class="text">1965</span><span class="close">&lt;/<a class="el" href="el_date.html">date</a>&gt;</span></div>
+              </dd><dt class="close">&lt;/<a class="el" href="el_publicationstmt.html">publicationstmt</a>&gt;</dt></dl>
+            </dd><dt class="close">&lt;/<a class="el" href="el_filedesc.html">filedesc</a>&gt;</dt></dl>
+            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_profiledesc.html">profiledesc</a>&gt;</dt><dd class="code">
+              <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_creation.html">creation</a>&gt;</span><span class="xml_mix"><span class="text">Encodage réalisé par - </span><span class=""><span class="open">&lt;<a class="el" href="el_emph.html">emph</a> <b class="att">render</b>="<code class="val">italic</code>"&gt;</span><span class=""><span class="open">&lt;<a class="el" href="el_emph.html">emph</a> <b class="att">render</b>="<code class="val">underline</code>"&gt;</span><span class="text">ArchProteus</span><span class="close">&lt;/<a class="el" href="el_emph.html">emph</a>&gt;</span></span><span class="close">&lt;/<a class="el" href="el_emph.html">emph</a>&gt;</span></span> <span class=""><span class="open">&lt;<a class="el" href="el_date.html">date</a> <b class="att">era</b>="<code class="val">ce</code>" <b class="att">calendar</b>="<code class="val">gregorian</code>"&gt;</span><span class="text">2004</span><span class="close">&lt;/<a class="el" href="el_date.html">date</a>&gt;</span></span></span><span class="close">&lt;/<a class="el" href="el_creation.html">creation</a>&gt;</span></div>
+              <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_langusage.html">langusage</a>&gt;</span><span class="xml_mix"><span class="text">Cet instrument de recherche est en </span><span class=""><span class="open">&lt;<a class="el" href="el_language.html">language</a> <b class="att">langcode</b>="<code class="val">fre</code>"&gt;</span><span class="text">français</span><span class="close">&lt;/<a class="el" href="el_language.html">language</a>&gt;</span></span></span><span class="close">&lt;/<a class="el" href="el_langusage.html">langusage</a>&gt;</span></div>
+            </dd><dt class="close">&lt;/<a class="el" href="el_profiledesc.html">profiledesc</a>&gt;</dt></dl>
+          </dd><dt class="close">&lt;/<a class="el" href="el_eadheader.html">eadheader</a>&gt;</dt></dl>
+        </div>
+        <div xmlns:html="http://www.w3.org/1999/xhtml" class="ead exhtml">
+          <div class="eadheader">
+            
+            <div class="filedesc">
+              <div class="titlestmt">
+                <h1>
+                  <em class="">Fonds Schloesing</em>
+                </h1>
+                <div class="subtitle">Sous-série 3J</div>
+                <blockquote class="author"><span class="label">Auteur</span><p>Pierre Bayaud</p></blockquote>
+              </div>
+              <blockquote class="publicationstmt"><span class="label">Mention de publication</span><div class="publisher">Conseil général des Pyrénées-Atlantiques - Service départemental des archives</div><address>Boulevard Tourasse 64000 PAU</address><div class="date">1965</div></blockquote>
+            </div>
+            <div class="profiledesc">
+              <blockquote class="creation"><span class="label">Création</span><p>Encodage réalisé par - <i><u>ArchProteus</u></i> <span class="date">2004</span></p></blockquote>
+              <blockquote class="langusage"><span class="label">Langue utilisée</span><p>Cet instrument de recherche est en <span class="language" lang="fre">français</span></p></blockquote>
+            </div>
+          </div>
+        </div>
+        <section class="attribute rng" id="att_langencoding">
+          <header class="attribute rng">@<b>langencoding</b> Norme d’encodage des langues</header>
+          <table class="grammar">
+            <tr>
+              <th>Valeur</th>
+              <td>
+                <em class="data">{NMTOKEN}</em>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>E</b>. &lt;<a href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt;  </div> </td>
+            </tr>
+          </table>
+          <div>Le codage de la langue des instances EAD est conforme à la norme ISO 639-2b, Codes pour la représentation des noms de langue, aussi la valeur de l'attribut LANGENCODING dans l'élément En-tête EAD &lt;<a class="el" href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt; devrait-elle toujours être "iso639-2b". Les codes désignant la langue sont eux-mêmes à entrer comme valeurs de l'attribut LANGCODE dans les éléments Résumé &lt;<a class="el" href="el_eadheader.html#el_abstract" title="Résumé">abstract</a>&gt; ou Langue &lt;<a class="el" href="el_eadheader.html#el_language" title="Langue">language</a>&gt;, selon les cas.</div>
+        </section>
+        <section class="attribute rng" id="att_scriptencoding">
+          <header class="attribute rng">@<b>scriptencoding</b> Norme de description des graphies (dans @scriptcode)</header>
+          <table class="grammar">
+            <tr>
+              <th>Valeur</th>
+              <td>
+                <em class="data">{NMTOKEN}</em>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>E</b>. &lt;<a href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt;  </div> </td>
+            </tr>
+          </table>
+          <div xml:lang="fr">Cet attribut indique quelle source d'autorité ou quelles règles sont employées pour renseigner l'attribut SCRIPTCODE dans l'élément Langue &lt;<a class="el" href="el_eadheader.html#el_language" title="Langue">language</a>&gt;. Il est disponible seulement dans l'élément En-tête EAD &lt;<a class="el" href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt;, et sa valeur par défaut est "iso15924".</div>
+        </section>
+        <section class="attribute rng" id="att_dateencoding">
+          <header class="attribute rng">@<b>dateencoding</b> Norme d’encodage des dates</header>
+          <table class="grammar">
+            <tr>
+              <th>Valeur</th>
+              <td>
+                <em class="data">{NMTOKEN}</em>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>E</b>. &lt;<a href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt;  </div> </td>
+            </tr>
+          </table>
+          <div xml:lang="fr">Cet attribut indique quel référentiel ou quelles règles sont employés pour renseigner l'attribut NORMAL dans les éléments Identifiant EAD &lt;<a class="el" href="el_eadheader.html#el_eadid" title="Identifiant EAD">eadid</a>&gt; et Identifiant de l'unité documentaire &lt;<a class="el" href="el_eadheader.html#el_unitid" title="Identifiant de l’unité documentaire&#10;">unitid</a>&gt;. Il est disponible seulement dans l'élément En-tête EAD &lt;<a class="el" href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt;. Si on utilise l’attribut NORMAL on doit aussi utiliser l’attribut DATEENCODING en lui donnant la valeur "iso8601".</div>
+        </section>
+        <section class="attribute rng" id="att_countryencoding">
+          <header class="attribute rng">@<b>countryencoding</b> Norme d’encodage des pays (dans @countrycode)</header>
+          <table class="grammar">
+            <tr>
+              <th>Valeur</th>
+              <td>
+                <em class="data">{NMTOKEN}</em>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>E</b>. &lt;<a href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt;  </div> </td>
+            </tr>
+          </table>
+          <div>Cet attribut indique quel référentiel ou quelles règles sont employés pour renseigner l'attribut COUNTRYCODE dans les éléments Identifiant EAD &lt;<a class="el" href="el_eadheader.html#el_eadid" title="Identifiant EAD">eadid</a>&gt; et Identifiant de l'unité documentaire &lt;<a class="el" href="el_eadheader.html#el_unitid" title="Identifiant de l’unité documentaire&#10;">unitid</a>&gt;. Il est disponible seulement dans l'élément En-tête EAD &lt;<a class="el" href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt;. Si on utilise l’attribut COUNTRYCODE, on doit aussi utiliser COUNTRYENCODING en lui donnant la valeur "iso3166-1".</div>
+        </section>
+        <section class="attribute rng" id="att_repositoryencoding">
+          <header class="attribute rng">@<b>repositoryencoding</b> Norme d’encodage des entrepôts (dans @mainagencycode et @repositorycode)</header>
+          <table class="grammar">
+            <tr>
+              <th>Valeur</th>
+              <td>
+                <em class="data">{NMTOKEN}</em>
+              </td>
+            </tr>
+            <tr>
+              <th>Parents</th>
+              <td class="usage"><div><b>E</b>. &lt;<a href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt;  </div> </td>
+            </tr>
+          </table>
+          <div>Cet attribut indique quelle source d'autorité ou quelles règles sont employées pour renseigner l'attribut MAINAGENCYCODE dans l'élément Identifiant EAD &lt;<a class="el" href="el_eadheader.html#el_eadid" title="Identifiant EAD">eadid</a>&gt; et l'attribut REPOSITORYCODE dans l'élément Identifiant de l'unité documentaire &lt;<a class="el" href="el_eadheader.html#el_unitid" title="Identifiant de l’unité documentaire&#10;">unitid</a>&gt;. Il est disponible seulement dans l'élément En-tête EAD &lt;<a class="el" href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt;, et sa valeur par défaut est "iso15511".</div>
+        </section>
+      </section>
+    </div>
+    <footer id="footer">&lt;eadheader&gt;  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>

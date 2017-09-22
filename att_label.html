@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'att_label.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?att_label.html');
+}
+          </script>
+    <title>@label  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?att_label.html">frames</a> | <a target="_top" href="att_label.html">no frames</a></header>
+    <div id="contenu">
+      <section class="attribute rng" id="att_label">
+        <header class="attribute rng">@<b>label</b> Intitulé local pour un élément, autre qu'un titre spécifique, mais plus précis que le nom générique de l’élément</header>
+        <table class="grammar">
+          <tr>
+            <th>Valeur</th>
+            <td>
+              <i>{text}</i>
+            </td>
+          </tr>
+          <tr>
+            <th>Parents</th>
+            <td class="usage"><div><b>A</b>. &lt;<a href="el_abstract.html" title="Résumé">abstract</a>&gt;  </div> <div><b>C</b>. &lt;<a href="el_container.html" title="Unité de conditionnement">container</a>&gt;  </div> <div><b>D</b>. &lt;<a href="el_dimensions.html" title="Dimensions">dimensions</a>&gt;  </div> <div><b>E</b>. &lt;<a href="el_extent.html" title="Importance matérielle&#10;">extent</a>&gt;  </div> <div><b>L</b>. &lt;<a href="el_langmaterial.html" title="Langue des unités documentaires&#10;">langmaterial</a>&gt;  </div> <div><b>M</b>. &lt;<a href="el_materialspec.html" title="Particularités de certains types de documents">materialspec</a>&gt;  </div> <div><b>N</b>. &lt;<a href="el_note.html" title="Note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="el_origination.html" title="Origine">origination</a>&gt;  </div> <div><b>P</b>. &lt;<a href="el_physdesc.html" title="Description physique&#10;">physdesc</a>&gt; &lt;<a href="el_physfacet.html" title="Particularité physique&#10;">physfacet</a>&gt; &lt;<a href="el_physloc.html" title="Localisation physique&#10;">physloc</a>&gt;  </div> <div><b>R</b>. &lt;<a href="el_repository.html" title="Organisme responsable de l’accès intellectuel">repository</a>&gt;  </div> <div><b>U</b>. &lt;<a href="el_unitdate.html" title="Date de l’unité documentaire">unitdate</a>&gt; &lt;<a href="el_unitid.html" title="Identifiant de l’unité documentaire&#10;">unitid</a>&gt; &lt;<a href="el_unittitle.html" title="Intitulé de l’unité documentaire">unittitle</a>&gt;  </div> </td>
+          </tr>
+        </table>
+        <div>Cet attribut permet de proposer un intitulé pour l'affichage d'un élément lorsqu'un intitulé significatif ne peut être déduit du nom de cet élément par la feuille de style ou lorsque l’élément Intitulé &lt;<a class="el" href="att_label.html#el_head" title="Intitulé">head</a>&gt; n'est pas utilisable. Cet attribut est disponible pour tous les éléments contenus dans l'élément Identification et description &lt;<a class="el" href="att_label.html#el_did" title="Identification et description">did</a>&gt;.</div>
+      </section>
+    </div>
+    <footer id="footer">@label  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>

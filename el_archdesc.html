@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'el_archdesc.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?el_archdesc.html');
+}
+          </script>
+    <title>&lt;archdesc&gt;  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?el_archdesc.html">frames</a> | <a target="_top" href="el_archdesc.html">no frames</a></header>
+    <div id="contenu">
+      <section class="element rng" id="el_archdesc">
+        <header class="element rng">&lt;<a>archdesc</a>&gt; Description archivistique</header>
+        <table class="grammar">
+          <tr>
+            <th>Attributs</th>
+            <td>
+              <table class="attributes">
+                
+                <!--abbr-->
+                <!--actuate-->
+                <!--align-->
+                <!--align-->
+                <!--align-->
+                <!--althead-->
+                <!--altrender-->
+                <tr>
+                  <td class="name">@<a href="def_a.common.html#att_altrender" title="Autre proposition de rendu. Voir aussi @render">altrender</a></td>
+                  <td>?</td>
+                  <td>Autre proposition de rendu. Voir aussi @render</td>
+                </tr>
+                <!--audience-->
+                <tr>
+                  <td class="name">@<a href="att_audience.html" title="Audience (diffusion publique, restreinte…)">audience</a></td>
+                  <td>?</td>
+                  <td><span class="compact choice">( <span class="value">external</span> | <span class="value">internal</span> )</span><br/>Audience (diffusion publique, restreinte…)</td>
+                </tr>
+                <!--authfilenumber-->
+                <!--calendar-->
+                <!--certainty-->
+                <!--certainty-->
+                <!--char-->
+                <!--char-->
+                <!--charoff-->
+                <!--charoff-->
+                <!--colname-->
+                <!--colname-->
+                <!--colnum-->
+                <!--cols-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colwidth-->
+                <!--continuation-->
+                <!--countrycode-->
+                <!--countryencoding-->
+                <!--datechar-->
+                <!--dateencoding-->
+                <!--encodinganalog-->
+                <tr>
+                  <td class="name">@<a href="att_encodinganalog.html" title="Concordance d’encodage avec une autre norme (ex : MARC)">encodinganalog</a></td>
+                  <td>?</td>
+                  <td>Concordance d’encodage avec une autre norme (ex : MARC)</td>
+                </tr>
+                <!--entityref-->
+                <!--era-->
+                <!--expan-->
+                <!--findaidstatus-->
+                <!--frame-->
+                <!--href-->
+                <!--id-->
+                <tr>
+                  <td class="name">@<a href="def_a.common.html#att_id" title="Identifiant d’un élément, unique pour un document. La valeur choisie permet d'identifier le contenu pour debenir la cible d’un lien">id</a></td>
+                  <td>?</td>
+                  <td><em class="data" title="">{ID}</em><br/>Identifiant d’un élément, unique pour un document. La valeur choisie permet d'identifier le contenu pour debenir la cible d’un lien</td>
+                </tr>
+                <!--identifier-->
+                <!--identifier-->
+                <!--label-->
+                <!--langcode-->
+                <!--langencoding-->
+                <!--level-->
+                <tr>
+                  <td class="name">@<a class="required" href="att_level.html" title="Niveau de description archivistique (liste close de valeurs normalisées). Si aucune valeur ne convient, voir @otherlevel">level</a></td>
+                  <td/>
+                  <td><span class="compact choice">( <span class="value">class</span> | <span class="value">collection</span> | <span class="value">file</span> | <span class="value">fonds</span> | <span class="value">item</span> | <span class="value">otherlevel</span> | <span class="value">recordgrp</span> | <span class="value">series</span> | <span class="value">subfonds</span> | <span class="value">subgrp</span> | <span class="value">subseries</span> )</span><br/>Niveau de description archivistique (liste close de valeurs normalisées). Si aucune valeur ne convient, voir @otherlevel</td>
+                </tr>
+                <!--mainagencycode-->
+                <!--mark-->
+                <!--morerows-->
+                <!--nameend-->
+                <!--namest-->
+                <!--normal-->
+                <!--normal-->
+                <!--numeration-->
+                <!--otherlevel-->
+                <tr>
+                  <td class="name">@<a href="att_otherlevel.html" title="Niveau de description archivistique (valeur libre)">otherlevel</a></td>
+                  <td>?</td>
+                  <td>Niveau de description archivistique (valeur libre)</td>
+                </tr>
+                <!--othertype-->
+                <!--parent-->
+                <!--parent-->
+                <!--pgwide-->
+                <!--placement-->
+                <!--publicid-->
+                <!--relatedencoding-->
+                <tr>
+                  <td class="name">@<a href="att_relatedencoding.html" title="Norme de description pour les éléments portant l’attribut @encodinganalog">relatedencoding</a></td>
+                  <td>?</td>
+                  <td>Norme de description pour les éléments portant l’attribut @encodinganalog</td>
+                </tr>
+                <!--render-->
+                <!--repositorycode-->
+                <!--repositoryencoding-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rules-->
+                <!--rules-->
+                <!--rules-->
+                <!--scriptcode-->
+                <!--scriptencoding-->
+                <!--show-->
+                <!--source-->
+                <!--source-->
+                <!--source-->
+                <!--target-->
+                <!--tpattern-->
+                <!--type-->
+                <!--type-->
+                <!--type-->
+                <!--type-->
+                <tr>
+                  <td class="name">@<a href="att_type.html" title="Précision sur le type de l’élément">type</a></td>
+                  <td>?</td>
+                  <td>Précision sur le type de l’élément</td>
+                </tr>
+                <!--unit-->
+                <!--unit-->
+                <!--unit-->
+                <!--url-->
+                <!--urn-->
+                <!--valign-->
+                <!--valign-->
+                <!--valign-->
+                <!--valign-->
+                <!--xlink:actuate-->
+                <!--xlink:arcrole-->
+                <!--xlink:from-->
+                <!--xlink:href-->
+                <!--xlink:label-->
+                <!--xlink:role-->
+                <!--xlink:show-->
+                <!--xlink:title-->
+                <!--xlink:to-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xpointer-->
+                <!--xpointer-->
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <th>Enfants</th>
+            <td class="children"><div><b>A</b>. &lt;<a href="el_accessrestrict.html" title="Conditions d’accès">accessrestrict</a>&gt; &lt;<a href="el_accruals.html" title="Accroissements">accruals</a>&gt; &lt;<a href="el_acqinfo.html" title="Informations sur les modalités d’entrée">acqinfo</a>&gt; &lt;<a href="el_altformavail.html" title="Documents de substitution">altformavail</a>&gt; &lt;<a href="el_appraisal.html" title="Informations sur l’évaluation">appraisal</a>&gt; &lt;<a href="el_arrangement.html" title="Classement">arrangement</a>&gt;  </div> <div><b>B</b>. &lt;<a href="el_bibliography.html" title="Bibliographie">bibliography</a>&gt; &lt;<a href="el_bioghist.html" title="Biographie ou histoire">bioghist</a>&gt;  </div> <div><b>C</b>. &lt;<a href="el_controlaccess.html" title="Vedettes et accès contrôlés">controlaccess</a>&gt; &lt;<a href="el_custodhist.html" title="Historique de la conservation">custodhist</a>&gt;  </div> <div><b>D</b>. &lt;<a href="el_dao.html" title="Objet archivistique numérique">dao</a>&gt; &lt;<a href="el_daogrp.html" title="Groupe d’objets archivistiques numériques">daogrp</a>&gt; &lt;<a href="el_descgrp.html" title="Groupe d’éléments de description&#10;">descgrp</a>&gt; &lt;<a href="el_did.html" title="Identification et description">did</a>&gt; &lt;<a href="el_dsc.html" title="Description des sous-composants">dsc</a>&gt;  </div> <div><b>F</b>. &lt;<a href="el_fileplan.html" title="Plan de classement">fileplan</a>&gt;  </div> <div><b>I</b>. &lt;<a href="el_index.html" title="Index">index</a>&gt;  </div> <div><b>N</b>. &lt;<a href="el_note.html" title="Note">note</a>&gt;  </div> <div><b>O</b>. &lt;<a href="el_odd.html" title="Autres données descriptives">odd</a>&gt; &lt;<a href="el_originalsloc.html" title="Existence et lieu de conservation des documents originaux">originalsloc</a>&gt; &lt;<a href="el_otherfindaid.html" title="Autre instrument de recherche">otherfindaid</a>&gt;  </div> <div><b>P</b>. &lt;<a href="el_phystech.html" title="Caractéristiques matérielles et contraintes techniques">phystech</a>&gt; &lt;<a href="el_prefercite.html" title="Mention conseillée">prefercite</a>&gt; &lt;<a href="el_processinfo.html" title="Informations sur le traitement">processinfo</a>&gt;  </div> <div><b>R</b>. &lt;<a href="el_relatedmaterial.html" title="Documents en relation">relatedmaterial</a>&gt; &lt;<a href="el_runner.html" title="Titre courant ou filigrane">runner</a>&gt;  </div> <div><b>S</b>. &lt;<a href="el_scopecontent.html" title="Présentation du contenu">scopecontent</a>&gt; &lt;<a href="el_separatedmaterial.html" title="Documents séparés">separatedmaterial</a>&gt;  </div> <div><b>U</b>. &lt;<a href="el_userestrict.html" title="Conditions d’utilisation">userestrict</a>&gt;  </div> </td>
+          </tr>
+          <tr>
+            <th>Modèle</th>
+            <td class="model">
+              <span class="compact element"> <a href="el_runner.html" title="Titre courant ou filigrane">runner</a> *  <a href="el_did.html" title="Identification et description">did</a><span class="more"> <a class="ref" href="def_m.desc.full.html">m.desc.full</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <span class="more"><a class="ref" href="def_m.desc.base.html">m.desc.base</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <a href="el_accessrestrict.html" title="Conditions d’accès">accessrestrict</a> | <a href="el_accruals.html" title="Accroissements">accruals</a> | <a href="el_acqinfo.html" title="Informations sur les modalités d’entrée">acqinfo</a> | <a href="el_altformavail.html" title="Documents de substitution">altformavail</a> | <a href="el_appraisal.html" title="Informations sur l’évaluation">appraisal</a> | <a href="el_arrangement.html" title="Classement">arrangement</a> | <a href="el_bibliography.html" title="Bibliographie">bibliography</a> | <a href="el_bioghist.html" title="Biographie ou histoire">bioghist</a> | <a href="el_controlaccess.html" title="Vedettes et accès contrôlés">controlaccess</a> | <a href="el_custodhist.html" title="Historique de la conservation">custodhist</a> | <a href="el_descgrp.html" title="Groupe d’éléments de description&#10;">descgrp</a> | <a href="el_fileplan.html" title="Plan de classement">fileplan</a> | <a href="el_index.html" title="Index">index</a> | <a href="el_odd.html" title="Autres données descriptives">odd</a> | <a href="el_originalsloc.html" title="Existence et lieu de conservation des documents originaux">originalsloc</a> | <a href="el_otherfindaid.html" title="Autre instrument de recherche">otherfindaid</a> | <a href="el_phystech.html" title="Caractéristiques matérielles et contraintes techniques">phystech</a> | <a href="el_prefercite.html" title="Mention conseillée">prefercite</a> | <a href="el_processinfo.html" title="Informations sur le traitement">processinfo</a> | <a href="el_relatedmaterial.html" title="Documents en relation">relatedmaterial</a> | <a href="el_scopecontent.html" title="Présentation du contenu">scopecontent</a> | <a href="el_separatedmaterial.html" title="Documents séparés">separatedmaterial</a> | <a href="el_userestrict.html" title="Conditions d’utilisation">userestrict</a> )</span></span>)</span> | <a href="el_dsc.html" title="Description des sous-composants">dsc</a> | <a href="el_dao.html" title="Objet archivistique numérique">dao</a> | <a href="el_daogrp.html" title="Groupe d’objets archivistiques numériques">daogrp</a> | <a href="el_note.html" title="Note">note</a> )</span></span>) * </span></span>
+            </td>
+          </tr>
+          <tr>
+            <th>Parents</th>
+            <td class="usage"><div><b>E</b>. &lt;<a href="el_ead.html" title="Description archivistique encodée">ead</a>&gt;  </div> </td>
+          </tr>
+        </table>
+        <div>
+<p>
+Élément englobant pour une partie essentielle du document EAD, celle qui décrit le contenu, le contexte et l’importance matérielle d’un ensemble documentaire, y compris des informations administratives et complémentaires qui facilitent l’utilisation des documents. Toutes les informations sont organisées dans des niveaux hiérarchiques qui se déploient. Ceci permet de faire suivre une vue d’ensemble de la description de la totalité d’un fonds, par des vues plus détaillées des parties de celui- ci, désignées par l’élément Description des sous-composants &lt;<a class="el" href="el_archdesc.html#el_dsc" title="Description des sous-composants">dsc</a>&gt;. Les éléments disponibles au niveau &lt;<a class="el" href="el_archdesc.html" title="Description archivistique">archdesc</a>&gt; le sont également aux divers niveaux des composants à l’intérieur de l’élément &lt;<a class="el" href="el_archdesc.html#el_dsc" title="Description des sous-composants">dsc</a>&gt;. Un niveau hiérarchique hérite du niveau supérieur les informations qui y sont présentes.
+</p>
+<p>
+On doit utiliser l’élément Identification et description &lt;<a class="el" href="el_archdesc.html#el_did" title="Identification et description">did</a>&gt; dans l’élément &lt;<a class="el" href="el_archdesc.html" title="Description archivistique">archdesc</a>&gt; avant de présenter des descriptions plus détaillées dans les éléments Biographie ou histoire &lt;<a class="el" href="el_archdesc.html#el_bioghist" title="Biographie ou histoire">bioghist</a>&gt;, Présentation du contenu &lt;<a class="el" href="el_archdesc.html#el_scopecontent" title="Présentation du contenu">scopecontent</a>&gt; et Description des sous-composants &lt;<a class="el" href="el_archdesc.html#el_dsc" title="Description des sous-composants">dsc</a>&gt;, dans le but de fournir d’emblée une description sommaire de l’ensemble documentaire.
+</p>
+<p>
+L’élément &lt;<a class="el" href="el_archdesc.html" title="Description archivistique">archdesc</a>&gt; a plusieurs attributs spécifiques. L’attribut @level, obligatoire, permet de caractériser la nature de l’unité documentaire considérée, c’est-à-dire "class" (classe), "collection" (collection), "file" (dossier), "fonds" (fonds), "item" (pièce), "recordgrp" (groupe de documents), "series" (série organique), "subfonds" (sous-fonds), "subgrp" (sous-groupe de documents), "subseries" (sous-série organique) ou "otherlevel" (autre niveau). Cet attribut est comparable à l’élément 3.1.4. d’ISAD(G) et à la sous-zone 351$c de MARC21 (pas d'équivalent en UNIMARC).
+</p>
+<p>
+On peut utiliser l’attribut @type pour définir la catégorie de l’instrument de recherche : inventaire, répertoire ou autre.
+</p>  			    
+
+  			</div>
+        <div xmlns:html="http://www.w3.org/1999/xhtml" class="xml example">
+          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_archdesc.html">archdesc</a> <b class="att">level</b>="<code class="val">series</code>"&gt;</dt><dd class="code">
+            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_did.html">did</a>&gt;</dt><dd class="code">
+              <div class=""><span class="open">&lt;<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span><span class="text">ADMINISTRATION GÉNÉRALE ET ÉCONOMIE 1800-1940</span><span class="close">&lt;/<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span></div>
+            </dd><dt class="close">&lt;/<a class="el" href="el_did.html">did</a>&gt;</dt></dl>
+            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_dsc.html">dsc</a> <b class="att">type</b>="<code class="val">in-depth</code>"&gt;</dt><dd class="code">
+              <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_c01.html">c01</a> <b class="att">level</b>="<code class="val">subseries</code>"&gt;</dt><dd class="code">
+                <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_did.html">did</a>&gt;</dt><dd class="code">
+                  <div class=""><span class="open">&lt;<a class="el" href="el_unitid.html">unitid</a>&gt;</span><span class="text">M</span><span class="close">&lt;/<a class="el" href="el_unitid.html">unitid</a>&gt;</span></div>
+                </dd><dt class="close">&lt;/<a class="el" href="el_did.html">did</a>&gt;</dt></dl>
+              </dd><dt class="close">&lt;/<a class="el" href="el_c01.html">c01</a>&gt;</dt></dl>
+            </dd><dt class="close">&lt;/<a class="el" href="el_dsc.html">dsc</a>&gt;</dt></dl>
+          </dd><dt class="close">&lt;/<a class="el" href="el_archdesc.html">archdesc</a>&gt;</dt></dl>
+        </div>
+        <div xmlns:html="http://www.w3.org/1999/xhtml" class="ead exhtml">
+          <div class="archdesc">
+            <table class="did" width="100%"><colgroup span="1"><col span="1" class="label" width="20%"/><col span="1" class="content"/></colgroup><tr><td class="unittitle" colspan="2">ADMINISTRATION GÉNÉRALE ET ÉCONOMIE 1800-1940</td></tr></table>
+            <div class="dsc">
+              <section class="c c01" id="el_c01">
+                <table class="did" width="100%"><colgroup span="1"><col span="1" class="label" width="20%"/><col span="1" class="content"/></colgroup><tr><th>Cote</th><td class="unitid">M</td></tr></table>
+              </section>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer id="footer">&lt;archdesc&gt;  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>

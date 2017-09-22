@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'el_colspec.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?el_colspec.html');
+}
+          </script>
+    <title>&lt;colspec&gt;  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?el_colspec.html">frames</a> | <a target="_top" href="el_colspec.html">no frames</a></header>
+    <div id="contenu">
+      <section class="element rng" id="el_colspec">
+        <header class="element rng">&lt;<a>colspec</a>&gt; Spécification de colonne de tableau</header>
+        <table class="grammar">
+          <tr>
+            <th>Attributs</th>
+            <td>
+              <table class="attributes">
+                
+                <!--abbr-->
+                <!--actuate-->
+                <!--align-->
+                <!--align-->
+                <tr>
+                  <td class="name">@<a href="el_colspec.html#att_align">align</a></td>
+                  <td>?</td>
+                  <td>
+                    <span class="compact choice">( <span class="value">left</span> | <span class="value">right</span> | <span class="value">center</span> | <span class="value">justify</span> | <span class="value">char</span> )</span>
+                  </td>
+                </tr>
+                <!--align-->
+                <!--althead-->
+                <!--altrender-->
+                <!--audience-->
+                <!--authfilenumber-->
+                <!--calendar-->
+                <!--certainty-->
+                <!--certainty-->
+                <!--char-->
+                <tr>
+                  <td class="name">@<a href="el_colspec.html#att_char">char</a></td>
+                  <td>?</td>
+                  <td/>
+                </tr>
+                <!--char-->
+                <!--charoff-->
+                <tr>
+                  <td class="name">@<a href="el_colspec.html#att_charoff">charoff</a></td>
+                  <td>?</td>
+                  <td>
+                    <em class="data" title="">{NMTOKEN}</em>
+                  </td>
+                </tr>
+                <!--charoff-->
+                <!--colname-->
+                <tr>
+                  <td class="name">@<a href="el_colspec.html#att_colname">colname</a></td>
+                  <td>?</td>
+                  <td>
+                    <em class="data" title="">{NMTOKEN}</em>
+                  </td>
+                </tr>
+                <!--colname-->
+                <!--colnum-->
+                <tr>
+                  <td class="name">@<a href="el_colspec.html#att_colnum">colnum</a></td>
+                  <td>?</td>
+                  <td>
+                    <em class="data" title="">{NMTOKEN}</em>
+                  </td>
+                </tr>
+                <!--cols-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colsep-->
+                <tr>
+                  <td class="name">@<a href="el_colspec.html#att_colsep">colsep</a></td>
+                  <td>?</td>
+                  <td>
+                    <em class="data" title="">{NMTOKEN}</em>
+                  </td>
+                </tr>
+                <!--colsep-->
+                <!--colwidth-->
+                <tr>
+                  <td class="name">@<a href="el_colspec.html#att_colwidth">colwidth</a></td>
+                  <td>?</td>
+                  <td/>
+                </tr>
+                <!--continuation-->
+                <!--countrycode-->
+                <!--countryencoding-->
+                <!--datechar-->
+                <!--dateencoding-->
+                <!--encodinganalog-->
+                <!--entityref-->
+                <!--era-->
+                <!--expan-->
+                <!--findaidstatus-->
+                <!--frame-->
+                <!--href-->
+                <!--id-->
+                <!--identifier-->
+                <!--identifier-->
+                <!--label-->
+                <!--langcode-->
+                <!--langencoding-->
+                <!--level-->
+                <!--mainagencycode-->
+                <!--mark-->
+                <!--morerows-->
+                <!--nameend-->
+                <!--namest-->
+                <!--normal-->
+                <!--normal-->
+                <!--numeration-->
+                <!--otherlevel-->
+                <!--othertype-->
+                <!--parent-->
+                <!--parent-->
+                <!--pgwide-->
+                <!--placement-->
+                <!--publicid-->
+                <!--relatedencoding-->
+                <!--render-->
+                <!--repositorycode-->
+                <!--repositoryencoding-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <tr>
+                  <td class="name">@<a href="el_colspec.html#att_rowsep">rowsep</a></td>
+                  <td>?</td>
+                  <td>
+                    <em class="data" title="">{NMTOKEN}</em>
+                  </td>
+                </tr>
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rules-->
+                <!--rules-->
+                <!--rules-->
+                <!--scriptcode-->
+                <!--scriptencoding-->
+                <!--show-->
+                <!--source-->
+                <!--source-->
+                <!--source-->
+                <!--target-->
+                <!--tpattern-->
+                <!--type-->
+                <!--type-->
+                <!--type-->
+                <!--type-->
+                <!--unit-->
+                <!--unit-->
+                <!--unit-->
+                <!--url-->
+                <!--urn-->
+                <!--valign-->
+                <!--valign-->
+                <!--valign-->
+                <!--valign-->
+                <!--xlink:actuate-->
+                <!--xlink:arcrole-->
+                <!--xlink:from-->
+                <!--xlink:href-->
+                <!--xlink:label-->
+                <!--xlink:role-->
+                <!--xlink:show-->
+                <!--xlink:title-->
+                <!--xlink:to-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xpointer-->
+                <!--xpointer-->
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <th>Modèle</th>
+            <td class="model"/>
+          </tr>
+          <tr>
+            <th>Parents</th>
+            <td class="usage"><div><b>T</b>. &lt;<a href="el_tgroup.html" title="Groupe d'éléments de tableau">tgroup</a>&gt;  </div> </td>
+          </tr>
+        </table>
+        <div>
+<p>
+Élément vide de mise en forme qui désigne la position et la taille d'une colonne simple dans un élément Tableau &lt;<a class="el" href="el_colspec.html#el_table" title="Tableau">table</a>&gt;. Des attributs spécifient le nom unique de la colonne, son numéro unique dans un tableau, sa largeur et ses règles, et l'alignement horizontal du texte dans la colonne. La quantité de colonnes dans l'élément Tableau &lt;<a class="el" href="el_colspec.html#el_table" title="Tableau">table</a>&gt; est déterminée par l'attribut COLS de l'élément Groupe d'éléments de tableau &lt;<a class="el" href="el_colspec.html#el_tgroup" title="Groupe d'éléments de tableau">tgroup</a>&gt;, et non par le nombre d'éléments &lt;<a class="el" href="el_colspec.html" title="Spécification de colonne de tableau">colspec</a>&gt; définis. Les valeurs choisies pour &lt;<a class="el" href="el_colspec.html" title="Spécification de colonne de tableau">colspec</a>&gt; annulent toutes valeurs par défaut des éléments Groupe d'éléments de tableau &lt;<a class="el" href="el_colspec.html#el_tgroup" title="Groupe d'éléments de tableau">tgroup</a>&gt; ou En-tête de ligne ou de colonne &lt;<a class="el" href="el_colspec.html#el_thead" title="En-tête de ligne ou de colonne">thead</a>&gt;.
+</p>
+<p>
+Voir aussi les éléments apparentés Tableau &lt;<a class="el" href="el_colspec.html#el_table" title="Tableau">table</a>&gt; et Groupe d'éléments de tableau &lt;<a class="el" href="el_colspec.html#el_tgroup" title="Groupe d'éléments de tableau">tgroup</a>&gt;.
+</p>									
+								</div>
+        <div xmlns:html="http://www.w3.org/1999/xhtml" class="xml example">
+                  <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_frontmatter.html">frontmatter</a>&gt;</dt><dd class="code">
+                    <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_div.html">div</a>&gt;</dt><dd class="code">
+                      <div class=""><span class="open">&lt;<a class="el" href="el_head.html">head</a>&gt;</span><span class="text">Concordance du catalogue de Hubert-Pascal Ameilhon avec la numérotation actuelle (numéros 1-835)</span><span class="close">&lt;/<a class="el" href="el_head.html">head</a>&gt;</span></div>
+                      <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_table.html">table</a>&gt;</dt><dd class="code">
+                        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_tgroup.html">tgroup</a> <b class="att">cols</b>="<code class="val">4</code>"&gt;</dt><dd class="code">
+                          <div class="open ">&lt;<a class="el" href="el_colspec.html">colspec</a> <b class="att">colnum</b>="<code class="val">1</code>" <b class="att">align</b>="<code class="val">center</code>" <b class="att">colwidth</b>="<code class="val">4cm</code>" <b class="att">colsep</b>="<code class="val">1</code>" <b class="att">colname</b>="<code class="val">anciennecote1</code>"/&gt;</div>
+                          <div class="open ">&lt;<a class="el" href="el_colspec.html">colspec</a> <b class="att">colnum</b>="<code class="val">2</code>" <b class="att">align</b>="<code class="val">center</code>" <b class="att">colwidth</b>="<code class="val">4cm</code>" <b class="att">colsep</b>="<code class="val">1</code>" <b class="att">colname</b>="<code class="val">coteactuelle1</code>"/&gt;</div>
+                          <div class="open ">&lt;<a class="el" href="el_colspec.html">colspec</a> <b class="att">colnum</b>="<code class="val">3</code>" <b class="att">align</b>="<code class="val">center</code>" <b class="att">colwidth</b>="<code class="val">4cm</code>" <b class="att">colsep</b>="<code class="val">1</code>" <b class="att">colname</b>="<code class="val">anciennecote2</code>"/&gt;</div>
+                          <div class="open ">&lt;<a class="el" href="el_colspec.html">colspec</a> <b class="att">colnum</b>="<code class="val">4</code>" <b class="att">align</b>="<code class="val">center</code>" <b class="att">colwidth</b>="<code class="val">4cm</code>" <b class="att">colname</b>="<code class="val">coteactuelle2</code>"/&gt;</div>
+                          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_thead.html">thead</a>&gt;</dt><dd class="code">
+                            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_row.html">row</a> <b class="att">valign</b>="<code class="val">middle</code>"&gt;</dt><dd class="code">
+                              <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">anciennecote1</code>"&gt;</span><span class="text">Ancienne cote</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
+                              <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">coteactuelle1</code>"&gt;</span><span class="text">Cote actuelle</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
+                              <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">anciennecote2</code>"&gt;</span><span class="text">Ancienne cote</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
+                              <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">coteactuelle2</code>"&gt;</span><span class="text">Cote actuelle</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
+                            </dd><dt class="close">&lt;/<a class="el" href="el_row.html">row</a>&gt;</dt></dl>
+                          </dd><dt class="close">&lt;/<a class="el" href="el_thead.html">thead</a>&gt;</dt></dl>
+                          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_tbody.html">tbody</a>&gt;</dt><dd class="code">
+                            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_row.html">row</a>&gt;</dt><dd class="code">
+                              <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">anciennecote1</code>"&gt;</span><span class="text">1</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
+                              <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">coteactuelle1</code>"&gt;</span><span class="text">Deficit</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
+                              <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">anciennecote2</code>"&gt;</span><span class="text">21B</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
+                              <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">coteactuelle2</code>"&gt;</span><span class="text">11</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
+                            </dd><dt class="close">&lt;/<a class="el" href="el_row.html">row</a>&gt;</dt></dl>
+                            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_row.html">row</a>&gt;</dt><dd class="code">
+                              <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">anciennecote1</code>"&gt;</span><span class="text">2</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
+                              <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">coteactuelle1</code>"&gt;</span><span class="text">Deficit</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
+                              <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">anciennecote2</code>"&gt;</span><span class="text">22</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
+                              <div class=""><span class="open">&lt;<a class="el" href="el_entry.html">entry</a> <b class="att">colname</b>="<code class="val">coteactuelle2</code>"&gt;</span><span class="text">12</span><span class="close">&lt;/<a class="el" href="el_entry.html">entry</a>&gt;</span></div>
+                            </dd><dt class="close">&lt;/<a class="el" href="el_row.html">row</a>&gt;</dt></dl>
+                          </dd><dt class="close">&lt;/<a class="el" href="el_tbody.html">tbody</a>&gt;</dt></dl>
+                        </dd><dt class="close">&lt;/<a class="el" href="el_tgroup.html">tgroup</a>&gt;</dt></dl>
+                      </dd><dt class="close">&lt;/<a class="el" href="el_table.html">table</a>&gt;</dt></dl>
+                    </dd><dt class="close">&lt;/<a class="el" href="el_div.html">div</a>&gt;</dt></dl>
+                  </dd><dt class="close">&lt;/<a class="el" href="el_frontmatter.html">frontmatter</a>&gt;</dt></dl>
+                </div>
+        <div xmlns:html="http://www.w3.org/1999/xhtml" class="ead exhtml">
+                  <div class="frontmatter">
+                    <blockquote class="div"><table>
+                        <tgroup>
+                          <colgroup align="center" width="4cm"/>
+                          <colgroup align="center" width="4cm"/>
+                          <colgroup align="center" width="4cm"/>
+                          <colgroup align="center" width="4cm"/>
+                          <thead>
+                            <tr>
+                              <td>Ancienne cote</td>
+                              <td>Cote actuelle</td>
+                              <td>Ancienne cote</td>
+                              <td>Cote actuelle</td>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>1</td>
+                              <td>Deficit</td>
+                              <td>21B</td>
+                              <td>11</td>
+                            </tr>
+                            <tr>
+                              <td>2</td>
+                              <td>Deficit</td>
+                              <td>22</td>
+                              <td>12</td>
+                            </tr>
+                          </tbody>
+                        </tgroup>
+                      </table></blockquote>
+                  </div>
+                </div>
+      </section>
+    </div>
+    <footer id="footer">&lt;colspec&gt;  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>

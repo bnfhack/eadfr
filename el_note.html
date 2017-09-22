@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'el_note.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?el_note.html');
+}
+          </script>
+    <title>&lt;note&gt;  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?el_note.html">frames</a> | <a target="_top" href="el_note.html">no frames</a></header>
+    <div id="contenu">
+      <section class="element rng" id="el_note">
+        <header class="element rng">&lt;<a>note</a>&gt; Note</header>
+        <table class="grammar">
+          <tr>
+            <th>Attributs</th>
+            <td>
+              <table class="attributes">
+                
+                <!--abbr-->
+                <!--actuate-->
+                <tr>
+                  <td class="name">@<a href="el_note.html#att_actuate">actuate</a></td>
+                  <td>?</td>
+                  <td>
+                    <span class="compact choice">( <span class="value">onload</span> | <span class="value">onrequest</span> )</span>
+                    <br/>
+                  </td>
+                </tr>
+                <!--align-->
+                <!--align-->
+                <!--align-->
+                <!--althead-->
+                <!--altrender-->
+                <tr>
+                  <td class="name">@<a href="def_a.common.html#att_altrender" title="Autre proposition de rendu. Voir aussi @render">altrender</a></td>
+                  <td>?</td>
+                  <td>Autre proposition de rendu. Voir aussi @render</td>
+                </tr>
+                <!--audience-->
+                <tr>
+                  <td class="name">@<a href="att_audience.html" title="Audience (diffusion publique, restreinte…)">audience</a></td>
+                  <td>?</td>
+                  <td><span class="compact choice">( <span class="value">external</span> | <span class="value">internal</span> )</span><br/>Audience (diffusion publique, restreinte…)</td>
+                </tr>
+                <!--authfilenumber-->
+                <!--calendar-->
+                <!--certainty-->
+                <!--certainty-->
+                <!--char-->
+                <!--char-->
+                <!--charoff-->
+                <!--charoff-->
+                <!--colname-->
+                <!--colname-->
+                <!--colnum-->
+                <!--cols-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colsep-->
+                <!--colwidth-->
+                <!--continuation-->
+                <!--countrycode-->
+                <!--countryencoding-->
+                <!--datechar-->
+                <!--dateencoding-->
+                <!--encodinganalog-->
+                <tr>
+                  <td class="name">@<a href="att_encodinganalog.html" title="Concordance d’encodage avec une autre norme (ex : MARC)">encodinganalog</a></td>
+                  <td>?</td>
+                  <td>Concordance d’encodage avec une autre norme (ex : MARC)</td>
+                </tr>
+                <!--entityref-->
+                <!--era-->
+                <!--expan-->
+                <!--findaidstatus-->
+                <!--frame-->
+                <!--href-->
+                <!--id-->
+                <tr>
+                  <td class="name">@<a href="def_a.common.html#att_id" title="Identifiant d’un élément, unique pour un document. La valeur choisie permet d'identifier le contenu pour debenir la cible d’un lien">id</a></td>
+                  <td>?</td>
+                  <td><em class="data" title="">{ID}</em><br/>Identifiant d’un élément, unique pour un document. La valeur choisie permet d'identifier le contenu pour debenir la cible d’un lien</td>
+                </tr>
+                <!--identifier-->
+                <!--identifier-->
+                <!--label-->
+                <tr>
+                  <td class="name">@<a href="att_label.html" title="Intitulé local pour un élément, autre qu'un titre spécifique, mais plus précis que le nom générique de l’élément">label</a></td>
+                  <td>?</td>
+                  <td>Intitulé local pour un élément, autre qu'un titre spécifique, mais plus précis que le nom générique de l’élément</td>
+                </tr>
+                <!--langcode-->
+                <!--langencoding-->
+                <!--level-->
+                <!--mainagencycode-->
+                <!--mark-->
+                <!--morerows-->
+                <!--nameend-->
+                <!--namest-->
+                <!--normal-->
+                <!--normal-->
+                <!--numeration-->
+                <!--otherlevel-->
+                <!--othertype-->
+                <!--parent-->
+                <!--parent-->
+                <!--pgwide-->
+                <!--placement-->
+                <!--publicid-->
+                <!--relatedencoding-->
+                <!--render-->
+                <!--repositorycode-->
+                <!--repositoryencoding-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--role-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rowsep-->
+                <!--rules-->
+                <!--rules-->
+                <!--rules-->
+                <!--scriptcode-->
+                <!--scriptencoding-->
+                <!--show-->
+                <tr>
+                  <td class="name">@<a href="el_note.html#att_show">show</a></td>
+                  <td>?</td>
+                  <td>
+                    <span class="compact choice">( <span class="value">embed</span> | <span class="value">new</span> )</span>
+                    <br/>
+                  </td>
+                </tr>
+                <!--source-->
+                <!--source-->
+                <!--source-->
+                <!--target-->
+                <!--tpattern-->
+                <!--type-->
+                <!--type-->
+                <!--type-->
+                <!--type-->
+                <tr>
+                  <td class="name">@<a href="att_type.html" title="Précision sur le type de l’élément">type</a></td>
+                  <td>?</td>
+                  <td>Précision sur le type de l’élément</td>
+                </tr>
+                <!--unit-->
+                <!--unit-->
+                <!--unit-->
+                <!--url-->
+                <!--urn-->
+                <!--valign-->
+                <!--valign-->
+                <!--valign-->
+                <!--valign-->
+                <!--xlink:actuate-->
+                <!--xlink:arcrole-->
+                <!--xlink:from-->
+                <!--xlink:href-->
+                <!--xlink:label-->
+                <!--xlink:role-->
+                <!--xlink:show-->
+                <!--xlink:title-->
+                <!--xlink:to-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xlink:type-->
+                <!--xpointer-->
+                <!--xpointer-->
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <th>Enfants</th>
+            <td class="children"><div><b>A</b>. &lt;<a href="el_address.html" title="Adresse">address</a>&gt;  </div> <div><b>B</b>. &lt;<a href="el_blockquote.html" title="Bloc de citation">blockquote</a>&gt;  </div> <div><b>C</b>. &lt;<a href="el_chronlist.html" title="Liste chronologique">chronlist</a>&gt;  </div> <div><b>L</b>. &lt;<a href="el_list.html" title="Liste">list</a>&gt;  </div> <div><b>N</b>. &lt;<a href="el_note.html" title="Note">note</a>&gt;  </div> <div><b>P</b>. &lt;<a href="el_p.html" title="Paragraphe">p</a>&gt;  </div> <div><b>T</b>. &lt;<a href="el_table.html" title="Tableau">table</a>&gt;  </div> </td>
+          </tr>
+          <tr>
+            <th>Modèle</th>
+            <td class="model">
+              <span class="compact element">
+                <span class="more"> <a class="ref" href="def_m.blocks.html">m.blocks</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <span class="more"><a class="ref" href="def_m.inter.html">m.inter</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <span class="more"><a class="ref" href="def_m.inter.noquote.html">m.inter.noquote</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact choice">( <a href="el_address.html" title="Adresse">address</a> | <a href="el_chronlist.html" title="Liste chronologique">chronlist</a> | <a href="el_list.html" title="Liste">list</a> | <a href="el_note.html" title="Note">note</a> | <a href="el_table.html" title="Tableau">table</a> )</span></span>)</span> | <a href="el_blockquote.html" title="Bloc de citation">blockquote</a> )</span></span>)</span> | <a href="el_p.html" title="Paragraphe">p</a> )</span></span>) + </span>
+              </span>
+            </td>
+          </tr>
+          <tr>
+            <th>Parents</th>
+            <td class="usage"><div><b>A</b>. &lt;<a href="el_accessrestrict.html" title="Conditions d’accès">accessrestrict</a>&gt; &lt;<a href="el_accruals.html" title="Accroissements">accruals</a>&gt; &lt;<a href="el_acqinfo.html" title="Informations sur les modalités d’entrée">acqinfo</a>&gt; &lt;<a href="el_altformavail.html" title="Documents de substitution">altformavail</a>&gt; &lt;<a href="el_appraisal.html" title="Informations sur l’évaluation">appraisal</a>&gt; &lt;<a href="el_archdesc.html" title="Description archivistique">archdesc</a>&gt; &lt;<a href="el_archref.html" title="Référence à d'autres documents d'archives">archref</a>&gt; &lt;<a href="el_arrangement.html" title="Classement">arrangement</a>&gt;  </div> <div><b>B</b>. &lt;<a href="el_bibliography.html" title="Bibliographie">bibliography</a>&gt; &lt;<a href="el_bioghist.html" title="Biographie ou histoire">bioghist</a>&gt; &lt;<a href="el_blockquote.html" title="Bloc de citation">blockquote</a>&gt;  </div> <div><b>C</b>. &lt;<a href="el_c.html" title="Composant (Non numéroté)">c</a>&gt; &lt;<a href="el_c01.html" title="Composant (niveau 1)">c01</a>&gt; &lt;<a href="el_c02.html" title="Composant (niveau 2)">c02</a>&gt; &lt;<a href="el_c03.html" title="Composant (niveau 3)">c03</a>&gt; &lt;<a href="el_c04.html" title="Composant (niveau 4)">c04</a>&gt; &lt;<a href="el_c05.html" title="Composant (niveau 5)">c05</a>&gt; &lt;<a href="el_c06.html" title="Composant (niveau 6)">c06</a>&gt; &lt;<a href="el_c07.html" title="Composant (niveau 7)">c07</a>&gt; &lt;<a href="el_c08.html" title="Composant (niveau 8)">c08</a>&gt; &lt;<a href="el_c09.html" title="Composant (niveau 9)">c09</a>&gt; &lt;<a href="el_c10.html" title="Composant (niveau 10)">c10</a>&gt; &lt;<a href="el_c11.html" title="Composant (niveau 11)">c11</a>&gt; &lt;<a href="el_c12.html" title="Composant (niveau 12)">c12</a>&gt; &lt;<a href="el_controlaccess.html" title="Vedettes et accès contrôlés">controlaccess</a>&gt; &lt;<a href="el_custodhist.html" title="Historique de la conservation">custodhist</a>&gt;  </div> <div><b>D</b>. &lt;<a href="el_daodesc.html" title="Description d'objet archivistique numérique">daodesc</a>&gt; &lt;<a href="el_descgrp.html" title="Groupe d’éléments de description&#10;">descgrp</a>&gt; &lt;<a href="el_did.html" title="Identification et description">did</a>&gt; &lt;<a href="el_div.html" title="Subdivision de texte">div</a>&gt; &lt;<a href="el_dsc.html" title="Description des sous-composants">dsc</a>&gt;  </div> <div><b>E</b>. &lt;<a href="el_entry.html" title="Entrée de tableau">entry</a>&gt; &lt;<a href="el_event.html" title="Événement">event</a>&gt; &lt;<a href="el_extref.html" title="Référence externe">extref</a>&gt; &lt;<a href="el_extrefloc.html" title="Localisation d'une référence externe">extrefloc</a>&gt;  </div> <div><b>F</b>. &lt;<a href="el_fileplan.html" title="Plan de classement">fileplan</a>&gt;  </div> <div><b>I</b>. &lt;<a href="el_index.html" title="Index">index</a>&gt; &lt;<a href="el_item.html" title="Item">item</a>&gt;  </div> <div><b>N</b>. &lt;<a href="el_namegrp.html" title="Groupe de noms">namegrp</a>&gt; &lt;<a href="el_note.html" title="Note">note</a>&gt; &lt;<a href="el_notestmt.html" title="Mention de note">notestmt</a>&gt;  </div> <div><b>O</b>. &lt;<a href="el_odd.html" title="Autres données descriptives">odd</a>&gt; &lt;<a href="el_originalsloc.html" title="Existence et lieu de conservation des documents originaux">originalsloc</a>&gt; &lt;<a href="el_otherfindaid.html" title="Autre instrument de recherche">otherfindaid</a>&gt;  </div> <div><b>P</b>. &lt;<a href="el_p.html" title="Paragraphe">p</a>&gt; &lt;<a href="el_phystech.html" title="Caractéristiques matérielles et contraintes techniques">phystech</a>&gt; &lt;<a href="el_prefercite.html" title="Mention conseillée">prefercite</a>&gt; &lt;<a href="el_processinfo.html" title="Informations sur le traitement">processinfo</a>&gt;  </div> <div><b>R</b>. &lt;<a href="el_ref.html" title="Référence">ref</a>&gt; &lt;<a href="el_refloc.html" title="Localisation de référence">refloc</a>&gt; &lt;<a href="el_relatedmaterial.html" title="Documents en relation">relatedmaterial</a>&gt;  </div> <div><b>S</b>. &lt;<a href="el_scopecontent.html" title="Présentation du contenu">scopecontent</a>&gt; &lt;<a href="el_separatedmaterial.html" title="Documents séparés">separatedmaterial</a>&gt;  </div> <div><b>T</b>. &lt;<a href="el_titlepage.html" title="Page de titre">titlepage</a>&gt;  </div> <div><b>U</b>. &lt;<a href="el_userestrict.html" title="Conditions d’utilisation">userestrict</a>&gt;  </div> </td>
+          </tr>
+        </table>
+        <div>
+<p>
+Élément générique fournissant un court commentaire qui explique le texte, étaie une affirmation, donne la référence de la source d'une citation ou tout autre information. Il sert à faire des commentaires généraux aussi bien qu'à annoter le texte d'un instrument de recherche.
+</p>
+<p>
+On ne l'utilise pas quand il existe des éléments plus spécifiques pour décrire le contenu, tels que Résumé &lt;<a class="el" href="el_note.html#el_abstract" title="Résumé">abstract</a>&gt;, Document de substitution &lt;<a class="el" href="el_note.html#el_altformavail" title="Documents de substitution">altformavail</a>&gt;, Référence à d'autres documents d'archives &lt;<a class="el" href="el_note.html#el_archref" title="Référence à d'autres documents d'archives">archref</a>&gt; ou Présentation du contenu &lt;<a class="el" href="el_note.html#el_scopecontent" title="Présentation du contenu">scopecontent</a>&gt;.
+</p>
+<p>
+Ne pas confondre avec l'élément Autres données descriptives &lt;<a class="el" href="el_note.html#el_odd" title="Autres données descriptives">odd</a>&gt;, qui est utilisé à l'intérieur des éléments Description archivistique &lt;<a class="el" href="el_note.html#el_archdesc" title="Description archivistique">archdesc</a>&gt; et Composant &lt;<a class="el" href="el_note.html#el_c" title="Composant (Non numéroté)">c</a>&gt; pour signaler des informations pour lesquelles un court commentaire dans &lt;<a class="el" href="el_note.html" title="Note">note</a>&gt; ne suffit pas.
+</p>
+<p>
+L'emplacement d'un élément &lt;<a class="el" href="el_note.html" title="Note">note</a>&gt; dépend de la forme du document et de l'objectif de la note. L'élément &lt;<a class="el" href="el_note.html" title="Note">note</a>&gt; peut apparaître à la fin du texte sous forme de notes en fin de volume, en fin de partie ou dans le corps du texte. Un ou plusieurs éléments &lt;<a class="el" href="el_note.html" title="Note">note</a>&gt; peuvent être regroupés dans un élément Mention de note &lt;<a class="el" href="el_note.html#el_notestmt" title="Mention de note">notestmt</a>&gt; dans la partie Description de fichier &lt;<a class="el" href="el_note.html#el_filedesc" title="Description du fichier">filedesc</a>&gt; de l'En-tête EAD &lt;<a class="el" href="el_note.html#el_eadheader" title="En-tête EAD">eadheader</a>&gt;. Les attributs ACTUATE et SHOW peuvent être utilisés pour masquer &lt;<a class="el" href="el_note.html" title="Note">note</a>&gt; jusqu'à ce que l'utilisateur de l'instrument de recherche en demande l'affichage.
+</p>
+<p>
+L’élément &lt;<a class="el" href="el_note.html" title="Note">note</a>&gt; est comparable à l’élément 3.6.1. d’ISAD(G), à la zone 500 de MARC21 et à la zone 300 d’UNIMARC.
+</p>
+			</div>
+        <div xmlns:html="http://www.w3.org/1999/xhtml" class="xml example">
+        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_c02.html">c02</a> <b class="att">level</b>="<code class="val">subseries</code>"&gt;</dt><dd class="code">
+          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_did.html">did</a>&gt;</dt><dd class="code">
+            <div class=""><span class="open">&lt;<a class="el" href="el_origination.html">origination</a>&gt;</span><span class="text">Préfecture des Pyrénées-Orientales</span><span class="close">&lt;/<a class="el" href="el_origination.html">origination</a>&gt;</span></div>
+            <div class=""><span class="open">&lt;<a class="el" href="el_unitid.html">unitid</a>&gt;</span><span class="text">1 M 1-1054</span><span class="close">&lt;/<a class="el" href="el_unitid.html">unitid</a>&gt;</span></div>
+            <div class=""><span class="open">&lt;<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span><span class="text">ADMINISTRATION GÉNÉRALE</span><span class="close">&lt;/<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span></div>
+            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_note.html">note</a>&gt;</dt><dd class="code">
+              <div class=""><span class="open">&lt;<a class="el" href="el_p.html">p</a>&gt;</span><span class="text">Correspondance (représentant environ le quart de la sous-série).</span><span class="close">&lt;/<a class="el" href="el_p.html">p</a>&gt;</span></div>
+            </dd><dt class="close">&lt;/<a class="el" href="el_note.html">note</a>&gt;</dt></dl>
+          </dd><dt class="close">&lt;/<a class="el" href="el_did.html">did</a>&gt;</dt></dl>
+        </dd><dt class="close">&lt;/<a class="el" href="el_c02.html">c02</a>&gt;</dt></dl>
+        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_c.html">c</a>&gt;</dt><dd class="code">
+          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_did.html">did</a>&gt;</dt><dd class="code">
+            <div class=""><span class="open">&lt;<a class="el" href="el_unitid.html">unitid</a>&gt;</span><span class="text">3033</span><span class="close">&lt;/<a class="el" href="el_unitid.html">unitid</a>&gt;</span></div>
+            <div class=""><span class="open">&lt;<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span><span class="text">Scutibranches.</span><span class="close">&lt;/<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span></div>
+          </dd><dt class="close">&lt;/<a class="el" href="el_did.html">did</a>&gt;</dt></dl>
+          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_note.html">note</a>&gt;</dt><dd class="code">
+            <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_p.html">p</a>&gt;</span><span class="xml_mix"><span class="text">Un exemplaire du </span><span class=""><span class="open">&lt;<a class="el" href="el_title.html">title</a> <b class="att">render</b>="<code class="val">italic</code>"&gt;</span><span class="text">Mémoire sur l'haliotide ou oreille de mer...etc.</span><span class="close">&lt;/<a class="el" href="el_title.html">title</a>&gt;</span></span><span class="text"> qui forme le mémoire n° 18 du recueil publié en 1817.</span></span><span class="close">&lt;/<a class="el" href="el_p.html">p</a>&gt;</span></div>
+          </dd><dt class="close">&lt;/<a class="el" href="el_note.html">note</a>&gt;</dt></dl>
+        </dd><dt class="close">&lt;/<a class="el" href="el_c.html">c</a>&gt;</dt></dl>
+        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_c02.html">c02</a>&gt;</dt><dd class="code">
+          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_did.html">did</a>&gt;</dt><dd class="code">
+            <div class=""><span class="open">&lt;<a class="el" href="el_unitid.html">unitid</a>&gt;</span><span class="text">Ms. 4799</span><span class="close">&lt;/<a class="el" href="el_unitid.html">unitid</a>&gt;</span></div>
+            <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_unittitle.html">unittitle</a>&gt;</span><span class="xml_mix"><span class="text">Préface à l'ouvrage de J. E. Blanche </span><span class=""><span class="open">&lt;<a class="el" href="el_title.html">title</a> <b class="att">render</b>="<code class="val">italic</code>"&gt;</span><span class="text">De David à Degas</span><span class="close">&lt;/<a class="el" href="el_title.html">title</a>&gt;</span></span><span class="text"> par </span><span class=""><span class="open">&lt;<a class="el" href="el_persname.html">persname</a>&gt;</span><span class="text">Marcel Proust</span><span class="close">&lt;/<a class="el" href="el_persname.html">persname</a>&gt;</span></span> <span class=""><span class="open">&lt;<a class="el" href="el_unitdate.html">unitdate</a>&gt;</span><span class="text">1917</span><span class="close">&lt;/<a class="el" href="el_unitdate.html">unitdate</a>&gt;</span></span>
+</span><span class="close">&lt;/<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span></div>
+            <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_note.html">note</a>&gt;</dt><dd class="code">
+              <div class=""><span class="open">&lt;<a class="el" href="el_p.html">p</a>&gt;</span><span class="text">Autographe de l'auteur</span><span class="close">&lt;/<a class="el" href="el_p.html">p</a>&gt;</span></div>
+            </dd><dt class="close">&lt;/<a class="el" href="el_note.html">note</a>&gt;</dt></dl>
+          </dd><dt class="close">&lt;/<a class="el" href="el_did.html">did</a>&gt;</dt></dl>
+        </dd><dt class="close">&lt;/<a class="el" href="el_c02.html">c02</a>&gt;</dt></dl>
+        <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_c.html">c</a> <b class="att">level</b>="<code class="val">item</code>"&gt;</dt><dd class="code">
+          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_did.html">did</a>&gt;</dt><dd class="code">
+            <div class=""><span class="open">&lt;<a class="el" href="el_unitid.html">unitid</a> <b class="att">type</b>="<code class="val">sous-identifiant</code>"&gt;</span><span class="text">pièce 3</span><span class="close">&lt;/<a class="el" href="el_unitid.html">unitid</a>&gt;</span></div>
+            <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_unittitle.html">unittitle</a>&gt;</span><span class="xml_mix"><span class="text">Lettre autographe (</span><span class=""><span class="open">&lt;<a class="el" href="el_geogname.html">geogname</a> <b class="att">normal</b>="<code class="val">Marmirolo (Lombardie, Italie)</code>"&gt;</span><span class="text">Marmirolo</span><span class="close">&lt;/<a class="el" href="el_geogname.html">geogname</a>&gt;</span></span><span class="text">).</span></span><span class="close">&lt;/<a class="el" href="el_unittitle.html">unittitle</a>&gt;</span></div>
+            <div class=""><span class="open">&lt;<a class="el" href="el_unitdate.html">unitdate</a> <b class="att">normal</b>="<code class="val">1796-07-17</code>"&gt;</span><span class="text">29 [messidor an IV] (17 juillet 1796)</span><span class="close">&lt;/<a class="el" href="el_unitdate.html">unitdate</a>&gt;</span></div>
+            <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_physdesc.html">physdesc</a>&gt;</span><span class="xml_mix"><span class=""><span class="open">&lt;<a class="el" href="el_extent.html">extent</a>&gt;</span><span class="text">1 pièce</span><span class="close">&lt;/<a class="el" href="el_extent.html">extent</a>&gt;</span></span><span class="text"> manuscrite. </span><span class=""><span class="open">&lt;<a class="el" href="el_dimensions.html">dimensions</a> <b class="att">type</b>="<code class="val">hauteur x largeur</code>" <b class="att">unit</b>="<code class="val">centimètre</code>"&gt;</span><span class="text">33x21,5</span><span class="close">&lt;/<a class="el" href="el_dimensions.html">dimensions</a>&gt;</span></span></span><span class="close">&lt;/<a class="el" href="el_physdesc.html">physdesc</a>&gt;</span></div>
+          </dd><dt class="close">&lt;/<a class="el" href="el_did.html">did</a>&gt;</dt></dl>
+          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_separatedmaterial.html">separatedmaterial</a>&gt;</dt><dd class="code">
+            <div class=""><span class="open">&lt;<a class="el" href="el_p.html">p</a>&gt;</span><span class="text">Une copie de cette lettre est conservée dans le 400AP/139</span><span class="close">&lt;/<a class="el" href="el_p.html">p</a>&gt;</span></div>
+          </dd><dt class="close">&lt;/<a class="el" href="el_separatedmaterial.html">separatedmaterial</a>&gt;</dt></dl>
+          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_scopecontent.html">scopecontent</a> <b class="att">altrender</b>="<code class="val">transcription</code>" <b class="att">audience</b>="<code class="val">external</code>"&gt;</dt><dd class="code">
+            <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_head.html">head</a>&gt;</span><span class="xml_mix"><span class="text">Transcription selon l'ouvrage de Chantal de Tourtier-Bonazzi, </span><span class=""><span class="open">&lt;<a class="el" href="el_emph.html">emph</a> <b class="att">render</b>="<code class="val">italic</code>"&gt;</span><span class="text">Napoléon, lettres d'amour à Joséphine</span><span class="close">&lt;/<a class="el" href="el_emph.html">emph</a>&gt;</span></span><span class="text">, présentées par Jean Tulard, Paris, Fayard, 1981 - lettre n°19, page 93-95</span></span><span class="close">&lt;/<a class="el" href="el_head.html">head</a>&gt;</span></div>
+            <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_p.html">p</a>&gt;</span><span class="xml_mix"><span class="text">Marmirolo</span><span class=""><span class="open">&lt;<a class="el" href="el_note.html">note</a>&gt;</span><span class=""><span class="open">&lt;<a class="el" href="el_p.html">p</a>&gt;</span><span class="text">Ecrit : </span><span class=""><span class="open">&lt;<a class="el" href="el_emph.html">emph</a> <b class="att">render</b>="<code class="val">italic</code>"&gt;</span><span class="text">"Marmirole"</span><span class="close">&lt;/<a class="el" href="el_emph.html">emph</a>&gt;</span></span><span class="text">.</span><span class="close">&lt;/<a class="el" href="el_p.html">p</a>&gt;</span></span><span class="close">&lt;/<a class="el" href="el_note.html">note</a>&gt;</span></span><span class="text">, le 29, à 2 heures après midi.</span></span><span class="close">&lt;/<a class="el" href="el_p.html">p</a>&gt;</span></div>
+            <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_p.html">p</a>&gt;</span><span class="xml_mix"><span class="text">Je reçois ta lettre, mon adorable amie ; elle a rempli mon coeur de joie</span><span class=""><span class="open">&lt;<a class="el" href="el_note.html">note</a>&gt;</span><span class=""><span class="open">&lt;<a class="el" href="el_p.html">p</a>&gt;</span><span class="text">Le mot </span><span class=""><span class="open">&lt;<a class="el" href="el_emph.html">emph</a> <b class="att">render</b>="<code class="val">italic</code>"&gt;</span><span class="text">"joie"</span><span class="close">&lt;/<a class="el" href="el_emph.html">emph</a>&gt;</span></span><span class="text"> semble avoir été remplacé par un autre mot, qui est illisible.</span><span class="close">&lt;/<a class="el" href="el_p.html">p</a>&gt;</span></span><span class="close">&lt;/<a class="el" href="el_note.html">note</a>&gt;</span></span><span class="text">. Je te suis obligé de la peine que tu as prise de me donner de tes nouvelles. Ta santé</span><span class=""><span class="open">&lt;<a class="el" href="el_note.html">note</a>&gt;</span><span class=""><span class="open">&lt;<a class="el" href="el_p.html">p</a>&gt;</span><span class="text">Bonaparte écrit toujours </span><span class=""><span class="open">&lt;<a class="el" href="el_emph.html">emph</a> <b class="att">render</b>="<code class="val">italic</code>"&gt;</span><span class="text">"senté"</span><span class="close">&lt;/<a class="el" href="el_emph.html">emph</a>&gt;</span></span><span class="text">.</span><span class="close">&lt;/<a class="el" href="el_p.html">p</a>&gt;</span></span><span class="close">&lt;/<a class="el" href="el_note.html">note</a>&gt;</span></span><span class="text"> doit être meilleure aujourd'hui, je suis sûr que tu es guérie. </span></span><span class="close">&lt;/<a class="el" href="el_p.html">p</a>&gt;</span></div>
+          </dd><dt class="close">&lt;/<a class="el" href="el_scopecontent.html">scopecontent</a>&gt;</dt></dl>
+          <dl class="xml "><dt class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_bibliography.html">bibliography</a>&gt;</dt><dd class="code">
+            <div class="xml_block "><span class="open"><a class="fold" tabindex="1">&lt;</a><a class="el" href="el_bibref.html">bibref</a>&gt;</span><span class="xml_mix"><span class=""><span class="open">&lt;<a class="el" href="el_emph.html">emph</a> <b class="att">render</b>="<code class="val">italic</code>"&gt;</span><span class="text">"Napoléon Bonaparte. Correspondance générale publiée par la Fondation Napoléon. Tome premier : Les apprentissages, 1784-1797"</span><span class="close">&lt;/<a class="el" href="el_emph.html">emph</a>&gt;</span></span><span class="text">, Paris, Fayard, 2004 - Lettre n°783, page 505</span></span><span class="close">&lt;/<a class="el" href="el_bibref.html">bibref</a>&gt;</span></div>
+          </dd><dt class="close">&lt;/<a class="el" href="el_bibliography.html">bibliography</a>&gt;</dt></dl>
+        </dd><dt class="close">&lt;/<a class="el" href="el_c.html">c</a>&gt;</dt></dl>
+      </div>
+        <div xmlns:html="http://www.w3.org/1999/xhtml" class="ead exhtml">
+        <section class="c c00" id="el_c02">
+          <table class="did" width="100%"><colgroup span="1"><col span="1" class="label" width="20%"/><col span="1" class="content"/></colgroup><tr><td class="unittitle" colspan="2">ADMINISTRATION GÉNÉRALE</td></tr><tr><th>Cote</th><td class="unitid">1 M 1-1054</td></tr><tr><th>Origine</th><td class="origination">Préfecture des Pyrénées-Orientales</td></tr><tr><th>Note</th><td class="note">
+              <p>Correspondance (représentant environ le quart de la sous-série).</p>
+            </td></tr></table>
+        </section>
+        <section class="c c00" id="el_c">
+          <table class="did" width="100%"><colgroup span="1"><col span="1" class="label" width="20%"/><col span="1" class="content"/></colgroup><tr><td class="unittitle" colspan="2">Scutibranches.</td></tr><tr><th>Cote</th><td class="unitid">3033</td></tr></table>
+          <blockquote class="note"><span class="label">Note</span><p>Un exemplaire du <em class="title">Mémoire sur l'haliotide ou oreille de mer...etc.</em> qui forme le mémoire n° 18 du recueil publié en 1817.</p></blockquote>
+        </section>
+        <section class="c c00" id="el_c02">
+          <table class="did" width="100%"><colgroup span="1"><col span="1" class="label" width="20%"/><col span="1" class="content"/></colgroup><tr><td class="unittitle" colspan="2">Préface à l'ouvrage de J. E. Blanche <em class="title">De David à Degas</em> par <span class="persname">Marcel Proust</span> <span class="unitdate">1917</span>
+</td></tr><tr><th>Cote</th><td class="unitid">Ms. 4799</td></tr><tr><th>Note</th><td class="note">
+              <p>Autographe de l'auteur</p>
+            </td></tr></table>
+        </section>
+        <section class="c c00" id="el_c">
+          <table class="did" width="100%"><colgroup span="1"><col span="1" class="label" width="20%"/><col span="1" class="content"/></colgroup><tr><td class="unittitle" colspan="2">Lettre autographe (<span class="geogname" title="Marmirolo (Lombardie, Italie)">Marmirolo</span>).</td></tr><tr><th>Cote</th><td class="unitid">pièce 3</td></tr><tr><th>Dates</th><td class="unitdate">29 [messidor an IV] (17 juillet 1796)</td></tr><tr><th/><td class="scopecontent">
+            <div class="head">Transcription selon l'ouvrage de Chantal de Tourtier-Bonazzi, <i>Napoléon, lettres d'amour à Joséphine</i>, présentées par Jean Tulard, Paris, Fayard, 1981 - lettre n°19, page 93-95</div>
+            <p>Marmirolo<blockquote style="margin:0 0 0 1em"><code style="color:red">&lt;note&gt;</code><p>Ecrit : <i>"Marmirole"</i>.</p><code style="color:red">&lt;/note&gt;</code></blockquote>, le 29, à 2 heures après midi.</p>
+            <p>Je reçois ta lettre, mon adorable amie ; elle a rempli mon coeur de joie<blockquote style="margin:0 0 0 1em"><code style="color:red">&lt;note&gt;</code><p>Le mot <i>"joie"</i> semble avoir été remplacé par un autre mot, qui est illisible.</p><code style="color:red">&lt;/note&gt;</code></blockquote>. Je te suis obligé de la peine que tu as prise de me donner de tes nouvelles. Ta santé<blockquote style="margin:0 0 0 1em"><code style="color:red">&lt;note&gt;</code><p>Bonaparte écrit toujours <i>"senté"</i>.</p><code style="color:red">&lt;/note&gt;</code></blockquote> doit être meilleure aujourd'hui, je suis sûr que tu es guérie. </p>
+          </td></tr><tr><th>Description</th><td class="physdesc"><span class="extent">1 pièce</span> manuscrite. <span class="dimensions">33x21,5</span></td></tr></table>
+          <blockquote class="separatedmaterial"><span class="label">Documents séparés</span><p>Une copie de cette lettre est conservée dans le 400AP/139</p></blockquote>
+          
+          <blockquote class="bibliography"><span class="label">Bibliographie</span><ul class="bibliography"><div class="bibref"><i>"Napoléon Bonaparte. Correspondance générale publiée par la Fondation Napoléon. Tome premier : Les apprentissages, 1784-1797"</i>, Paris, Fayard, 2004 - Lettre n°783, page 505</div></ul></blockquote>
+        </section>
+      </div>
+      </section>
+    </div>
+    <footer id="footer">&lt;note&gt;  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>

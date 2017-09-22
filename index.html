@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>EAD 2002, schéma et traduction française</title>
+    <script type="text/javascript">
+targetPage = "" + window.location.search;
+if (targetPage != "") if (targetPage != "undefined") targetPage = targetPage.substring(1);
+if (targetPage.indexOf(":") != -1) targetPage = "undefined";
+function loadFrames() {
+  if (targetPage != "") if(targetPage != "undefined") top.article.location = top.targetPage;
+}
+         </script>
+  </head>
+  <frameset cols="25%,*" onload="top.loadFrames()">
+    <frame name="nav" src="nav.html"/>
+    <frame name="article" src="welcome.html"/>
+  </frameset>
+</html>

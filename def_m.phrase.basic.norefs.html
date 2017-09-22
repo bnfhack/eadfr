@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'def_m.phrase.basic.norefs.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?def_m.phrase.basic.norefs.html');
+}
+          </script>
+    <title>m.phrase.basic.norefs()  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?def_m.phrase.basic.norefs.html">frames</a> | <a target="_top" href="def_m.phrase.basic.norefs.html">no frames</a></header>
+    <div id="contenu">
+      <section class="define rng" id="def_m.phrase.basic.norefs">
+        <header class="define rng">
+          <b>m.phrase.basic.norefs() </b>
+        </header>
+        <table class="grammar">
+          <tr>
+            <th>Contenu</th>
+            <td>
+              <span class="compact choice">( <span class="less"><a class="ref" href="def_m.phrase.bare.html">m.phrase.bare</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">▽</a><span class="refin"><span class="compact choice">( <span class="compact choice">( <a href="el_ptr.html" title="Pointeur">ptr</a> | <a href="el_extptr.html" title="Pointeur externe">extptr</a> )</span><span class="less"> | <a class="ref" href="def_m.render.html">m.render</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">▽</a><span class="refin"><span class="compact choice">( <a href="el_emph.html" title="Mise en valeur">emph</a> | <a href="el_lb.html" title="Retour à la ligne">lb</a> )</span></span>)</span> )</span></span>)</span> | <a href="el_abbr.html" title="Abréviation">abbr</a> | <a href="el_expan.html" title="Forme développée">expan</a> )</span>
+            </td>
+          </tr>
+          <tr>
+            <th>Usage</th>
+            <td><div><b>A</b>. &lt;<a href="el_abstract.html" title="Résumé">abstract</a>&gt; &lt;<a href="el_archref.html" title="Référence à d'autres documents d'archives">archref</a>&gt;  </div> <div><b>B</b>. &lt;<a href="el_bibref.html" title="Référence bibliographique">bibref</a>&gt;  </div> <div><b>C</b>. &lt;<a href="el_container.html" title="Unité de conditionnement">container</a>&gt; &lt;<a href="el_creation.html" title="Création">creation</a>&gt;  </div> <div><b>D</b>. &lt;<a href="el_descrules.html" title="Règles de description">descrules</a>&gt; &lt;<a href="el_dimensions.html" title="Dimensions">dimensions</a>&gt;  </div> <div><b>E</b>. &lt;<a href="el_emph.html" title="Mise en valeur">emph</a>&gt; &lt;<a href="el_entry.html" title="Entrée de tableau">entry</a>&gt; &lt;<a href="el_event.html" title="Événement">event</a>&gt; &lt;<a href="el_extent.html" title="Importance matérielle&#10;">extent</a>&gt; &lt;<a href="el_extref.html" title="Référence externe">extref</a>&gt; &lt;<a href="el_extrefloc.html" title="Localisation d'une référence externe">extrefloc</a>&gt;  </div> <div><b>I</b>. &lt;<a href="el_item.html" title="Item">item</a>&gt;  </div> <div><b>L</b>. &lt;<a href="el_label.html" title="Étiquette">label</a>&gt; &lt;<a href="el_langmaterial.html" title="Langue des unités documentaires&#10;">langmaterial</a>&gt; &lt;<a href="el_langusage.html" title="Langue utilisée">langusage</a>&gt;  </div> <div><b>M</b>. &lt;<a href="el_materialspec.html" title="Particularités de certains types de documents">materialspec</a>&gt;  </div> <div><b>O</b>. &lt;<a href="el_origination.html" title="Origine">origination</a>&gt;  </div> <div><b>P</b>. &lt;<a href="el_p.html" title="Paragraphe">p</a>&gt; &lt;<a href="el_physdesc.html" title="Description physique&#10;">physdesc</a>&gt; &lt;<a href="el_physfacet.html" title="Particularité physique&#10;">physfacet</a>&gt; &lt;<a href="el_physloc.html" title="Localisation physique&#10;">physloc</a>&gt;  </div> <div><b>R</b>. &lt;<a href="el_ref.html" title="Référence">ref</a>&gt; &lt;<a href="el_refloc.html" title="Localisation de référence">refloc</a>&gt; &lt;<a href="el_repository.html" title="Organisme responsable de l’accès intellectuel">repository</a>&gt;  </div> <div><b>U</b>. &lt;<a href="el_unitdate.html" title="Date de l’unité documentaire">unitdate</a>&gt; &lt;<a href="el_unitid.html" title="Identifiant de l’unité documentaire&#10;">unitid</a>&gt; &lt;<a href="el_unittitle.html" title="Intitulé de l’unité documentaire">unittitle</a>&gt;  </div> </td>
+          </tr>
+        </table>
+      </section>
+    </div>
+    <footer id="footer">m.phrase.basic.norefs()  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>

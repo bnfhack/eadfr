@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'att_render.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?att_render.html');
+}
+          </script>
+    <title>@render  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?att_render.html">frames</a> | <a target="_top" href="att_render.html">no frames</a></header>
+    <div id="contenu">
+      <section class="attribute rng" id="att_render">
+        <header class="attribute rng">@<b>render</b> Mise en forme typographique du contenu de l’élément</header>
+        <table class="grammar">
+          <tr>
+            <th>Valeur</th>
+            <td>
+              <span class="compact choice">( <span class="value">altrender</span> | <span class="value">bold</span> | <span class="value">bolddoublequote</span> | <span class="value">bolditalic</span> | <span class="value">boldsinglequote</span> | <span class="value">boldsmcaps</span> | <span class="value">boldunderline</span> | <span class="value">doublequote</span> | <span class="value">italic</span> | <span class="value">nonproport</span> | <span class="value">singlequote</span> | <span class="value">smcaps</span> | <span class="value">sub</span> | <span class="value">super</span> | <span class="value">underline</span> )</span>
+            </td>
+          </tr>
+          <tr>
+            <th>Parents</th>
+            <td class="usage"><div><b>E</b>. &lt;<a href="el_emph.html" title="Mise en valeur">emph</a>&gt;  </div> <div><b>T</b>. &lt;<a href="el_title.html" title="Titre">title</a>&gt; &lt;<a href="el_titleproper.html" title="Titre propre de l'instrument de recherche">titleproper</a>&gt;  </div> </td>
+          </tr>
+        </table>
+      </section>
+    </div>
+    <footer id="footer">@render  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>

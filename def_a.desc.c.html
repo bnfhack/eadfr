@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'def_a.desc.c.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?def_a.desc.c.html');
+}
+          </script>
+    <title>a.desc.c()  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?def_a.desc.c.html">frames</a> | <a target="_top" href="def_a.desc.c.html">no frames</a></header>
+    <div id="contenu">
+      <section class="define rng" id="def_a.desc.c">
+        <header class="define rng">
+          <b>a.desc.c() </b>
+        </header>
+        <table class="grammar">
+          <tr>
+            <th>Contenu</th>
+            <td>
+              <span class="compact define">( <span class="more"><a class="ref" href="def_a.common.html">a.common</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact define">( @<a href="def_a.common.html#att_id" title="Identifiant d’un élément, unique pour un document. La valeur choisie permet d'identifier le contenu pour debenir la cible d’un lien">id</a>="<em class="data" title="">{ID}</em>" ? , @<a href="def_a.common.html#att_altrender" title="Autre proposition de rendu. Voir aussi @render">altrender</a> ? , @<a href="att_audience.html" title="Audience (diffusion publique, restreinte…)">audience</a>="<span class="compact choice">( <span class="value">external</span> | <span class="value">internal</span> )</span>" ?  )</span></span>)</span>, @<a href="att_level.html" title="Niveau de description archivistique (liste close de valeurs normalisées). Si aucune valeur ne convient, voir @otherlevel">level</a>="<span class="compact choice">( <span class="value">class</span> | <span class="value">collection</span> | <span class="value">file</span> | <span class="value">fonds</span> | <span class="value">item</span> | <span class="value">otherlevel</span> | <span class="value">recordgrp</span> | <span class="value">series</span> | <span class="value">subfonds</span> | <span class="value">subgrp</span> | <span class="value">subseries</span> )</span>" ? <span class="more">, <a class="ref" href="def_a.desc.base.html">a.desc.base</a> (<a class="toggle" onclick="o=this.parentNode; if(o.className=='more'){o.className='less'; this.innerHTML='▽';} else {o.className='more';this.innerHTML='►'}">►</a><span class="refin"><span class="compact define">( @<a href="att_otherlevel.html" title="Niveau de description archivistique (valeur libre)">otherlevel</a> ? , @<a href="att_encodinganalog.html" title="Concordance d’encodage avec une autre norme (ex : MARC)">encodinganalog</a> ?  )</span></span>)</span>, @<a href="att_tpattern.html">tpattern</a>="<em class="data" title="">{NMTOKEN}</em>" ?  )</span>
+            </td>
+          </tr>
+          <tr>
+            <th>Usage</th>
+            <td><div><b>C</b>. &lt;<a href="el_c.html" title="Composant (Non numéroté)">c</a>&gt; &lt;<a href="el_c01.html" title="Composant (niveau 1)">c01</a>&gt; &lt;<a href="el_c02.html" title="Composant (niveau 2)">c02</a>&gt; &lt;<a href="el_c03.html" title="Composant (niveau 3)">c03</a>&gt; &lt;<a href="el_c04.html" title="Composant (niveau 4)">c04</a>&gt; &lt;<a href="el_c05.html" title="Composant (niveau 5)">c05</a>&gt; &lt;<a href="el_c06.html" title="Composant (niveau 6)">c06</a>&gt; &lt;<a href="el_c07.html" title="Composant (niveau 7)">c07</a>&gt; &lt;<a href="el_c08.html" title="Composant (niveau 8)">c08</a>&gt; &lt;<a href="el_c09.html" title="Composant (niveau 9)">c09</a>&gt; &lt;<a href="el_c10.html" title="Composant (niveau 10)">c10</a>&gt; &lt;<a href="el_c11.html" title="Composant (niveau 11)">c11</a>&gt; &lt;<a href="el_c12.html" title="Composant (niveau 12)">c12</a>&gt;  </div> </td>
+          </tr>
+        </table>
+      </section>
+    </div>
+    <footer id="footer">a.desc.c()  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>

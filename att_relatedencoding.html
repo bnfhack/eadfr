@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <script type="text/javascript" xml:space="preserve">
+var uri=window.top.location.pathname;
+uri=uri.substring(0, uri.lastIndexOf('/')+1);
+if(window.top != window) {
+  window.top.document.title=document.title 
+  if (window.top.history.replaceState) {
+    window.parent.history.replaceState("article", document.title, uri+'att_relatedencoding.html?nav');
+  }
+} else if (window.location.search == "?nav") { // nav in frame requested
+  window.location.replace(uri+'index.html?att_relatedencoding.html');
+}
+          </script>
+    <title>@relatedencoding  EAD 2002, schéma et traduction française</title>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/rngdoc/rngdoc.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="http://svn.code.sf.net/p/obvil/code/eadfr/ead.css"/>
+  </head>
+  <body class="rngdoc rng item" id="center">
+    <header id="header"><a href="welcome.html">Présentation</a> | <a target="_top" href="index.html?att_relatedencoding.html">frames</a> | <a target="_top" href="att_relatedencoding.html">no frames</a></header>
+    <div id="contenu">
+      <section class="attribute rng" id="att_relatedencoding">
+        <header class="attribute rng">@<b>relatedencoding</b> Norme de description pour les éléments portant l’attribut @encodinganalog</header>
+        <table class="grammar">
+          <tr>
+            <th>Valeur</th>
+            <td>
+              <i>{text}</i>
+            </td>
+          </tr>
+          <tr>
+            <th>Parents</th>
+            <td class="usage"><div><b>A</b>. &lt;<a href="el_archdesc.html" title="Description archivistique">archdesc</a>&gt;  </div> <div><b>E</b>. &lt;<a href="el_ead.html" title="Description archivistique encodée">ead</a>&gt; &lt;<a href="el_eadheader.html" title="En-tête EAD">eadheader</a>&gt;  </div> </td>
+          </tr>
+        </table>
+        <div xml:lang="fr">Cet attribut permet d'indiquer le système de description structurée auquel peuvent correspondre certains éléments EAD utilisant l'attribut ENCODINGANALOG :	formats	MARC,	Dublin	Core,	etc. RELATEDENCODING est disponible dans les éléments Description archivistique encodée &lt;<a class="el" href="att_relatedencoding.html#el_ead" title="Description archivistique encodée">ead</a>&gt;, En-tête EAD &lt;<a class="el" href="att_relatedencoding.html#el_eadheader" title="En-tête EAD">eadheader</a>&gt; et Description archivistique &lt;<a class="el" href="att_relatedencoding.html#el_archdesc" title="Description archivistique">archdesc</a>&gt;. Les éléments de l'En-tête EAD &lt;<a class="el" href="att_relatedencoding.html#el_eadheader" title="En-tête EAD">eadheader</a>&gt; peuvent correspondre aux éléments du Dublin Core alors que le corps de l'instrument de recherche (Description archivistique &lt;<a class="el" href="att_relatedencoding.html#el_archdesc" title="Description archivistique">archdesc</a>&gt;) peut correspondre par exemple à un format MARC (ou tout autre format).</div>
+      </section>
+    </div>
+    <footer id="footer">@relatedencoding  EAD 2002, schéma et traduction française<span style="float:right">Produit par <a xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:xf="http://www.w3.org/2002/xforms" xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://obvil-dev.paris-sorbonne.fr/developpements/rngdoc/" target="_new">RNG doc</a></span></footer>
+  </body>
+</html>
